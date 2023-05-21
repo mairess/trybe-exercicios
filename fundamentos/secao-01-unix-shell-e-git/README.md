@@ -1,4 +1,4 @@
-# Seção - Unix, Shell e Git
+# <p align="center">Seção - Unix, Shell e Git </p>
 
 Esse seção pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/). Nesse seção aprendi e sou capaz de:
 
