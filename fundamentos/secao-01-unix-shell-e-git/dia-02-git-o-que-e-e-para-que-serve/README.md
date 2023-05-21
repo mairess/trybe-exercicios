@@ -1,37 +1,43 @@
 # <p align="center">DIA 2</p>
 
-O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre `Unix` e `Shell`.
+O objetivo desse exercício é colocar em prática os conhecimentos sobre o Git. Para isso, crie um novo diretório em seu computador e realize algumas modificações nele. Observe:
 
-Os requisitos do exercício são:
+- Crie uma pasta em seu computador;
 
-1. Utilizando o terminal, aplique o comando de criação de diretórios que você aprendeu: crie um diretório chamado `unix_test` e navegue até ele.
+- Acesse a pasta que você acabou de criar;
 
-2. Crie um arquivo de texto com o nome `trybe.txt`.
+- Inicie o versionamento por meio do comando `git init`;
 
-3. Crie uma cópia do arquivo `trybe.txt` com o nome `trybe_backup.txt`.
+- Abra a pasta no VS Code por meio do comando `code .`;
 
-4. Renomeie o arquivo `trybe.txt`.
+- Crie um arquivo chamado `README.md`;
 
-5. Dentro de `unix_tests`, crie um novo diretório chamado `backup`.
+- Adicione o arquivo novo em _staging_ e realize um _commit_, como em `git add .` e `git commit -m "Descreva a alteração realizada"`;
 
-6. Mova o arquivo `trybe_backup.txt` para o diretório `backup`.
+- Crie uma nova _branch_ por meio do comando `git checkout -b`, como em `git checkout -b adiciona-readme`;
 
-7. Dentro de `unix_tests`, crie um novo diretório chamado `backup2`.
+- Faça uma alteração em `README.md` e, depois, realize um novo _commit_, como em `git add .` e `git commit -m "Alterando o README"`;
 
-8. Mova o arquivo `trybe_backup.txt` da pasta `backup` para a pasta `backup2`.
+- Retorne para a _branch main_ e, em seguida, realize o _merge_ das alterações por meio do comando `git merge nome-da-branch`, como em `git merge adiciona-readme`.
 
-9. Apague a pasta `backup`.
+## <p align="center">Exercícios</p>
 
-10. Renomeie a pasta `backup2` para `backup`.
+1. Acesse a branch main e crie uma branch nova chamada `atualiza-readme`.
 
-11. Veja qual é o path completo do diretório atual e liste todos os arquivos dentro dele.
+2. Acesse a branch `atualiza-readme` e crie um arquivo chamado `infos.txt`.
 
-12. Apague o diretório `backup`.
+3. Adicione as alterações em _staging_ e realize um _commit_.
 
-13. Limpe o terminal.
+4. Adicione seu nome e sobrenome ao arquivo _infos.txt_.
 
-14. Mostre na tela as 5 primeiras skills do arquivo `skills.txt`.
+5. Adicione novamente as alterações em _staging_ e realize um _commit_.
 
-15. Mostre na tela as 4 últimas skills do arquivo `skills.txt`.
+6. Crie uma _branch_ nova a partir da `branch atualiza-readme`. A nova _branch_ deve se chamar _adiciona-infos_.
 
-16. Apague todos os arquivos que terminam em `.txt`.
+7. Acesse a `branch adiciona-infos` e utilize sua criatividade para escrever o passo a passo de como o versionamento funciona no `README.md`. Por exemplo: “O primeiro passo é ter uma pasta versionada e criar um estrutura inicial, e fazemos isso utilizando o comando `git init`. O segundo passo é criar uma _branch_ nova com o comando `git branch nome-da-branch` ou `git checkout -b nome-da-branch`…” Você pode, também, utilizar esse momento para registrar, em forma de perguntas e respostas, as dúvidas que ainda tiver sobre versionamento.
+
+8. Adicione as alterações em _staging_ e realize o _commit_.
+
+9. Volte para a `branch atualiza-readme` e realize o _merge_ das alterações feitas na branch `adiciona-infos`.
+
+10. Retorne para a _branch main_ e realize o _merge_ das alterações.
