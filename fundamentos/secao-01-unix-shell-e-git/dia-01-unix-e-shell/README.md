@@ -1,8 +1,6 @@
 # <p align="center">DIA 1</p>
 
-
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre `Unix` e `Shell`.
-
 
 ## Os requisitos são:
 ## <p align="center">Exercícios - Criação de arquivos e diretórios</p>
