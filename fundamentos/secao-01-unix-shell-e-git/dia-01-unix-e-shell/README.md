@@ -1,4 +1,4 @@
-# DIA 1
+# <p align="center">DIA 1</p>
 
 O objetivo dos exercícios desse dia foi colocar em prática o que havia aprendido sobre `Unix` e `Shell`.
 
