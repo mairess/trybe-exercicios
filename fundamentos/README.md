@@ -1,0 +1,5 @@
+# <p align="center"> Fundamento do Desenvolvimento Web</p>
+
+Para começar, você vai estudar um famoso tipo de sistema operacional chamado `Unix`. Para isso, vamos colocar a mão na massa e executar alguns comandos no terminal. Depois de entender como os comandos funcionam e ter criado seus primeiros _scripts_, você vai aprender a usar o `Git` para guardá-los de forma segura. Em seguida, vai começar a parte mais divertida: o desenvolvimento web. Aqui, você vai estruturar documentos `HTML`, estilizá-los com o `CSS` e criar comportamentos customizados com o `JavaScript`. Após esse ciclo, você aprenderá sobre a criação de _sites_ responsivos com CSS elegante e eficiente. Por fim, vai aprender a utilizar o JavaScript integralmente, incluindo `HOF, código assíncrono, testes unitários` e outros recursos avançados.
+
+Tendo isso em mente, esta pasta contém todas as atividades de aprendizagem que desenvolvi ao longo do módulo de `Fundamentos do Desenvolvimento Web` do curso da [Trybe](https://www.betrybe.com/).
