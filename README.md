@@ -6,7 +6,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## <p align="center"> Fundamentos do Desenvolvimento Web ✅ </p>
+## <p align="center"> Fundamentos do Desenvolvimento Web ⏳ </p>
 
 ### 1° Período
 
@@ -23,7 +23,32 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] Dia 03: _HTML & CSS - Seletores e posicionamento_
 - [ ] Dia 04: _HTML Semântico_
 - [ ] Dia 05: _Projeto - Lessons Learned_
-- [ ] 2-2: _Entendendo os comandos_
 
+## <p align="center"> Front-end ⏳ </p>
 
-[etc...]
+### 1° Período
+#### Seção Introdução ao Frontend e JavaScript assíncrono
+
+- [ ] Dia 01: _Ambiente de Desenvolvimento_
+- [ ] Dia 02: _JavaScript Assíncrono - Promises e Fetch_
+- [ ] Dia 03: _Prática - Casa de câmbio_
+- [ ] Dia 04: _Async, await e testes assíncronos_
+- [ ] Dia 05: _Projeto - Carrinho de compras_
+
+#### Seção Introdução ao React
+
+- [ ] Dia 01: _'Hello, world!' no React_
+- [ ] Dia 02: _Componentes_
+- [ ] Dia 05: _Projeto - Solar System_
+
+#### Seção Componentes com Estado, Eventos e formulários com React
+
+- [ ] Dia 01: _Componentes com estado e eventos_
+- [ ] Dia 02: _Formulários no React_
+- [ ] Dia 05: _Projeto - Tryunfo_
+
+#### Seção Ciclo de Vida de Componentes e React Router
+
+- [ ] Dia 01: _Ciclo de vida de componentes_
+- [ ] Dia 02: _React Router_
+- [ ] Dia 05: _Projeto - TrybeTunes_
