@@ -44,7 +44,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ### 2° Período
 
-#### HTML e CSS: Forms, Flexbox e Responsivo
+#### Seção HTML e CSS: Forms, Flexbox e Responsivo
 
 - [ ] Dia 01: _HTML & CSS - Forms_
 - [ ] Dia 02: _Bibliotecas JavaScript e Frameworks CSS_
@@ -60,7 +60,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [ ] Dia 03: _Matchers e cobertura de código_
 - [ ] Dia 04: _Projeto - JavaScript Testes Unitários_
 
-#### Higher Order Functions do JavaScript ES6
+#### Seção Higher Order Functions do JavaScript ES6
 
 - [ ] _Dia 01: Introdução a Higher Order Functions_
 - [ ] _Dia 02: Higher Order Functions - sort e map_
@@ -68,9 +68,6 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [ ] _Dia 04: JavaScript ES6 - spread operator, rest parameters e object destructuring_
 - [ ] _Dia 05: JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
 - [ ] _Dia 06: Projeto - Zoo functions_
-
-
-
 
 ## <p align="center"> Front-end ⏳ </p>
 
@@ -100,3 +97,39 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [ ] Dia 01: _Ciclo de vida de componentes_
 - [ ] Dia 02: _React Router_
 - [ ] Dia 05: _Projeto - TrybeTunes_
+
+### 2° Período
+
+#### Seção Metodologias Ágeis
+
+- [ ] _Dia 01: Metodologias Ágeis_
+- [ ] _Dia 02: Projeto - Front-end Online Store_
+#### Seção Testes automatizados com React Testing Library
+
+- [ ] _Dia 01: RTL - Primeiros passos_
+- [ ] _Dia 02: RTL - Mocks e Inputs_
+- [ ] _Dia 03: RTL - Testando React Router_
+- [ ] _Dia 04: Projeto - Testes em React_
+#### Seção Gerenciamento de estado com Redux
+
+- [ ] _Dia 01: Introdução ao Redux - O estado global da aplicação_
+- [ ] _Dia 02: Usando o Redux no React_
+- [ ] _Dia 03: Usando o Redux no React - Prática_
+- [ ] _Dia 04: Usando o Redux no React - Actions Assíncronas_
+- [ ] _Dia 05: Testes em React-Redux_
+- [ ] _Dia 06: Projeto - Trybe Wallet_
+
+### 3° Período
+
+#### Seção Projeto Jogo de Trivia
+
+- [ ] _Dia 01: Projeto - Jogo de Trivia_
+#### Seção Context API e React Hooks
+
+- [ ] _Dia 01: React Hooks - useState e useEffect_
+- [ ] _Dia 02: Context API_
+- [ ] _Dia 03: Custom Hooks_
+- [ ] _Dia 04: Projeto - StarWars Datatable com Context API e Hooks_
+#### Seção Projeto App de Receitas
+
+- [ ] _Dia 01: Projeto - App de Receitas_
