@@ -53,14 +53,14 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [ ] Dia 05: _Responsividade_
 - [ ] Dia 06: _Projeto - Trybewarts_
 
-### Seção Introdução à JavaScript ES6 e Testes Unitários
+#### Seção Introdução à JavaScript ES6 e Testes Unitários
 
 - [ ] Dia 01: _Fluxo de exceções e manipulação de objetos_
 - [ ] Dia 02: _Primeiros passos em Jest_
 - [ ] Dia 03: _Matchers e cobertura de código_
 - [ ] Dia 04: _Projeto - JavaScript Testes Unitários_
 
-### Higher Order Functions do JavaScript ES6
+#### Higher Order Functions do JavaScript ES6
 
 - [ ] _Dia 01: Introdução a Higher Order Functions_
 - [ ] _Dia 02: Higher Order Functions - sort e map_
