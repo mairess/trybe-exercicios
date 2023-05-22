@@ -218,3 +218,30 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [ ] Dia 01: _Express com Classes_
 - [ ] Dia 02: _Projeto - TFC - Trybe Futebol Clube_
+
+## <p align="center"> Ciências da Computação ⏳ </p>
+
+### 1° Período
+
+#### SeçãoIntrodução à Python
+
+- [ ] Dia 01: _Aprendendo Python_
+- [ ] Dia 02: _Entrada e Saída de Dados com Testes_
+#### SeçãoAlgoritmos
+
+- [ ] Dia 01: _Complexidade de Algoritmos_
+- [ ] Dia 02: _Recursividade e Estratégias para Solução de Problemas_
+- [ ] Dia 03: _Algoritmos de ordenação e busca_
+- [ ] Dia 04: _Projeto - Algoritmos_
+#### SeçãoEstrutura de Dados I: Listas Lineares
+
+- [ ] Dia 01: _P.O.O em Python_
+- [ ] Dia 02: _Arrays_
+- [ ] Dia 03: _Nó e Listas Encadeadas_
+- [ ] Dia 04: _Pilhas e Filas_
+- [ ] Dia 05: _Projeto TING - Trybe Is Not Google_
+#### SeçãoEstruturas de Dados II: Hashmaps e Sets
+
+- [ ] Dia 01: _Hashmap e Dict_
+- [ ] Dia 02: _Set_
+- [ ] Dia 03: _Projeto Restaurant Orders_
