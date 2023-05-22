@@ -24,6 +24,54 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [ ] Dia 04: _HTML Semântico_
 - [ ] Dia 05: _Projeto - Lessons Learned_
 
+#### Seção Introdução à JavaScript
+
+- [ ] Dia 01: _JavaScript - Primeiros passos_
+- [ ] Dia 02: _JavaScript - Array e loop For_
+- [ ] Dia 03: _JavaScript - Funções_
+- [ ] Dia 04: _JavaScript - Objetos_
+- [ ] Dia 05: _JavaScript - JSON e prática_
+- [ ] Dia 06: _Projeto - Supermercado Pirilampo_
+
+#### Seção JavaScript: DOM, Eventos e Web Storage
+
+- [ ] _Dia 01: JavaScript - DOM e seletores_
+- [ ] _Dia 02: JavaScript - Trabalhando com elementos_
+- [ ] _Dia 03: JavaScript - Eventos_
+- [ ] _Dia 04: JavaScript - Web Storage_
+- [ ] _Dia 05: Projeto - Arte com Pixels_
+- [ ] _Dia 06: Projetos Bônus_
+
+### 2° Período
+
+#### HTML e CSS: Forms, Flexbox e Responsivo
+
+- [ ] Dia 01: _HTML & CSS - Forms_
+- [ ] Dia 02: _Bibliotecas JavaScript e Frameworks CSS_
+- [ ] Dia 03: _CSS Flexbox - Parte 1_
+- [ ] Dia 04: _CSS Flexbox - Parte 2_
+- [ ] Dia 05: _Responsividade_
+- [ ] Dia 06: _Projeto - Trybewarts_
+
+### Seção Introdução à JavaScript ES6 e Testes Unitários
+
+- [ ] Dia 01: _Fluxo de exceções e manipulação de objetos_
+- [ ] Dia 02: _Primeiros passos em Jest_
+- [ ] Dia 03: _Matchers e cobertura de código_
+- [ ] Dia 04: _Projeto - JavaScript Testes Unitários_
+
+### Higher Order Functions do JavaScript ES6
+
+- [ ] _Dia 01: Introdução a Higher Order Functions_
+- [ ] _Dia 02: Higher Order Functions - sort e map_
+- [ ] _Dia 03: Higher Order Functions - filter e reduce_
+- [ ] _Dia 04: JavaScript ES6 - spread operator, rest parameters e object destructuring_
+- [ ] _Dia 05: JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
+- [ ] _Dia 06: Projeto - Zoo functions_
+
+
+
+
 ## <p align="center"> Front-end ⏳ </p>
 
 ### 1° Período
