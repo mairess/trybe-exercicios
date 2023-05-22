@@ -35,12 +35,12 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção JavaScript: DOM, Eventos e Web Storage
 
-- [ ] _Dia 01: JavaScript - DOM e seletores_
-- [ ] _Dia 02: JavaScript - Trabalhando com elementos_
-- [ ] _Dia 03: JavaScript - Eventos_
-- [ ] _Dia 04: JavaScript - Web Storage_
-- [ ] _Dia 05: Projeto - Arte com Pixels_
-- [ ] _Dia 06: Projetos Bônus_
+- [ ] Dia 01: _JavaScript - DOM e seletores_
+- [ ] Dia 02: _JavaScript - Trabalhando com elementos_
+- [ ] Dia 03: _JavaScript - Eventos_
+- [ ] Dia 04: _JavaScript - Web Storage_
+- [ ] Dia 05: _Projeto - Arte com Pixels_
+- [ ] Dia 06: _Projetos Bônus_
 
 ### 2° Período
 
@@ -62,16 +62,17 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção Higher Order Functions do JavaScript ES6
 
-- [ ] _Dia 01: Introdução a Higher Order Functions_
-- [ ] _Dia 02: Higher Order Functions - sort e map_
-- [ ] _Dia 03: Higher Order Functions - filter e reduce_
-- [ ] _Dia 04: JavaScript ES6 - spread operator, rest parameters e object destructuring_
-- [ ] _Dia 05: JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
-- [ ] _Dia 06: Projeto - Zoo functions_
+- [ ] Dia 01: _Introdução a Higher Order Functions_
+- [ ] Dia 02: _Higher Order Functions - sort e map_
+- [ ] Dia 03: _Higher Order Functions - filter e reduce_
+- [ ] Dia 04: _JavaScript ES6 - spread operator, rest parameters e object destructuring_
+- [ ] Dia 05: _JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
+- [ ] Dia 06: _Projeto - Zoo functions_
 
 ## <p align="center"> Front-end ⏳ </p>
 
 ### 1° Período
+
 #### Seção Introdução ao Frontend e JavaScript assíncrono
 
 - [ ] Dia 01: _Ambiente de Desenvolvimento_
@@ -102,34 +103,106 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção Metodologias Ágeis
 
-- [ ] _Dia 01: Metodologias Ágeis_
-- [ ] _Dia 02: Projeto - Front-end Online Store_
+- [ ] Dia 01: _Metodologias Ágeis_
+- [ ] Dia 02: _Projeto - Front-end Online Store_
 #### Seção Testes automatizados com React Testing Library
 
-- [ ] _Dia 01: RTL - Primeiros passos_
-- [ ] _Dia 02: RTL - Mocks e Inputs_
-- [ ] _Dia 03: RTL - Testando React Router_
-- [ ] _Dia 04: Projeto - Testes em React_
+- [ ] Dia 01: _RTL - Primeiros passos_
+- [ ] Dia 02: _RTL - Mocks e Inputs_
+- [ ] Dia 03: _RTL - Testando React Router_
+- [ ] Dia 04: _Projeto - Testes em React_
 #### Seção Gerenciamento de estado com Redux
 
-- [ ] _Dia 01: Introdução ao Redux - O estado global da aplicação_
-- [ ] _Dia 02: Usando o Redux no React_
-- [ ] _Dia 03: Usando o Redux no React - Prática_
-- [ ] _Dia 04: Usando o Redux no React - Actions Assíncronas_
-- [ ] _Dia 05: Testes em React-Redux_
-- [ ] _Dia 06: Projeto - Trybe Wallet_
+- [ ] Dia 01: _Introdução ao Redux - O estado global da aplicação_
+- [ ] Dia 02: _Usando o Redux no React_
+- [ ] Dia 03: _Usando o Redux no React - Prática_
+- [ ] Dia 04: _Usando o Redux no React - Actions Assíncronas_
+- [ ] Dia 05: _Testes em React-Redux_
+- [ ] Dia 06: _Projeto - Trybe Wallet_
 
 ### 3° Período
 
 #### Seção Projeto Jogo de Trivia
 
-- [ ] _Dia 01: Projeto - Jogo de Trivia_
+- [ ] Dia 01: _Projeto - Jogo de Trivia_
 #### Seção Context API e React Hooks
 
-- [ ] _Dia 01: React Hooks - useState e useEffect_
-- [ ] _Dia 02: Context API_
-- [ ] _Dia 03: Custom Hooks_
-- [ ] _Dia 04: Projeto - StarWars Datatable com Context API e Hooks_
+- [ ] Dia 01: _React Hooks - useState e useEffect_
+- [ ] Dia 02: _Context API_
+- [ ] Dia 03: _Custom Hooks_
+- [ ] Dia 04: _Projeto - StarWars Datatable com Context API e Hooks_
 #### Seção Projeto App de Receitas
 
-- [ ] _Dia 01: Projeto - App de Receitas_
+- [ ] Dia 01: _Projeto - App de Receitas_
+
+## <p align="center"> Back-end ⏳ </p>
+
+### 1° Período
+#### Seção Docker: Utilizando Containers
+
+- [ ] Dia 01: _Utilizando Containers - Docker_
+- [ ] Dia 02: _Manipulando Imagens no Docker_
+- [ ] Dia 03: _Orquestrando Containers com Docker Compose_
+- [ ] Dia 04: _Projeto - Docker Todo-List_
+#### Seção Introdução à SQL
+
+- [ ] Dia 01: _Banco de dados SQL_
+- [ ] Dia 02: _Encontrando dados em um banco de dados_
+- [ ] Dia 03: _Filtrando dados de forma específica_
+- [ ] Dia 04: _Manipulando tabelas_
+- [ ] Dia 05: _Projeto - All For One_
+#### Seção Funções SQL, JOINs e Normalização
+
+- [ ] Dia 01: _Funções mais usadas no SQL_
+- [ ] Dia 02: _Descomplicando JOINS_
+- [ ] Dia 03: _Transformando ideias em um modelo de banco de dados_
+- [ ] Dia 04: _Aula ao vivo + Projeto - One For All_
+#### Seção Introdução ao desenvolvimento Web com Node.js
+
+- [ ] Dia 01: _Node.js: Runtime Assincrono_
+- [ ] Dia 02: _Node.js: API REST com Express_
+- [ ] Dia 03: _Node.js: Testes de Integração_
+- [ ] Dia 04: _Node.js: Express e Middlewares_
+- [ ] Dia 05: _Node.js: Express e MySQL_
+- [ ] Dia 06: _Projeto - Talker Manager_
+
+### 2° Período
+
+#### Seção Arquitetura de Software: Model, Service e Controller
+
+- [ ] Dia 01: _Arquitetura de Software: Camada Model_
+- [ ] Dia 02: _Arquitetura de Software: Camada Service_
+- [ ] Dia 03: _Arquitetura de Software: Camada Controller_
+- [ ] Dia 04: _Projeto - Store Manager_
+#### Seção Node.js: ORM e Autenticação
+
+- [ ] Dia 01: _ORM - Interface da aplicação com o banco de dado_
+- [ ] Dia 02: _ORM - Associations 1:1 e 1:N_
+- [ ] Dia 03: _ORM - Associations N:N e Transactions_
+- [ ] Dia 04: _JWT - (JSON Web Token)_
+- [ ] Dia 05: _Projeto - API de Blogs_
+#### Seção Masterclass: Implantação de Aplicações na Nuvem
+
+- [ ] Dia 01: _Infraestrutura: Deploy com Railway_
+
+### 3° Período
+
+#### Seção Introdução a TypeScript
+
+- [ ]Dia 01: _Aprendendo TypeScript_
+- [ ]Dia 02: _Introdução a Generics_
+- [ ]Dia 03: _API REST com Express, JWT, Sequelize e TypeScript_
+- [ ]Dia 04: _Testando Aplicações com TypeScript_
+- [ ]Dia 05: _Projeto - Trybesmith_
+#### Seção Programação Orientada a Objetos (POO) e SOLID
+
+- [ ]Dia 01: _Introdução à Orientação a Objeto_
+- [ ]Dia 02: _Herança e Composição_
+- [ ]Dia 03: _Polimorfismo_
+- [ ]Dia 04: _SOLID - Introdução e Princípios S, O e D_
+- [ ]Dia 05: _SOLID - Princípios L e l_
+- [ ]Dia 06: _Projeto - Trybers and Dragons_
+#### Seção Projeto - TFC - Trybe Futebol Clube
+
+- [ ]Dia 01: _Express com Classes_
+- [ ]Dia 02: _Projeto - TFC - Trybe Futebol Clube_
