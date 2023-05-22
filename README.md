@@ -105,12 +105,14 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [ ] Dia 01: _Metodologias Ágeis_
 - [ ] Dia 02: _Projeto - Front-end Online Store_
+
 #### Seção Testes automatizados com React Testing Library
 
 - [ ] Dia 01: _RTL - Primeiros passos_
 - [ ] Dia 02: _RTL - Mocks e Inputs_
 - [ ] Dia 03: _RTL - Testando React Router_
 - [ ] Dia 04: _Projeto - Testes em React_
+
 #### Seção Gerenciamento de estado com Redux
 
 - [ ] Dia 01: _Introdução ao Redux - O estado global da aplicação_
@@ -125,12 +127,14 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 #### Seção Projeto Jogo de Trivia
 
 - [ ] Dia 01: _Projeto - Jogo de Trivia_
+
 #### Seção Context API e React Hooks
 
 - [ ] Dia 01: _React Hooks - useState e useEffect_
 - [ ] Dia 02: _Context API_
 - [ ] Dia 03: _Custom Hooks_
 - [ ] Dia 04: _Projeto - StarWars Datatable com Context API e Hooks_
+
 #### Seção Projeto App de Receitas
 
 - [ ] Dia 01: _Projeto - App de Receitas_
@@ -138,12 +142,14 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 ## <p align="center"> Back-end ⏳ </p>
 
 ### 1° Período
+
 #### Seção Docker: Utilizando Containers
 
 - [ ] Dia 01: _Utilizando Containers - Docker_
 - [ ] Dia 02: _Manipulando Imagens no Docker_
 - [ ] Dia 03: _Orquestrando Containers com Docker Compose_
 - [ ] Dia 04: _Projeto - Docker Todo-List_
+
 #### Seção Introdução à SQL
 
 - [ ] Dia 01: _Banco de dados SQL_
@@ -151,12 +157,14 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [ ] Dia 03: _Filtrando dados de forma específica_
 - [ ] Dia 04: _Manipulando tabelas_
 - [ ] Dia 05: _Projeto - All For One_
+
 #### Seção Funções SQL, JOINs e Normalização
 
 - [ ] Dia 01: _Funções mais usadas no SQL_
 - [ ] Dia 02: _Descomplicando JOINS_
 - [ ] Dia 03: _Transformando ideias em um modelo de banco de dados_
 - [ ] Dia 04: _Aula ao vivo + Projeto - One For All_
+
 #### Seção Introdução ao desenvolvimento Web com Node.js
 
 - [ ] Dia 01: _Node.js: Runtime Assincrono_
@@ -174,6 +182,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [ ] Dia 02: _Arquitetura de Software: Camada Service_
 - [ ] Dia 03: _Arquitetura de Software: Camada Controller_
 - [ ] Dia 04: _Projeto - Store Manager_
+
 #### Seção Node.js: ORM e Autenticação
 
 - [ ] Dia 01: _ORM - Interface da aplicação com o banco de dado_
@@ -181,6 +190,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [ ] Dia 03: _ORM - Associations N:N e Transactions_
 - [ ] Dia 04: _JWT - (JSON Web Token)_
 - [ ] Dia 05: _Projeto - API de Blogs_
+
 #### Seção Masterclass: Implantação de Aplicações na Nuvem
 
 - [ ] Dia 01: _Infraestrutura: Deploy com Railway_
@@ -189,20 +199,22 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção Introdução a TypeScript
 
-- [ ]Dia 01: _Aprendendo TypeScript_
-- [ ]Dia 02: _Introdução a Generics_
-- [ ]Dia 03: _API REST com Express, JWT, Sequelize e TypeScript_
-- [ ]Dia 04: _Testando Aplicações com TypeScript_
-- [ ]Dia 05: _Projeto - Trybesmith_
+- [ ] Dia 01: _Aprendendo TypeScript_
+- [ ] Dia 02: _Introdução a Generics_
+- [ ] Dia 03: _API REST com Express, JWT, Sequelize e TypeScript_
+- [ ] Dia 04: _Testando Aplicações com TypeScript_
+- [ ] Dia 05: _Projeto - Trybesmith_
+
 #### Seção Programação Orientada a Objetos (POO) e SOLID
 
-- [ ]Dia 01: _Introdução à Orientação a Objeto_
-- [ ]Dia 02: _Herança e Composição_
-- [ ]Dia 03: _Polimorfismo_
-- [ ]Dia 04: _SOLID - Introdução e Princípios S, O e D_
-- [ ]Dia 05: _SOLID - Princípios L e l_
-- [ ]Dia 06: _Projeto - Trybers and Dragons_
+- [ ] Dia 01: _Introdução à Orientação a Objeto_
+- [ ] Dia 02: _Herança e Composição_
+- [ ] Dia 03: _Polimorfismo_
+- [ ] Dia 04: _SOLID - Introdução e Princípios S, O e D_
+- [ ] Dia 05: _SOLID - Princípios L e l_
+- [ ] Dia 06: _Projeto - Trybers and Dragons_
+
 #### Seção Projeto - TFC - Trybe Futebol Clube
 
-- [ ]Dia 01: _Express com Classes_
-- [ ]Dia 02: _Projeto - TFC - Trybe Futebol Clube_
+- [ ] Dia 01: _Express com Classes_
+- [ ] Dia 02: _Projeto - TFC - Trybe Futebol Clube_
