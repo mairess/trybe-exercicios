@@ -1,6 +1,6 @@
 # <p align="center">DIA 2</p>
 
-O objetivo desse exercício é colocar em prática os conhecimentos sobre o Git. Para isso, crie um novo diretório em seu computador e realize algumas modificações nele. Observe:
+O objetivo desse exercício é colocar em prática os conhecimentos sobre o `Git`. Para isso, crie um novo diretório em seu computador e realize algumas modificações nele. Observe:
 
 - Crie uma pasta em seu computador;
 
