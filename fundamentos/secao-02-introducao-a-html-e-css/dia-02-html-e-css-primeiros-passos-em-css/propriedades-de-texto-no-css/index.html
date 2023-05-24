@@ -3,15 +3,41 @@
   <head>
     <meta charset="UTF-8">
     <title>HTML</title>
-    <style></style>
+    <style>
+      h1{
+        font-family: sans-serif;
+        text-decoration: underline;
+        text-align: center;
+      }
+      p{
+        font-weight: 600;
+        font-size: 3em;
+        font-style: italic;
+      }
+      body{
+        font-size: 16px;
+      }
+      ul li{
+        line-height: 50px;
+      }
+      #yellow{
+        background-color: yellow;
+      }
+      #red{
+        background-color: red;
+      }
+      #brown{
+        background-color: brown;
+      }
+    </style>
   </head>
   <body>
     <h1>Cores</h1>
     <p>Qual é a sua cor favorita?</p>
     <ul>
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+      <li id="yellow">Amarelo</li>
+      <li id="red">Vermelho</li>
+      <li id="brown">Marrom</li>
     </ul>
   </body>
 </html>
