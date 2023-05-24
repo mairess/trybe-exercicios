@@ -18,8 +18,8 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção Introdução à HTML & CSS
 
-- [ ] Dia 01: _HTML & CSS - Estruturas de páginas_
-- [ ] Dia 02: _HTML & CSS - Primeiros passos em CSS_
+- [x] Dia 01: _HTML & CSS - Estruturas de páginas_
+- [x] Dia 02: _HTML & CSS - Primeiros passos em CSS_
 - [ ] Dia 03: _HTML & CSS - Seletores e posicionamento_
 - [ ] Dia 04: _HTML Semântico_
 - [ ] Dia 05: _Projeto - Lessons Learned_
