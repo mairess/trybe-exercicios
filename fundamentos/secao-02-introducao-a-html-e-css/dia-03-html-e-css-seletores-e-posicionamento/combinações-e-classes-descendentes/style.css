@@ -26,3 +26,11 @@ li{
 li em {
     font-weight: bold;
 }
+
+.programingLanguages li:nth-child(-n+3){
+    color: blue;
+}
+
+.pinkBg{
+    background-color: pink;
+}
