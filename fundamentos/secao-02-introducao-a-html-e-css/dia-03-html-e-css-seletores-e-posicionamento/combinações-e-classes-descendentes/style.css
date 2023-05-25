@@ -18,3 +18,11 @@ h1 em, h3 em{
     font-size: 40px;
     border: 1px solid;
 }
+
+li{
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
