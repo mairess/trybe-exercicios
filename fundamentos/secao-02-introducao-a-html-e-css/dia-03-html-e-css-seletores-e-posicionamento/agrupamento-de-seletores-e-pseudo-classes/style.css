@@ -9,3 +9,7 @@ ol:hover{
 ol li a:active{
     font-family: monospace;
 }
+
+ol, ul{
+    list-style: none;
+}
