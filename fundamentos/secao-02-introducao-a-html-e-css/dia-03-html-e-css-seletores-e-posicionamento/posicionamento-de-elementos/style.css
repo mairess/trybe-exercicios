@@ -4,16 +4,28 @@
 
 .goomba {
   width: 100px;
+  position: absolute;
+  top: 400px;
+  left: 70px;
 }
 
 .baloon {
-
+  position: absolute;
+  left: 300px;
+  top: 250px;
 }
 
 .speach {
   font-size: 25px;
+  position: absolute;
+  top: 295px;
+  left: 318px;
+  z-index: 1;
 }
 
 .bowser {
   width: 200px;
+  position: absolute;
+  top: 400px;
+  left: 600px;
 }

@@ -4,11 +4,11 @@
 
 Seguir as instruções dos cometários que estão dentro do código
 
-```
-Personagens pertencentes à Nintendo©
 
-Observação 🔎: Bowser é o dinossauro, Goomba é o cogumelo e Mário é o Mário, né?
-```
+**Personagens pertencentes à Nintendo©**
+
+**Observação** 🔎: _Bowser é o dinossauro, Goomba é o cogumelo e Mário é o Mário, né?_
+
 
 - Posicione o Mário acima do Goomba.
 
