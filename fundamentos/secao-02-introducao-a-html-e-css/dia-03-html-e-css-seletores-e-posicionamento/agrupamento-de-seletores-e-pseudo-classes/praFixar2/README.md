@@ -1,4 +1,4 @@
-# <p align="center">Box Model - Modelo de caixas no CSS</p>
+# <p align="center">Agrupamento de Seletores e Pseudo-classes</p>
 
 ## Exercício 🚀 para fixar 2, requisitos:
 
