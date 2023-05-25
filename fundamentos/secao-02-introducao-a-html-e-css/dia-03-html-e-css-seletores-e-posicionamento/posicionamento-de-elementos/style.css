@@ -4,6 +4,9 @@
 
 .goomba {
   width: 100px;
+  position: absolute;
+  top: 400px;
+  left: 70px;
 }
 
 .baloon {
