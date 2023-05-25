@@ -34,3 +34,23 @@ li em {
 .pinkBg{
     background-color: pink;
 }
+
+.green:hover{
+    font-weight: bold;
+    color: green;
+}
+
+.orange:hover{
+    font-weight: bold;
+    color: orange;
+}
+
+.black:hover{
+    font-weight: bold;
+    color: black;
+}
+
+.yellow:hover{
+    font-weight: bold;
+    color: yellow;
+}
