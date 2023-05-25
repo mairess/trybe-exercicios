@@ -1,4 +1,4 @@
-# <p align="center">Box Model - Modelo de caixas no CSS</p>
+# <p align="center">Posicionamento de Elementos</p>
 
 ## Exercício para fixar requisitos:
 

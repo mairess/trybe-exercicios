@@ -1,0 +1,35 @@
+.setBorderHover:hover{
+    border: 1px solid red;
+}
+
+#yellowColor{
+    background-color: yellow;
+}
+
+#orangeColor{
+    background-color: orange;
+}
+
+#PurpleColor{
+    background-color: purple;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#midnightBlueColor{
+    background-color: midnightblue;
+}
+
+#aquaColor{
+    background-color: aqua;
+}
+
+h3{
+    color: yellowgreen;
+    font-family: monospace;
+}
+
+div:nth-child(odd){
+    font-style: italic;
+}
