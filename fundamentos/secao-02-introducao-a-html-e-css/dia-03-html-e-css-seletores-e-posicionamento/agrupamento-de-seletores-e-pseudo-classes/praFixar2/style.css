@@ -29,3 +29,7 @@ h3{
     color: yellowgreen;
     font-family: monospace;
 }
+
+div:nth-child(odd){
+    font-style: italic;
+}
