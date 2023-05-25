@@ -12,6 +12,9 @@
 
 #PurpleColor{
     background-color: purple;
+    height: 50px;
+    display: flex;
+    align-items: center;
 }
 
 #midnightBlueColor{
