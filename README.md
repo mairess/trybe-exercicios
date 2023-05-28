@@ -10,13 +10,13 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ### 1° Período
 
-#### Seção Unix, Shell e git
+#### Seção [Unix, Shell e git](https://github.com/mairess/trybe-exercicios/tree/main/fundamentos/secao-01-unix-shell-e-git)
 
 - [x] Dia 01: _Unix & Shell_
 - [x] Dia 02: _Git - O que é e para que serve_
 - [x] Dia 03: _Git & github - Entendendo os comandos_
 
-#### Seção Introdução à HTML & CSS
+#### Seção [Introdução à HTML & CSS](https://github.com/mairess/trybe-exercicios/tree/main/fundamentos/secao-02-introducao-a-html-e-css)
 
 - [x] Dia 01: _HTML & CSS - Estruturas de páginas_
 - [x] Dia 02: _HTML & CSS - Primeiros passos em CSS_
@@ -24,7 +24,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 04: _HTML Semântico_
 - [x] Dia 05: _Projeto - Lessons Learned_
 
-#### Seção Introdução à JavaScript
+#### Seção [Introdução à JavaScript]()
 
 - [ ] Dia 01: _JavaScript - Primeiros passos_
 - [ ] Dia 02: _JavaScript - Array e loop For_
@@ -223,24 +223,24 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ### 1° Período
 
-#### SeçãoIntrodução à Python
+#### Seção Introdução à Python
 
 - [ ] Dia 01: _Aprendendo Python_
 - [ ] Dia 02: _Entrada e Saída de Dados com Testes_
-#### SeçãoAlgoritmos
+#### Seção Algoritmos
 
 - [ ] Dia 01: _Complexidade de Algoritmos_
 - [ ] Dia 02: _Recursividade e Estratégias para Solução de Problemas_
 - [ ] Dia 03: _Algoritmos de ordenação e busca_
 - [ ] Dia 04: _Projeto - Algoritmos_
-#### SeçãoEstrutura de Dados I: Listas Lineares
+#### Seção Estrutura de Dados I: Listas Lineares
 
 - [ ] Dia 01: _P.O.O em Python_
 - [ ] Dia 02: _Arrays_
 - [ ] Dia 03: _Nó e Listas Encadeadas_
 - [ ] Dia 04: _Pilhas e Filas_
 - [ ] Dia 05: _Projeto TING - Trybe Is Not Google_
-#### SeçãoEstruturas de Dados II: Hashmaps e Sets
+#### Seção Estruturas de Dados II: Hashmaps e Sets
 
 - [ ] Dia 01: _Hashmap e Dict_
 - [ ] Dia 02: _Set_
