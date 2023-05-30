@@ -27,7 +27,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 #### Seção [Introdução à JavaScript]()
 
 - [x] Dia 01: _JavaScript - Primeiros passos_
-- [ ] Dia 02: _JavaScript - Array e loop For_
+- [x] Dia 02: _JavaScript - Array e loop For_
 - [ ] Dia 03: _JavaScript - Funções_
 - [ ] Dia 04: _JavaScript - Objetos_
 - [ ] Dia 05: _JavaScript - JSON e prática_
