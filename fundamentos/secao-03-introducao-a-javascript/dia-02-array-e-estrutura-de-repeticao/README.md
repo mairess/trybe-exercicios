@@ -6,7 +6,7 @@ Ao longo desse dia, você teve descobriu que a estrutura de dados `array` é mui
 
 ## 🚀 Array e loop for
 
-Considere esse array para realizar os próximos exercícios.
+Considere esse _array_ para realizar os próximos exercícios.
 
 ```const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];```
 
