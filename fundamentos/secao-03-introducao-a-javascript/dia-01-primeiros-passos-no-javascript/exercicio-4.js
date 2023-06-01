@@ -4,15 +4,15 @@
 
 // 👀 Dica: para os ângulos serem de um triângulo válido, a soma dos três ângulos deve ser 180 graus. Um ângulo será considerado inválido se não tiver um valor positivo.
 
-let angle1 = -80;
-let angle2 = -50;
-let angle3 = -50;
+let angle1 = 80;
+let angle2 = 50;
+let angle3 = 50;
 
 
 if (angle1 + angle2 + angle3 === 180 && angle1 + angle2 + angle3 > 0) {
-    return angle1 + angle2 + angle3 === 180;
-} else if (angle1 + angle2 + angle3 < 0) {
+    return console.log(angle1 + angle2 + angle3 === 180);
+} else if (angle1 < 0 || angle2 < 0 || angle3 < 0) {
     return console.log('Não é um angulo valido irmão!');
 } else {
-    return angle1 + angle2 + angle3 === 180;
+    return console.log(angle1 + angle2 + angle3 === 180);
 }
