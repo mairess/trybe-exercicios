@@ -18,7 +18,7 @@ const reader = {
   console.log(`O livro favorito de ${readerName} ${readerLastName} se chama '${readerFavBooksTitle}'`);
 
   const addNewBook = (object, key, value) => {
-    if (typeof object[key].title === 'undefined') {
+    if (typeof object[key].title === undefined) {
         object[key].title = value;
     }
   };
