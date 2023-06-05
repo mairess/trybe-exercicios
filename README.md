@@ -24,7 +24,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 04: _HTML Semântico_
 - [x] Dia 05: _Projeto - Lessons Learned_
 
-#### Seção [Introdução à JavaScript]()
+#### Seção [Introdução à JavaScript](https://github.com/mairess/trybe-exercicios/tree/main/fundamentos/secao-03-introducao-a-javascript)
 
 - [x] Dia 01: _JavaScript - Primeiros passos_
 - [x] Dia 02: _JavaScript - Array e loop For_
