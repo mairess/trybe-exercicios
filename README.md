@@ -30,8 +30,8 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 02: _JavaScript - Array e loop For_
 - [x] Dia 03: _JavaScript - Funções_
 - [x] Dia 04: _JavaScript - Objetos_
-- [ ] Dia 05: _JavaScript - JSON e prática_
-- [ ] Dia 06: _Projeto - Supermercado Pirilampo_
+- [x] Dia 05: _JavaScript - JSON e prática_
+- [x] Dia 06: _Projeto - Supermercado Pirilampo_
 
 #### Seção JavaScript: DOM, Eventos e Web Storage
 
