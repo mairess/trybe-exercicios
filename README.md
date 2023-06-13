@@ -36,7 +36,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 #### Seção [JavaScript: DOM, Eventos e Web Storage](https://github.com/mairess/trybe-exercicios/tree/main/fundamentos/secao-04-javascript-dom-eventos-e-web-storage/dia-01-javascript-dom-e-seletores)
 
 - [x] Dia 01: _JavaScript - DOM e seletores_
-- [ ] Dia 02: _JavaScript - Trabalhando com elementos_
+- [x] Dia 02: _JavaScript - Trabalhando com elementos_
 - [ ] Dia 03: _JavaScript - Eventos_
 - [ ] Dia 04: _JavaScript - Web Storage_
 - [ ] Dia 05: _Projeto - Arte com Pixels_
