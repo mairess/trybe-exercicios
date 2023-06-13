@@ -57,7 +57,11 @@
   </head>
   <body>
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+      // 1. Adicione a tag `h1` com o texto `TrybeTrip - Agência de Viagens` como filho da tag `body`;
+      const body = document.querySelector('body');
+      const bodyChild = document.createElement('h1');
+      bodyChild.innerText = 'TrybeTrip - Agência de Viagens';
+      body.appendChild(bodyChild);
     </script>
   </body>
 </html>
