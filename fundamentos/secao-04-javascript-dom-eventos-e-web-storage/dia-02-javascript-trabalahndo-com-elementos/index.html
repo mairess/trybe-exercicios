@@ -143,6 +143,10 @@
 
       // Centralize a `section` criada no passo 6 (aquela que possui a classe `right-content`).
       const centrilize = rightContent.style = 'margin-right: auto';
+
+      // Troque a cor de fundo do elemento-pai da `section` criada no passo 3 (aquela que possui a classe `center-content`) para a cor verde;
+      const changeBackground = centerContent.parentNode;
+      changeBackground.style.background = 'green';
     </script>
   </body>
 </html>
