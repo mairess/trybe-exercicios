@@ -2,12 +2,14 @@ window.onload = () => {
     const setBackgroundColor = (color) => {
       let content = document.querySelector(".content")
       content.style.backgroundColor = color
+      localStorage.setItem('backgroundColor', color)
     }
   
     const setFontColor = (color) => {
       let paragraphs = document.querySelectorAll(".paragraph")
       for (let index = 0; index < paragraphs.length; index += 1) {
         paragraphs[index].style.color = color
+        localStorage.setItem('color', color)
       }
     }
   
@@ -15,6 +17,7 @@ window.onload = () => {
       let paragraphs = document.querySelectorAll(".paragraph")
       for (let index = 0; index < paragraphs.length; index += 1) {
         paragraphs[index].style.fontSize = size
+        localStorage.setItem('fontSize', size)
       }
     }
   
@@ -22,6 +25,7 @@ window.onload = () => {
       let paragraphs = document.querySelectorAll(".paragraph")
       for (let index = 0; index < paragraphs.length; index += 1) {
         paragraphs[index].style.lineHeight = height
+        localStorage.setItem('lineHeight', height)
       }
     }
   
@@ -29,6 +33,7 @@ window.onload = () => {
       let paragraphs = document.querySelectorAll(".paragraph")
       for (let index = 0; index < paragraphs.length; index += 1) {
         paragraphs[index].style.fontFamily = family
+        localStorage.setItem('fontFamily', family)
       }
     }
   
