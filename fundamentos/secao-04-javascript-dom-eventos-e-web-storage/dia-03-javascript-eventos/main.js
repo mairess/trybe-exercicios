@@ -7,6 +7,7 @@ const myWebpage = document.getElementById('my-spotrybefy');
 
 // 1. Copie esse arquivo e edite apenas ele.
 // 1.1. Note que uma das caixas está um pouco acima das outras. Por que isso ocorre?
+// Porque a primeira caixa que é uma li está recebendo uma classe com estilo css que é diferente das demais.
 
 // 2. Crie uma função que adicione a classe 'tech' ao elemento `li` quando este for clicado.
 secondLi.addEventListener('click', addClassName);
