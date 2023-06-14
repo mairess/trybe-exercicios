@@ -32,7 +32,7 @@ input.addEventListener('input', (event) => {
 // redirecione para alguma página.
 // 4.1. Que tal redirecionar para seu portfólio? Dica: Lembre-se dos métodos `window.location.replace` e `window.open`.
 myWebpage.addEventListener('dblclick', () => {
-  window.location.replace('https://github.com/mairess/trybe-exercicios');
+  window.open('https://github.com/mairess/trybe-exercicios', '_blank');
 });
 
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
