@@ -38,7 +38,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 01: _JavaScript - DOM e seletores_
 - [x] Dia 02: _JavaScript - Trabalhando com elementos_
 - [x] Dia 03: _JavaScript - Eventos_
-- [ ] Dia 04: _JavaScript - Web Storage_
+- [x] Dia 04: _JavaScript - Web Storage_
 - [ ] Dia 05: _Projeto - Arte com Pixels_
 - [ ] Dia 06: _Projetos Bônus_
 
