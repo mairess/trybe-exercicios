@@ -4,6 +4,7 @@
 
 Imagine que você precisa desenvolver uma nova funcionalidade em uma aplicação. A pessoa usuária deve conseguir salvar suas preferências de configuração da página. Até o momento a página se parece com a imagem abaixo:
 
+![a98751e1-058b-4a35-a527-a762e3bd494d-Referência do leitor de conteúdos](https://github.com/mairess/trybe-exercicios/assets/130297266/abd93b7e-b6ba-4c8b-9c12-1bbd81b4e627)
 
 Para realizar o exercício, crie três arquivos com os nomes `index.html`, `style.css` e `script.js`. Utilize os códigos a seguir:
 
