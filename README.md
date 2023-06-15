@@ -33,7 +33,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 05: _JavaScript - JSON e prática_
 - [x] Dia 06: _Projeto - Supermercado Pirilampo_
 
-#### Seção [JavaScript: DOM, Eventos e Web Storage](https://github.com/mairess/trybe-exercicios/tree/main/fundamentos/secao-04-javascript-dom-eventos-e-web-storage/dia-01-javascript-dom-e-seletores)
+#### Seção [JavaScript: DOM, Eventos e Web Storage](https://github.com/mairess/trybe-exercicios/tree/main/fundamentos/secao-04-javascript-dom-eventos-e-web-storage)
 
 - [x] Dia 01: _JavaScript - DOM e seletores_
 - [x] Dia 02: _JavaScript - Trabalhando com elementos_
