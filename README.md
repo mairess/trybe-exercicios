@@ -40,7 +40,6 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 03: _JavaScript - Eventos_
 - [x] Dia 04: _JavaScript - Web Storage_
 - [x] Dia 05: _Projeto - Arte com Pixels_
-- [x] Dia 06: _Projetos Bônus_
 
 ### 2° Período
 
