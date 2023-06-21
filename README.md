@@ -45,7 +45,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção HTML e CSS: Forms, Flexbox e Responsivo
 
-- [ ] Dia 01: _HTML & CSS - Forms_
+- [x] Dia 01: _HTML & CSS - Forms_
 - [ ] Dia 02: _Bibliotecas JavaScript e Frameworks CSS_
 - [ ] Dia 03: _CSS Flexbox - Parte 1_
 - [ ] Dia 04: _CSS Flexbox - Parte 2_
