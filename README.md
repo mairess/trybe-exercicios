@@ -49,8 +49,8 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 02: _Bibliotecas JavaScript e Frameworks CSS_
 - [x] Dia 03: _CSS Flexbox - Parte 1_
 - [x] Dia 04: _CSS Flexbox - Parte 2_
-- [ ] Dia 05: _Responsividade_
-- [ ] Dia 06: _Projeto - Trybewarts_
+- [x] Dia 05: _Responsividade_
+- [x] Dia 06: _Projeto - Trybewarts_
 
 #### Seção Introdução à JavaScript ES6 e Testes Unitários
 
