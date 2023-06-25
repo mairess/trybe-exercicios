@@ -43,7 +43,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ### 2° Período
 
-#### [Seção HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/mairess/trybe-exercicios/tree/main/fundamentos/secao-05-html-e-css-forms-flexbox-e-responsivo)
+#### Seção [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/mairess/trybe-exercicios/tree/main/fundamentos/secao-05-html-e-css-forms-flexbox-e-responsivo)
 
 - [x] Dia 01: _HTML & CSS - Forms_
 - [x] Dia 02: _Bibliotecas JavaScript e Frameworks CSS_
