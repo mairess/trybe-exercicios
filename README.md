@@ -52,9 +52,9 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 05: _Responsividade_
 - [x] Dia 06: _Projeto - Trybewarts_
 
-#### Seção Introdução à JavaScript ES6 e Testes Unitários
+#### Seção [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/mairess/trybe-exercicios/tree/main/fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios)
 
-- [ ] Dia 01: _Fluxo de exceções e manipulação de objetos_
+- [x] Dia 01: _Fluxo de exceções e manipulação de objetos_
 - [ ] Dia 02: _Primeiros passos em Jest_
 - [ ] Dia 03: _Matchers e cobertura de código_
 - [ ] Dia 04: _Projeto - JavaScript Testes Unitários_
