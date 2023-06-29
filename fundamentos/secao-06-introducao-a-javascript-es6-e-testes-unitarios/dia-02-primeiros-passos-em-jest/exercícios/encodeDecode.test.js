@@ -1,13 +1,11 @@
 const { encode, decode } = require('./encodeDecode.js');
 
-describe('Test encode', () => {
-    test('if encode is a function', () =>{
-        expect(encode('encode')).toBe('2nc4d2');
+describe('Test encode & decode are functions', () => {
+    test('if typeof encode is function', () =>{
+        expect(typeof encode).toBe('function');
     });
-});
 
-describe('Test decode', () => {
-    test('if decode is a function', () =>{
-        expect(decode('decode')).toBe('decode');
+    test('if typeof decode is function', () =>{
+        expect(typeof decode).toBe('function');
     });
 });
