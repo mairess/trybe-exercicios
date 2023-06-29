@@ -1,3 +1,6 @@
 loginValidation.js
 loginValidation.test.js
+node_modules/
+package-lock.json
+package.json
 
