@@ -14,7 +14,7 @@ describe('Tests encode function', () => {
     });
 
     test('Check if the function returns a string with same length passed as a parameter', () =>{
-        expect(decode('Maires').length).toEqual(6);
+        expect(decode('Maires')).toHaveLength(6);
     });
 });
 
@@ -32,6 +32,6 @@ describe('Tests decode function', () => {
     });
 
     test('Check if the function returns a string with same length passed as a parameter', () =>{
-        expect(decode('Maires').length).toEqual(6);
+        expect(decode('Maires')).toHaveLength(6);
     });
 });
