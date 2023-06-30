@@ -14,12 +14,12 @@ describe('a função createItem', () => {
     expect(() => createItem()).toThrow(Error);
   });
   it('Lança um erro se o nome do item não é uma string', () => {
-    expect(() => {createItem(645, 'kg', 5.46, 2)}).toThrow(Error);
+    expect(() => { createItem(645, 'kg', 5.46, 2) }).toThrow(Error);
   });
   it('Lança um erro se o preço é negativo', () => {
-    expect(() => {createItem('abacaxi', 't', -2315.59, 5)}).toThrow(Error);
+    expect(() => { createItem('abacaxi', 't', -2315.59, 5) }).toThrow(Error);
   });
   it('Lança um erro se o preço é zero', () => {
-    expect(() => {createItem('melancia', 't', 0, 10)}).toThrow(Error);
+    expect(() => { createItem('melancia', 't', 0, 10) }).toThrow(Error);
   });
 });
