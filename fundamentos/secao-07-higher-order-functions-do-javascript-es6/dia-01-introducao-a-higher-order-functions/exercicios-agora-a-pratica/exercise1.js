@@ -62,9 +62,6 @@ const books = [
   ];
   
 const expectedResult = 'Stephen King';
-const authorBornIn1947 = () => {
-    const authorName = books.find((book) => book.author.birthYear === 1947).author.name;
-    return authorName; 
-  };
+const authorBornIn1947 = () => books.find((book) => book.author.birthYear === 1947).author.name;
 
 console.log(authorBornIn1947());
