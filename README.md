@@ -57,7 +57,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 01: _Fluxo de exceções e manipulação de objetos_
 - [x] Dia 02: _Primeiros passos em Jest_
 - [x] Dia 03: _Matchers e cobertura de código_
-- [ ] Dia 04: _Projeto - JavaScript Testes Unitários_
+- [x] Dia 04: _Projeto - JavaScript Testes Unitários_
 
 #### Seção Higher Order Functions do JavaScript ES6
 
