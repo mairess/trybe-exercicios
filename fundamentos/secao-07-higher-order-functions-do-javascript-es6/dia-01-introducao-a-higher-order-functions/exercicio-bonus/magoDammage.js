@@ -20,11 +20,11 @@ const dragon = {
 
 const battleMembers = { mage, warrior, dragon };
 
-const mageAttack = (mage) => { 
+const mageAttack = (mage) => {
     const mageMana = mage.mana;
     const minDmg = mage.intelligence;
     const maxDmg = mage.intelligence * 2;
-    
+
     let dmg = 0;
     if (mageMana < 15) {
         dmg = 'Não possui mana suficiente';
@@ -34,5 +34,5 @@ const mageAttack = (mage) => {
     mage.mana -= 15;
     dmg = Math.ceil(Math.random() * (maxDmg - minDmg)) + minDmg;
     return { dmg, manaGasta: 15 };
- };
- console.log(mageAttack(mage));
+};
+console.log(mageAttack(mage));
