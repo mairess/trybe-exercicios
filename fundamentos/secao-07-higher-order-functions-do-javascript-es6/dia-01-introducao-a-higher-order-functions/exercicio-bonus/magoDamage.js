@@ -24,15 +24,17 @@ const mageAttack = (mage) => {
     const mageMana = mage.mana;
     const minDmg = mage.intelligence;
     const maxDmg = mage.intelligence * 2;
+    const dmg = Math.ceil(Math.random() * (maxDmg - minDmg)) + minDmg;
+    const turnStatus = { 
+        manaSpent: 0,
+        damageDelt: 'Não possui mana suficiente...'}
 
-    let dmg = 0;
     if (mageMana < 15) {
-        dmg = 'Não possui mana suficiente';
-        return { dmg, manaGasta: 0 };
+        return turnStatus;
     }
 
-    mage.mana -= 15;
-    dmg = Math.ceil(Math.random() * (maxDmg - minDmg)) + minDmg;
-    return { dmg, manaGasta: 15 };
+    turnStatus.manaSpent = 15;
+    turnStatus.damageDelt = dmg;
+    return turnStatus;
 };
 console.log(mageAttack(mage));
