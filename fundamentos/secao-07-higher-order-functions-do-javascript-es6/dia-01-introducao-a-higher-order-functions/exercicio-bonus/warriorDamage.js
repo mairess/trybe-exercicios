@@ -20,16 +20,16 @@ const mage = {
   
   const battleMembers = { mage, warrior, dragon };
 
-  const dragonAttack = (dragon) => {
-    const minDmg = 15;
-    const maxDmg = Math.ceil(Math.random() * (dragon.strength - minDmg)) + minDmg;
-    return maxDmg;
+  const warriorAttack = (warrior) => {
+    const minDmg = warrior.strength;
+    const maxDmg = warrior.strength * warrior.weaponDmg;
+    return Math.ceil(Math.random() * (maxDmg - minDmg)) + minDmg;
   };
 
-  var max = 15;
-for (let index = 0; index < 500000000; index += 1) {
-    let attack = dragonAttack(dragon);
-    if (attack < max) {
+var max = 0;
+for (let index = 0; index < 50000000; index += 1) {
+    let attack = warriorAttack(warrior);
+    if (attack > max) {
         max = attack;
     }  
 }
