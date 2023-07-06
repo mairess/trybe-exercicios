@@ -61,7 +61,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção Higher Order Functions do JavaScript ES6
 
-- [ ] Dia 01: _Introdução a Higher Order Functions_
+- [x] Dia 01: _Introdução a Higher Order Functions_
 - [ ] Dia 02: _Higher Order Functions - sort e map_
 - [ ] Dia 03: _Higher Order Functions - filter e reduce_
 - [ ] Dia 04: _JavaScript ES6 - spread operator, rest parameters e object destructuring_
