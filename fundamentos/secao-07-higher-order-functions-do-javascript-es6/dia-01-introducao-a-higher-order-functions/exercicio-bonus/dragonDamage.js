@@ -26,10 +26,10 @@ const mage = {
     return maxDmg;
   };
 
-  var max = 15;
+  var max = 0;
 for (let index = 0; index < 500000000; index += 1) {
     let attack = dragonAttack(dragon);
-    if (attack < max) {
+    if (attack > max) {
         max = attack;
     }  
 }
