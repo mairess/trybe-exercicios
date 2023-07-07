@@ -59,7 +59,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 03: _Matchers e cobertura de código_
 - [x] Dia 04: _Projeto - JavaScript Testes Unitários_
 
-#### Seção Higher Order Functions do JavaScript ES6
+#### Seção [Higher Order Functions do JavaScript ES6](https://github.com/mairess/trybe-exercicios/tree/main/fundamentos/secao-07-higher-order-functions-do-javascript-es6)
 
 - [x] Dia 01: _Introdução a Higher Order Functions_
 - [ ] Dia 02: _Higher Order Functions - sort e map_
