@@ -9,6 +9,7 @@ const people = [
 
 // Utilize o sort para ordenar o array pela idade das pessoas em ordem crescente.
   people.sort((a, b) => a.age > b.age ? 1 : -1);
+  // people.sort((a, b) => a.age - b.age);
 
 // Modifique o sort do exercício anterior para que ordene o array pela idade das pessoas em ordem decrescente.
   people.sort((a, b) => b.age > a.age ? 1 : -1);
