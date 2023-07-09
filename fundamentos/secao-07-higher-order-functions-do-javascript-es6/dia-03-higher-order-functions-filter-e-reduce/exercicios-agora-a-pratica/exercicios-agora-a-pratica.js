@@ -92,6 +92,6 @@ const expectedResult = {
   area: 199
 }
 const longestName = () => {
-  console.log(countries.reduce((longestCountryName, country) => (longestCountryName.length > country.name.length)? longestCountryName: country.name, 0));
+  console.log(countries.reduce((longestCountryName, country) => country.name.length > longestCountryName.name.length ? country: longestCountryName));
 }
 longestName();
