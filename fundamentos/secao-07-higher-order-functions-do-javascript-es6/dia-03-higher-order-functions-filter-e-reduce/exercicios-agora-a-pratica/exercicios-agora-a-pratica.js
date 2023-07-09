@@ -88,7 +88,8 @@ getTotalArea();
 //   population: 55197,
 //   area: 199
 // }
-const longestName = () => countries.reduce((longestCountryName, country) => country.name.length > longestCountryName.name.length ? country: longestCountryName);
+const longestName = () => countries.reduce((longestCountryName, country) => 
+country.name.length > longestCountryName.name.length ? country: longestCountryName);
 longestName();
 
 // 🚀 4 - Retorne a quantidade de vezes que a letra a maiúscula ou minúscula aparece no array de nomes.
