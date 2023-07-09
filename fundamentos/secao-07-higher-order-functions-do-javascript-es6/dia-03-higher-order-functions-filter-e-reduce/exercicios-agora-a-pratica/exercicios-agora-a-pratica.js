@@ -75,3 +75,9 @@ const getPopulation = () => {
 }
 getPopulation();
 
+// 2 - Calcule a área total de todos os países.
+// const expectedResult = 4311757;
+const getTotalArea = () => {
+console.log(countries.reduce((totalArea, country) => totalArea + country.area, 0));
+}
+getTotalArea();
