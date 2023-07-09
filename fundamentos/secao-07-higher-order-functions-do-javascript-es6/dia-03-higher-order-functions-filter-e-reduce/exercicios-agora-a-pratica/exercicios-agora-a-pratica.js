@@ -70,16 +70,13 @@ const countries = [
 
 //   1 - Calcule a quantidade total da população de todos os países.
 // const expectedResult = 120797034;
-const getPopulation = () => {
-  console.log(countries.reduce((population, country) => population + country.population, 0));
-}
+const getPopulation = () => countries.reduce((population, country) => population + country.population, 0);
 getPopulation();
 
 // 2 - Calcule a área total de todos os países.
 // const expectedResult = 4311757;
-const getTotalArea = () => {
-console.log(countries.reduce((totalArea, country) => totalArea + country.area, 0));
-}
+const getTotalArea = () => countries.reduce((totalArea, country) => totalArea + country.area, 0);
+
 getTotalArea();
 
 // 🚀 3 - Encontre o país com o maior nome.
@@ -91,9 +88,7 @@ getTotalArea();
 //   population: 55197,
 //   area: 199
 // }
-const longestName = () => {
-  console.log(countries.reduce((longestCountryName, country) => country.name.length > longestCountryName.name.length ? country: longestCountryName));
-}
+const longestName = () => countries.reduce((longestCountryName, country) => country.name.length > longestCountryName.name.length ? country: longestCountryName);
 longestName();
 
 // 🚀 4 - Retorne a quantidade de vezes que a letra a maiúscula ou minúscula aparece no array de nomes.
@@ -103,9 +98,7 @@ const names = [
   'Abeladerco', 'Adieidy', 'Alarucha',
 ];
 // const expectedResult = 20;
-const countA = () => {
-  console.log(names.reduce((acc, curr) => acc + curr.toLowerCase().split('a').length - 1, 0));
-}
+const countA = () => names.reduce((acc, curr) => acc + curr.toLowerCase().split('a').length - 1, 0);
 countA();
 
 // 🚀 5 - Crie um array de objetos e calcule a média de notas. Utilize as constantes students e grades para criar um array de objetos e calcule a média da nota das pessoas estudantes:
@@ -119,9 +112,9 @@ const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
 //  { name: 'Maria Clara', average: 8.8 },
 // ];
 const studentAverage = () => {
-  console.log(grades.map((gradeArray, index) => { 
+  return grades.map((gradeArray, index) => { 
     const sum = gradeArray.reduce((acc, curr) => acc + curr, 0); 
     const avarageCalc = sum / gradeArray.length; 
-    return {name: students[index], avarage: avarageCalc}}))
+    return {name: students[index], avarage: avarageCalc}});
 }
-studentAverage()
+studentAverage();
