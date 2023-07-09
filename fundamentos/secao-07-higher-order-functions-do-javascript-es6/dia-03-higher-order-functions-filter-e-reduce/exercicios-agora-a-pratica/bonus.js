@@ -97,8 +97,7 @@ averageAge();
 //     },
 //     releaseYear: 1991,
 //   };
-  
-  const longestNamedBook = () => books.reduce((longestNamedBook, book) => 
-    book.name.length > longestNamedBook.name.length ? book : longestNamedBook);
 
-  longestNamedBook();
+const longestNamedBook = () => books.reduce((longestNamedBook, book) =>
+    book.name.length > longestNamedBook.name.length ? book : longestNamedBook);
+longestNamedBook();
