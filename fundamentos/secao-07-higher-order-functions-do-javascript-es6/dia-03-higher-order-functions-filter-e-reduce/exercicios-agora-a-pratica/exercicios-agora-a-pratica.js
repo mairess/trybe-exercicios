@@ -95,3 +95,15 @@ const longestName = () => {
   console.log(countries.reduce((longestCountryName, country) => country.name.length > longestCountryName.name.length ? country: longestCountryName));
 }
 longestName();
+
+// 🚀 4 - Retorne a quantidade de vezes que a letra a maiúscula ou minúscula aparece no array de nomes.
+const names = [
+  'Aanemarie', 'Adervandes', 'Akifusa',
+  'Abegildo', 'Adicellia', 'Aladonata',
+  'Abeladerco', 'Adieidy', 'Alarucha',
+];
+const expectedResult = 20;
+const countA = () => {
+  console.log(names.reduce((acc, curr) => acc + curr.toLowerCase().split('a').length - 1, 0));
+}
+countA();
