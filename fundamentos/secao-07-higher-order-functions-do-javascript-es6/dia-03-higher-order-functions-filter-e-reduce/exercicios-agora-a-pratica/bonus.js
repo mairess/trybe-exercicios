@@ -6,7 +6,7 @@ const arrays = [
 ];
 
 const flatten = () => arrays.reduce((acc, curr) => acc.concat(curr), []);
-flatten()
+flatten();
 
 //   Para os próximos exercícios, considere o seguinte array:
 const books = [
@@ -76,4 +76,12 @@ const books = [
 // const expectedResult = "George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.";
 
 const reduceNames = () => books.reduce((prev, book) => prev + `${book.author.name}, `, '')
-reduceNames()
+reduceNames();
+
+// 3 - Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
+// const expectedResult = 43;
+
+const averageAge = () => books.map((book) => book.releaseYear - book.author.birthYear)
+    .reduce((prev, age) => prev + age, 0) / books
+        .map((book) => book.releaseYear - book.author.birthYear).length;
+averageAge();
