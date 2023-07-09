@@ -83,14 +83,14 @@ console.log(countries.reduce((totalArea, country) => totalArea + country.area, 0
 getTotalArea();
 
 // 🚀 3 - Encontre o país com o maior nome.
-const expectedResult = {
-  name: 'American Samoa',
-  region: 'Oceania',
-  currencies: [{ code: 'USD', name: 'United States Dollar' }],
-  capital: 'Pago Pago',
-  population: 55197,
-  area: 199
-}
+// const expectedResult = {
+//   name: 'American Samoa',
+//   region: 'Oceania',
+//   currencies: [{ code: 'USD', name: 'United States Dollar' }],
+//   capital: 'Pago Pago',
+//   population: 55197,
+//   area: 199
+// }
 const longestName = () => {
   console.log(countries.reduce((longestCountryName, country) => country.name.length > longestCountryName.name.length ? country: longestCountryName));
 }
