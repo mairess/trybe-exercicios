@@ -1,7 +1,7 @@
 // Escreva uma função greet que, dado o nome de uma pessoa, retorna uma mensagem de cumprimento. Um parâmetro adicional pode ser passado para alterar o cumprimento utilizado:
 
 // escreva greet abaixo
-const greet = (personName, greeting = 'Hi') => greeting + ' ' + personName;
+const greet = (personName, greeting = 'Hi') => `${greeting} ${personName}`;
 
 // Retornos esperados:
 console.log(greet('John')); // 'Hi John'
