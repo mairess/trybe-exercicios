@@ -78,63 +78,61 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [ ] Dia 02: _JavaScript Assíncrono - Promises e Fetch_
 - [ ] Dia 03: _Prática - Casa de câmbio_
 - [ ] Dia 04: _Async, await e testes assíncronos_
-- [ ] Dia 05: _Projeto - Carrinho de compras_
+- [ ] Dia 05: _Projeto - iChoveu_
 
 #### Seção Introdução ao React
 
-- [ ] Dia 01: _'Hello, world!' no React_
-- [ ] Dia 02: _Componentes_
-- [ ] Dia 05: _Projeto - Solar System_
+- [ ] Dia 01: _'Introdução ao React e ao Typescript_
+- [ ] Dia 02: _Componentes React e Props_
+- [ ] Dia 03: _Avançando em componentes_
+- [ ] Dia 04: _Revisão - Solar System_
+- [ ] Dia 05: _Estados e eventos_
+- [ ] Dia 06: _Formulários_
+- [ ] Dia 07: _Revisão - Store Back Office_
+- [ ] Dia 08: _Projeto - Password Manager_
 
-#### Seção Componentes com Estado, Eventos e formulários com React
+#### Seção Aprofundando no React
 
-- [ ] Dia 01: _Componentes com estado e eventos_
-- [ ] Dia 02: _Formulários no React_
-- [ ] Dia 05: _Projeto - Tryunfo_
-
-#### Seção Ciclo de Vida de Componentes e React Router
-
-- [ ] Dia 01: _Ciclo de vida de componentes_
-- [ ] Dia 02: _React Router_
-- [ ] Dia 05: _Projeto - TrybeTunes_
+- [ ] Dia 01: _React Router_
+- [ ] Dia 02: _useEffect_
+- [ ] Dia 03: _Revisão - Clonando o Twitter_
+- [ ] Dia 04: _Projeto - Trybetunes_
 
 ### 2° Período
 
-#### Seção Metodologias Ágeis
-
-- [ ] Dia 01: _Metodologias Ágeis_
-- [ ] Dia 02: _Projeto - Front-end Online Store_
-
 #### Seção Testes automatizados com React Testing Library
 
-- [ ] Dia 01: _RTL - Primeiros passos_
-- [ ] Dia 02: _RTL - Mocks e Inputs_
-- [ ] Dia 03: _RTL - Testando React Router_
-- [ ] Dia 04: _Projeto - Testes em React_
+- [ ] Dia 01: _Introdução a React Testing Library_
+- [ ] Dia 02: _RTL: Mocks_
+- [ ] Dia 03: _RTL: Testando com React Router_
+- [ ] Dia 05: _Projeto - Testes em React_
+
+#### Seção Estilização e Metodologia Ágil
+
+- [ ] Dia 01: _CSS Modules_
+- [ ] Dia 02: _Styled Components_
+- [ ] Dia 03: _Metodologias Ágeis_
+- [ ] Dia 04: _Projeto - Front-end Online Store_
 
 #### Seção Gerenciamento de estado com Redux
 
 - [ ] Dia 01: _Introdução ao Redux - O estado global da aplicação_
 - [ ] Dia 02: _Usando o Redux no React_
-- [ ] Dia 03: _Usando o Redux no React - Prática_
+- [ ] Dia 03: _Revisão - Usando o Redux no React_
 - [ ] Dia 04: _Usando o Redux no React - Actions Assíncronas_
 - [ ] Dia 05: _Testes em React-Redux_
 - [ ] Dia 06: _Projeto - Trybe Wallet_
 
 ### 3° Período
 
-#### Seção Projeto Jogo de Trivia
+#### Seção Componentes de Classes, Context API e Custom Hucks
 
-- [ ] Dia 01: _Projeto - Jogo de Trivia_
+- [ ] Dia 01: _Componentes e Classes_
+- [ ] Dia 02: _Constext API_
+- [ ] Dia 03: _Hucks Customizados_
+- [ ] Dia 04: _Projeto - StarWars_
 
-#### Seção Context API e React Hooks
-
-- [ ] Dia 01: _React Hooks - useState e useEffect_
-- [ ] Dia 02: _Context API_
-- [ ] Dia 03: _Custom Hooks_
-- [ ] Dia 04: _Projeto - StarWars Datatable com Context API e Hooks_
-
-#### Seção Projeto App de Receitas
+#### Seção App de Receitas
 
 - [ ] Dia 01: _Projeto - App de Receitas_
 
