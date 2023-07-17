@@ -65,8 +65,8 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 02: _Higher Order Functions - sort e map_
 - [x] Dia 03: _Higher Order Functions - filter e reduce_
 - [x] Dia 04: _JavaScript ES6 - spread operator, rest parameters e object destructuring_
-- [ ] Dia 05: _JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
-- [ ] Dia 06: _Projeto - Zoo functions_
+- [x] Dia 05: _JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
+- [x] Dia 06: _Projeto - Zoo functions_
 
 ## <p align="center"> Front-end ⏳ </p>
 
