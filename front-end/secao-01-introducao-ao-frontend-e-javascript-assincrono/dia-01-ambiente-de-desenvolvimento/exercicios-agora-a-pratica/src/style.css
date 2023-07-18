@@ -1,0 +1,26 @@
+body {
+    background-color: rgba(0, 0, 0, 0.821);
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+main {
+    padding: 30px;
+    background-color: rgba(255,255,255,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, div {
+    color: white;
+}
+
+input, select, button {
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+}
