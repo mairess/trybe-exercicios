@@ -1,7 +1,8 @@
 import validator from 'validator';
+import './style.css';
 
 const button = document.querySelector('button');
-const paragraph = document.querySelector('p');
+const paragraph = document.querySelector('div');
 
 button.addEventListener('click', () => {
   const select = document.querySelector('select');
