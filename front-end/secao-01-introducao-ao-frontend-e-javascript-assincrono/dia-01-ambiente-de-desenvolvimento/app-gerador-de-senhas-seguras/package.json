@@ -1,0 +1,22 @@
+{
+  "name": "app-gerador-de-senhas-seguras",
+  "version": "1.0.0",
+  "description": "Melhor grador de senha de todos os tempos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.11.3",
+    "nanoid": "^4.0.2",
+    "vite": "^4.4.4"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.45.0"
+  }
+}
