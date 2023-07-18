@@ -4,13 +4,15 @@
   "description": "Melhor grador de senha de todos os tempos",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nanoid": "^4.0.2"
+    "nanoid": "^4.0.2",
+    "vite": "^4.4.4"
   },
   "type": "module"
 }
