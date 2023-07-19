@@ -18,6 +18,7 @@ button.addEventListener('click', () => {
     IPv6: validator.isIP(input.value, versionIpv6),
     IPv4: validator.isIP(input.value, versionIpv4),
     sha1: validator.isHash(input.value, hash),
+    mobilePhone: validator.isMobilePhone(input.value, 'pt-BR'),
   };
   paragraph.innerHTML = `A validação retornou ${campos[select.value]}`;
 });
