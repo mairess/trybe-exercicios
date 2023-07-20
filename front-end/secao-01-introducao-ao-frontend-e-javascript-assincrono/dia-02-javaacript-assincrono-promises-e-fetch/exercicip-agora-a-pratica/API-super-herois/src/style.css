@@ -11,7 +11,6 @@ main {
     justify-content: center;
 }
 
-
 button {
  border: none;
  border-radius: 5px;
@@ -20,4 +19,8 @@ button {
  color: white;
  font-weight: bolder;
  cursor: pointer;
+}
+
+main div {
+    min-height: 480px;
 }
