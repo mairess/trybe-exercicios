@@ -11,3 +11,13 @@ main {
     justify-content: center;
 }
 
+
+button {
+ border: none;
+ border-radius: 5px;
+ padding: 10px 40px;
+ background-color: #41f06a;
+ color: white;
+ font-weight: bolder;
+ cursor: pointer;
+}
