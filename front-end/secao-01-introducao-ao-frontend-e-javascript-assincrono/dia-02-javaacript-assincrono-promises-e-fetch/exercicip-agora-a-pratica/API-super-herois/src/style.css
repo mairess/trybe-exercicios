@@ -1,7 +1,14 @@
+* {
+    color: white;
+    font-weight: bolder;
+}
+
 body {
     display: flex;
     justify-content: center;
     height: 100vh;
+    background-color: black;
+    align-items: center;
 }
 
 main {
@@ -15,7 +22,7 @@ button {
  border: none;
  border-radius: 5px;
  padding: 10px 40px;
- background-color: #41f06a;
+ background-color: #26a343;
  color: white;
  font-weight: bolder;
  cursor: pointer;
@@ -23,4 +30,9 @@ button {
 
 main div {
     min-height: 480px;
+}
+
+img {
+    border-radius: 5px;
+    border: white solid 1px;
 }
