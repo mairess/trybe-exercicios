@@ -4,9 +4,16 @@
   "description": "API de Super Heróis, exercício da Trybe",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite --open",
+    "lint": "eslint ./src",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "Maires Souza",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sweetalert2": "^11.7.18",
+    "vite": "^4.4.4"
+  },
+  "type": "module"
 }
