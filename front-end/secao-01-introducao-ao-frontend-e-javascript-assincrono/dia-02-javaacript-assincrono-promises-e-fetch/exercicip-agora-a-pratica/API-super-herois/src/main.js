@@ -12,6 +12,8 @@ btnSortear.addEventListener('click', () => {
     .then((response) => response.json())
     .then((data) => {
         const { name, images: { md } } = data;
+        image.style.borderRadius = '5px';
+        image.style.border = '1px solid white';
         paragraph.innerHTML = name;
         image.setAttribute('src', md)
         console.log(md);
