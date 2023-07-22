@@ -75,7 +75,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 #### Seção [Introdução ao Frontend e JavaScript assíncrono](https://github.com/mairess/trybe-exercicios/tree/main/front-end/secao-01-introducao-ao-frontend-e-javascript-assincrono)
 
 - [x] Dia 01: _Ambiente de Desenvolvimento_
-- [ ] Dia 02: _JavaScript Assíncrono - Promises e Fetch_
+- [x] Dia 02: _JavaScript Assíncrono - Promises e Fetch_
 - [ ] Dia 03: _Prática - Casa de câmbio_
 - [ ] Dia 04: _Async, await e testes assíncronos_
 - [ ] Dia 05: _Projeto - iChoveu_
