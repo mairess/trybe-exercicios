@@ -4,6 +4,7 @@ const randomDog = document.getElementById('randomDog');
 const randomCat = document.getElementById('randomCat');
 const surpriseMe = document.getElementById('surpriseMe');
 const randomPet = document.querySelector('img');
+const textMessageSwal = 'Não encontrei uma super ou super, tente novamente!';
 
 const dogsAPI = 'https://dog.ceo/api/breeds/image/random';
 const catsAPI = 'https://api.thecatapi.com/v1/images/search';
@@ -17,7 +18,7 @@ randomDog.addEventListener('click', () => {
       Swal.fire({
         icon: 'error',
         title: 'Oops...',
-        text: 'Não encontrei uma super ou super, tente novamente!',
+        text: textMessageSwal,
       });
       console.log(error.message);
     });
@@ -26,14 +27,14 @@ randomDog.addEventListener('click', () => {
 randomCat.addEventListener('click', () => {
   fetch(catsAPI).then((response) => response.json())
     .then((data) => {
-      const link = data.map((info) => info.url);
+      const link = data[0].url;
       randomPet.setAttribute('width', '600px');
       randomPet.setAttribute('src', link);
     }).catch((error) => {
       Swal.fire({
         icon: 'error',
         title: 'Oops...',
-        text: 'Não encontrei uma super ou super, tente novamente!',
+        text: textMessageSwal,
       });
       console.log(error.message);
     });
@@ -48,7 +49,7 @@ surpriseMe.addEventListener('click', () => {
 
   const getCat = fetch(catsAPI).then((response) => response.json())
     .then((data) => {
-      const link = data.map((info) => info.url);
+      const link = data[0].url;
       randomPet.setAttribute('width', '600px');
       randomPet.setAttribute('src', link);
     });
