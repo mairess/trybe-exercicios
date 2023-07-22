@@ -1,12 +1,12 @@
 body {
     display: flex;
-    align-items: center;
     justify-content: center;
     text-align: center;
 }
 
 main {
     min-width: 80%;
+    height: 100vh;
 }
 
 header {
@@ -36,4 +36,14 @@ ul li a{
 li:hover {
     background-color: rgba(0, 0, 0, 0.6);
     background-color: black;
+}
+
+#imageSection {
+    margin-top: 5%;
+}
+
+#petImage {
+    border: 10px solid white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.5);
 }
