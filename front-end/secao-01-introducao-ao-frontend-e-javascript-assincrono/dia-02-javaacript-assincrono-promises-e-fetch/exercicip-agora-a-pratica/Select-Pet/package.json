@@ -1,0 +1,18 @@
+{
+  "name": "select-pet",
+  "version": "1.0.0",
+  "description": "A melhor API de gatinhos e  cachorrinhos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
+  },
+  "keywords": [],
+  "author": "Maires Souza",
+  "license": "ISC",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.11.3",
+    "vite": "^4.4.6"
+  }
+}
