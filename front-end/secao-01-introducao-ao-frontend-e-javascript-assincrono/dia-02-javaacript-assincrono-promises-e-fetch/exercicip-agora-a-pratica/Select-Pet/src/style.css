@@ -45,5 +45,5 @@ li:hover {
 #petImage {
     border: 10px solid white;
     border-radius: 10px;
-    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.5);
 }

@@ -24,3 +24,23 @@ randomCat.addEventListener('click', () => {
       randomPet.setAttribute('src', link);
     });
 });
+
+surpriseMe.addEventListener('click', () => {
+  const getDog = fetch(dogsAPI).then((response) => response.json())
+    .then(({ message }) => {
+      randomPet.setAttribute('width', '600px');
+      randomPet.setAttribute('src', message);
+    });
+
+  const getCat = fetch(catsAPI).then((response) => response.json())
+    .then((data) => {
+      const link = data.map((info) => info.url);
+      randomPet.setAttribute('width', '600px');
+      randomPet.setAttribute('src', link);
+    });
+
+  Promise.race([
+    getCat,
+    getDog,
+  ]);
+});
