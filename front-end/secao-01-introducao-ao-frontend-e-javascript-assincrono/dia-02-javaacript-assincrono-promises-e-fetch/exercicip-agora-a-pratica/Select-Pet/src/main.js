@@ -13,6 +13,13 @@ randomDog.addEventListener('click', () => {
     .then(({ message }) => {
       randomPet.setAttribute('width', '600px');
       randomPet.setAttribute('src', message);
+    }).catch((error) => {
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Não encontrei uma super ou super, tente novamente!',
+      });
+      console.log(error.message);
     });
 });
 
@@ -22,6 +29,13 @@ randomCat.addEventListener('click', () => {
       const link = data.map((info) => info.url);
       randomPet.setAttribute('width', '600px');
       randomPet.setAttribute('src', link);
+    }).catch((error) => {
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Não encontrei uma super ou super, tente novamente!',
+      });
+      console.log(error.message);
     });
 });
 
@@ -39,8 +53,15 @@ surpriseMe.addEventListener('click', () => {
       randomPet.setAttribute('src', link);
     });
 
-  Promise.race([
+  Promise.any([
     getCat,
     getDog,
-  ]);
+  ]).catch((error) => {
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Não encontrei uma super ou super, tente novamente!',
+    });
+    console.log(error.message);
+  });
 });
