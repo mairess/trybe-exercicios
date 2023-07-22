@@ -56,12 +56,16 @@ surpriseMe.addEventListener('click', () => {
   Promise.any([
     getCat,
     getDog,
-  ]).catch((error) => {
-    Swal.fire({
-      icon: 'error',
-      title: 'Oops...',
-      text: 'Não encontrei uma super ou super, tente novamente!',
+  ]).then((response) => response.jason())
+    .then((data) => {
+      const url = data.message || data[0].url;
+      randomPet.src = url;
+    }).catch((error) => {
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Não encontrei uma super ou super, tente novamente!',
+      });
+      console.log(error.message);
     });
-    console.log(error.message);
-  });
 });
