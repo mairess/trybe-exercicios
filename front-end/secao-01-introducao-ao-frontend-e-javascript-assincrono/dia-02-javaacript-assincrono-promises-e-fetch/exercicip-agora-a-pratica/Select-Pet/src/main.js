@@ -15,3 +15,12 @@ randomDog.addEventListener('click', () => {
       randomPet.setAttribute('src', message);
     });
 });
+
+randomCat.addEventListener('click', () => {
+  fetch(catsAPI).then((response) => response.json())
+    .then((data) => {
+      const link = data.map((info) => info.url);
+      randomPet.setAttribute('width', '600px');
+      randomPet.setAttribute('src', link);
+    });
+});
