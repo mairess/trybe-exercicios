@@ -1,0 +1,21 @@
+{
+  "name": "api-super-herois",
+  "version": "1.0.0",
+  "description": "API de Super Heróis, exercício da Trybe",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
+  },
+  "keywords": [],
+  "author": "Maires Souza",
+  "license": "ISC",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.11.3",
+    "bootstrap": "^5.3.0",
+    "sweetalert2": "^11.7.18",
+    "vite": "^4.4.4"
+  },
+  "type": "module"
+}
