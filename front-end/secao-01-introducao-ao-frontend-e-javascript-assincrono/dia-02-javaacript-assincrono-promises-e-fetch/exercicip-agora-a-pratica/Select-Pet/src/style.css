@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main {
+    min-width: 80%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-color: black;
+}
