@@ -41,23 +41,10 @@ randomCat.addEventListener('click', () => {
 });
 
 surpriseMe.addEventListener('click', () => {
-  const getDog = fetch(dogsAPI).then((response) => response.json())
-    .then(({ message }) => {
-      randomPet.setAttribute('width', '600px');
-      randomPet.setAttribute('src', message);
-    });
-
-  const getCat = fetch(catsAPI).then((response) => response.json())
-    .then((data) => {
-      const link = data[0].url;
-      randomPet.setAttribute('width', '600px');
-      randomPet.setAttribute('src', link);
-    });
-
   Promise.any([
-    getCat,
-    getDog,
-  ]).then((response) => response.jason())
+    fetch(dogsAPI),
+    fetch(catsAPI),
+  ]).then((response) => response.json())
     .then((data) => {
       const url = data.message || data[0].url;
       randomPet.src = url;
