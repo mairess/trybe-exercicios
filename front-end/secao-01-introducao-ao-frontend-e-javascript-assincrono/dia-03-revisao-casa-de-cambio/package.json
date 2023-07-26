@@ -1,0 +1,22 @@
+{
+  "name": "dia-03-revisao-casa-de-cambio",
+  "version": "1.0.0",
+  "description": "Prática - Casa de Câmbio, é um projeto para ganhar familiaridade com a criação de ambiente de desenvolvimento e com os conceitos de promises e fetch api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.11.3",
+    "vite": "^4.4.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0"
+  }
+}
