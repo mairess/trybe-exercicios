@@ -4,6 +4,7 @@ const inputData = document.querySelector('input');
 const searchBtn = document.querySelector('button');
 const API_URL = 'https://api.exchangerate.host/latest?base=';
 const board = document.getElementById('currencyBoard');
+const valueReference = document.getElementById('valueReference');
 
 const createImage = () => {
   const iconPath = '../images/coins-svgrepo-com-1.svg';
@@ -35,8 +36,8 @@ const createDiv = (currencies) => {
 };
 
 searchBtn.addEventListener('click', async () => {
-  board.innerHTML = ' ';
   const currency = inputData.value;
+  valueReference.innerHTML = `Valores Referentes a 1 ${currency}`;
   const response = await fetch(API_URL + currency);
   const data = await response.json();
   const currencies = data.rates;
