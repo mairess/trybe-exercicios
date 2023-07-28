@@ -37,6 +37,8 @@ section {
 main section {
     display: flex;
     flex-wrap: wrap;
+    padding: 0.5%;
+    border-radius: 10px;
 }
 
 h1 {
@@ -55,4 +57,18 @@ h1 {
     box-shadow: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.currencyDiv {
+    display: flex;
+    align-items: center;
+    padding: 0.4%;
+}
+
+.currencyDiv img {
+    margin-right: 0.5rem;
+}
+
+div span {
+    color: rgba(255, 231, 19, 1);
 }
