@@ -72,3 +72,8 @@ h1 {
 div span {
     color: rgba(255, 231, 19, 1);
 }
+
+#currencyBoard {
+    display: flex;
+    flex-wrap: wrap;
+}

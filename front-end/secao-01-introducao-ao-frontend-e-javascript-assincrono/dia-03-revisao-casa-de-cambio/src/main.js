@@ -14,6 +14,7 @@ const createImage = () => {
 };
 
 const createDiv = (currencies) => {
+  board.innerHTML = '';
   Object.entries(currencies).forEach(([currency, rate]) => {
     const newDiv = document.createElement('div');
     newDiv.classList.add('currencyDiv');
@@ -37,6 +38,7 @@ const createDiv = (currencies) => {
 
 searchBtn.addEventListener('click', async () => {
   const currency = inputData.value;
+  board.innerText = '';
   valueReference.innerHTML = `Valores Referentes a 1 ${currency}`;
   const response = await fetch(API_URL + currency);
   const data = await response.json();
