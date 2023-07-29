@@ -1,4 +1,5 @@
 import './style.css';
+import Swal from 'sweetalert2';
 
 const randomDog = document.getElementById('randomDog');
 const randomCat = document.getElementById('randomCat');
