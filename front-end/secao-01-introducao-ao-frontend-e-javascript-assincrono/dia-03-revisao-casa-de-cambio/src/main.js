@@ -49,14 +49,20 @@ const verifyCurrency = async (moeda) => {
 searchBtn.addEventListener('click', async () => {
   const moeda = inputData.value;
   if (!moeda) {
+    board.innerText = '';
+    valueReference.innerText = '';
     return Swal.fire({
       icon: 'error',
       title: 'Oops...',
       text: 'Você precisa passar uma moeda!',
     });
   }
-  const isValidCurrency = await verifyCurrency('moeda');
+  const isValidCurrency = await verifyCurrency(moeda);
+
   if (!isValidCurrency) {
+    board.innerText = '';
+    valueReference.innerText = '';
+    inputData.value = '';
     return Swal.fire({
       icon: 'error',
       title: 'Oops...',
@@ -65,6 +71,8 @@ searchBtn.addEventListener('click', async () => {
   }
 
   board.innerText = '';
+  inputData.value = '';
+
   valueReference.innerHTML = `Valores Referentes a 1 ${moeda}`;
   const response = await fetch(API_URL + moeda);
   const data = await response.json();
