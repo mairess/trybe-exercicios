@@ -39,7 +39,7 @@ const createDiv = (currencies) => {
 };
 
 const verifyCurrency = async (moeda) => {
-  const response = await fetch('https://api.exchangerate.host/symbols');
+  const response = await fetch(API_SYMBOLS);
   const data = await response.json();
   const { symbols } = data;
   const validSymbols = Object.keys(symbols);
@@ -55,9 +55,7 @@ searchBtn.addEventListener('click', async () => {
       text: 'Você precisa passar uma moeda!',
     });
   }
-
-  const isValidCurrency = await verifyCurrency();
-
+  const isValidCurrency = await verifyCurrency('moeda');
   if (!isValidCurrency) {
     return Swal.fire({
       icon: 'error',
