@@ -71,10 +71,12 @@ h1 {
 .currencyDiv {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0.6%;
     margin: 5px;
     border-radius: 5px;
+    flex-basis: 150px;
+    background-color: yellowgreen;
 }
 
 .currencyDiv img {
