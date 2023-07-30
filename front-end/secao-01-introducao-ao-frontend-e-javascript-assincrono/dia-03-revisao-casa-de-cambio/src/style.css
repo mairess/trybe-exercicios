@@ -4,9 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
     color: white;
     font-family: 'Fira Code', monospace;
+}
+
+body {
+    background-color: rgb(40 44 51);
 }
 
 header {
@@ -19,7 +22,6 @@ header {
 }
 
 main {
-    border: 1px solid blue;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -29,8 +31,6 @@ main {
 section {
     width: 75%;
     height: 50%;
-    border: 1px solid white;
-    background-color: rgba(255, 255, 255, 0.06);
     overflow: auto;
 }
 
@@ -39,6 +39,7 @@ main section {
     flex-wrap: wrap;
     padding: 0.5%;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.06);
 }
 
 h1 {
@@ -59,12 +60,21 @@ h1 {
     cursor: pointer;
     padding: 1%;
     margin: 5px;
+    width: 18%;
+    min-width: 80px;
+    min-height: 44px;
 }
 
 #currency {
     padding: 1%;
     margin: 5px;
+    border: none;
     border-radius: 10px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.06);
+    width: 18%;
+    min-width: 80px;
+    min-height: 44px;
     
 }
 
@@ -72,11 +82,12 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.6%;
+    padding: 1%;
     margin: 5px;
     border-radius: 5px;
-    flex-basis: 150px;
-    background-color: yellowgreen;
+    flex-basis: 171px;
+    background-color: rgb(40 44 51);
+    min-height: 44px;
 }
 
 .currencyDiv img {
@@ -90,5 +101,5 @@ div span {
 #currencyBoard {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
