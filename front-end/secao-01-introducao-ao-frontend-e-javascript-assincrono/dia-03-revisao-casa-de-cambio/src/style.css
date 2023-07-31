@@ -20,6 +20,10 @@ header {
     width: 75%;
 }
 
+header div {
+    margin-top: 1rem;
+}
+
 main {
     height: 100vh;
     display: flex;
@@ -49,6 +53,20 @@ main section {
 
 h1 {
     color: #FFFFFF;
+    font-size: 60px;
+    line-height: 78.72px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.49px;
+}
+
+p { 
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.74px;
 }
 
 #cambio {
@@ -63,22 +81,25 @@ h1 {
     box-shadow: none;
     border-radius: 10px;
     cursor: pointer;
-    padding: 1%;
     margin: 5px;
     width: 18%;
     min-width: 80px;
+    max-width: 171px;
     min-height: 44px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26.24px;
 }
 
 #currency {
     padding: 1%;
-    margin: 5px;
     border: none;
     border-radius: 10px;
     color: white;
     background-color: rgba(255, 255, 255, 0.06);
     width: 18%;
     min-width: 80px;
+    max-width: 171px;
     min-height: 44px;
     
 }
@@ -101,6 +122,15 @@ h1 {
 
 div span {
     color: rgba(255, 231, 19, 1);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17.06px;
+}
+
+div p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.99px;
 }
 
 #currencyBoard {
