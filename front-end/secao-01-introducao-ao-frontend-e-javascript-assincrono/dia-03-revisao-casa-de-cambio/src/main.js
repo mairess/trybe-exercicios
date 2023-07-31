@@ -27,7 +27,7 @@ const createDiv = (currencies) => {
     const rateAdjusted = rate.toFixed(decimalDigits);
     const rateText = document.createElement('span');
     const currencyText = document.createElement('p');
-    currencyText.innerText = `${moeda}:`;
+    currencyText.innerText = `${moeda}`;
     rateText.innerText = `${rateAdjusted}`;
 
     newDiv.appendChild(iconImage);
