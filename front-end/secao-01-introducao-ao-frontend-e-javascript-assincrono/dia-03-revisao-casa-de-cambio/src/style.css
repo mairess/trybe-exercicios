@@ -13,12 +13,11 @@ body {
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-}
-
-#headerSection {
-    width: 50%;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+    width: 75%;
 }
 
 main {
