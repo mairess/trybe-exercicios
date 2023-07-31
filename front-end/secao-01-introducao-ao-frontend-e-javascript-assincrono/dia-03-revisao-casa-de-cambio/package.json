@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite --open",
-    "lint": "eslint ./src"
+    "lint": "eslint ./src",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
