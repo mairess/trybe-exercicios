@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Fira Code', monospace;
+}
+
+body {
+    background-color: rgb(40 44 51);
+}
+
+header {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+    width: 75%;
+}
+
+header div {
+    margin-top: 1rem;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 75%;
+    height: 50%;
+    overflow: auto;
+}
+
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+#valueReference{
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    line-height: 78.72px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.49px;
+}
+
+p { 
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.74px;
+}
+
+#cambio {
+    color: #95EBA8;
+}
+
+#pesquisar {
+    background-color: #96EB95;
+    color: #373737;
+    font-weight: 700;
+    border: none;
+    box-shadow: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    font-weight: 700;
+}
+
+#currency {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.06);
+    padding-left: 10px;
+}
+
+#pesquisar, #currency {
+    width: 18%;
+    min-width: 80px;
+    max-width: 171px;
+    min-height: 44px;
+    font-size: 20px;
+    line-height: 26.24px;
+}
+
+.currencyDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    margin: 5px;
+    border-radius: 5px;
+    flex-basis: 171px;
+    background-color: rgb(40 44 51);
+    min-height: 44px;
+    transition: background-color 0.5s;
+}
+
+.currencyDiv:hover{
+    background-color: rgba(255, 231, 19, 0.2);
+    cursor: pointer;
+}
+
+.currencyDiv img {
+    margin-right: 0.5rem;
+}
+
+div span {
+    color: rgba(255, 231, 19, 1);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17.06px;
+}
+
+div p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.99px;
+}
+
+#currencyBoard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
