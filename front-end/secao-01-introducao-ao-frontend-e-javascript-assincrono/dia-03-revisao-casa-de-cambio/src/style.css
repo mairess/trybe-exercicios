@@ -114,6 +114,12 @@ p {
     flex-basis: 171px;
     background-color: rgb(40 44 51);
     min-height: 44px;
+    transition: background-color 0.5s;
+}
+
+.currencyDiv:hover{
+    background-color: rgba(255, 231, 19, 0.2);
+    cursor: pointer;
 }
 
 .currencyDiv img {
