@@ -142,3 +142,48 @@ div p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+@media screen and (max-width: 480px) {
+    
+    header {
+        top: 15%;
+    }
+
+    header {
+        top: 15%;
+    }
+
+    main section {
+        margin-top: 20%;
+    }
+    
+    h1 {
+        font-size: 35px;
+        line-height: normal;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    #typeCurrency { 
+    font-size: 12px;
+    font-weight: 400;
+    }
+
+    #pesquisar, #currency {
+    font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 681px) {
+    h1 {
+        font-size: 45px;
+        line-height: normal;
+    }
+
+    #pesquisar, #currency {
+        font-size: 14px;
+        }
+}
