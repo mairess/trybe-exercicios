@@ -9,7 +9,7 @@ const board = document.getElementById('currencyBoard');
 const valueReference = document.getElementById('valueReference');
 
 const createImage = () => {
-  const iconPath = '../images/coins-svgrepo-com-1.svg';
+  const iconPath = './src/images/coins-svgrepo-com-1.svg';
   const iconImg = document.createElement('img');
   iconImg.src = iconPath;
   return iconImg;

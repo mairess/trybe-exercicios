@@ -16,6 +16,7 @@
   "dependencies": {
     "@sweetalert2/theme-dark": "^5.0.15",
     "@trybe/eslint-config-frontend": "^1.11.3",
+    "surge": "^0.23.1",
     "sweetalert2": "^11.7.20",
     "vite": "^4.4.7"
   },
