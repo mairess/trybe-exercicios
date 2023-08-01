@@ -46,6 +46,10 @@ const verifyCurrency = async (moeda) => {
   return validSymbols.includes(moeda);
 };
 
+inputData.addEventListener('input', () => {
+  inputData.value = inputData.value.toUpperCase();
+});
+
 searchBtn.addEventListener('click', async () => {
   const moeda = inputData.value;
   try {
