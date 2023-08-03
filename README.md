@@ -82,7 +82,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção Introdução ao React
 
-- [ ] Dia 01: _'Introdução ao React e ao Typescript_
+- [ ] Dia 01: _Introdução ao React e ao Typescript_
 - [ ] Dia 02: _Componentes React e Props_
 - [ ] Dia 03: _Avançando em componentes_
 - [ ] Dia 04: _Revisão - Solar System_
