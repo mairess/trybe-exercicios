@@ -1,5 +1,6 @@
 import './style.css';
 import Swal from 'sweetalert2';
+import '@sweetalert2/theme-dark/dark.css';
 
 const inputData = document.querySelector('input');
 const searchBtn = document.querySelector('button');
