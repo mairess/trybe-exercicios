@@ -76,13 +76,13 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [x] Dia 01: _Ambiente de Desenvolvimento_
 - [x] Dia 02: _JavaScript Assíncrono - Promises e Fetch_
-- [ ] Dia 03: _Prática - Casa de câmbio_
-- [ ] Dia 04: _Async, await e testes assíncronos_
-- [ ] Dia 05: _Projeto - iChoveu_
+- [x] Dia 03: _Prática - Casa de câmbio_
+- [x] Dia 04: _Async, await e testes assíncronos_
+- [x] Dia 05: _Projeto - iChoveu_
 
 #### Seção Introdução ao React
 
-- [ ] Dia 01: _'Introdução ao React e ao Typescript_
+- [ ] Dia 01: _Introdução ao React e ao Typescript_
 - [ ] Dia 02: _Componentes React e Props_
 - [ ] Dia 03: _Avançando em componentes_
 - [ ] Dia 04: _Revisão - Solar System_

@@ -1,5 +1,6 @@
 import './style.css';
 import Swal from 'sweetalert2';
+import '@sweetalert2/theme-dark/dark.css';
 
 const inputData = document.querySelector('input');
 const searchBtn = document.querySelector('button');
@@ -9,7 +10,7 @@ const board = document.getElementById('currencyBoard');
 const valueReference = document.getElementById('valueReference');
 
 const createImage = () => {
-  const iconPath = '../images/coins-svgrepo-com-1.svg';
+  const iconPath = './src/images/coins-svgrepo-com-1.svg';
   const iconImg = document.createElement('img');
   iconImg.src = iconPath;
   return iconImg;
@@ -45,6 +46,10 @@ const verifyCurrency = async (moeda) => {
   const validSymbols = Object.keys(symbols);
   return validSymbols.includes(moeda);
 };
+
+inputData.addEventListener('input', () => {
+  inputData.value = inputData.value.toUpperCase();
+});
 
 searchBtn.addEventListener('click', async () => {
   const moeda = inputData.value;
