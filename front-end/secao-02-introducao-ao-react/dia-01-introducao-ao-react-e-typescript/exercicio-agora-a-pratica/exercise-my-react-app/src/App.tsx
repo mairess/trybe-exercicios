@@ -1,13 +1,13 @@
 import './App.css'
+import Title from './components/Title'
 
 function App() {
-
-
   return (
     <>
-<div>
-Work in progress
-</div>
+      <div>
+      <Title />
+        Work in progress
+      </div>
     </>
   )
 }
