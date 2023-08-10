@@ -1,15 +1,14 @@
-import './App.css'
-import Title from './components/Title'
+import './App.css';
+import HelloWolrd from './components/HelloWorld';
 
 function App() {
   return (
     <>
       <div>
-      <Title />
-        Work in progress
+        <HelloWolrd />
       </div>
     </>
   )
 }
 
-export default App
+export default App;
