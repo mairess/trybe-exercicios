@@ -1,6 +1,6 @@
 export function NameHeader() {
     return (
-        <h1><span id="verde">Verde</span> <span id="amarelo">Amarelo</span></h1>
+        <h1>Olá, <span id="verde">Verde</span> <span id="amarelo">Amarelo</span></h1>
     );
 };
 
