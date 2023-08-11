@@ -31,8 +31,9 @@ function App() {
         <Header />
        <p>Meus livros:</p>
        <ul>
+        <li>✅ ⏳ Nome (X páginas) 🤩</li>
         <Book
-        book={ book1 }
+        book={ book3 }
         />
        </ul>
        <Footer />
