@@ -31,7 +31,9 @@ function App() {
         <Header />
        <p>Meus livros:</p>
        <ul>
-        <Book />
+        <Book
+        book={ book1 }
+        />
        </ul>
        <Footer />
       </div>
