@@ -1,8 +1,8 @@
 import './App.css'
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Book from './components/Book';
-import Title from './components/Title';
+import Header from './components/header/';
+import Footer from './components/footer/';
+import Book from './components/book/';
+import Title from './components/title/';
 
 const booksList = [
   {
@@ -24,7 +24,7 @@ const booksList = [
     author: "Charlie Novelist",
     pages: 320,
     isRead: true,
-    isFavorite: true
+    isFavorite: false
   },
   {
     title: "Enigma of the Emerald Isle",
@@ -98,19 +98,21 @@ const booksList = [
 function App() {
   return (
     <>
-      <div>
+      <div className='app'>
         <Header />
-        <Title>
-          <p>
-            <s>Livros emprestados </s>
-            Meus livros:
-          </p>
-        </Title>
-        <ul>
-          {booksList.map((book) => (
-            <Book key={book.title} book={book} />
-          ))}
-        </ul>
+        <div className="container">
+          <Title>
+            <p>
+              <s>Livros emprestados </s>
+              Meus livros:
+            </p>
+          </Title>
+          <ul className='books-list'>
+            {booksList.map((book) => (
+              <Book key={book.title} book={book} />
+            ))}
+          </ul>
+        </div>
         <Footer />
       </div>
     </>
