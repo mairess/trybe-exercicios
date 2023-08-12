@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Book from './components/Book';
+import Title from './components/Title';
 
 const booksList = [
   {
@@ -99,11 +100,16 @@ function App() {
     <>
       <div>
         <Header />
-        <p>Meus livros:</p>
+        <Title>
+          <p>
+            <s>Livros emprestados </s>
+            Meus livros:
+          </p>
+        </Title>
         <ul>
-            {booksList.map((book) => (  
-              <Book key={ book.title } book={ book }/>
-            ))}
+          {booksList.map((book) => (
+            <Book key={book.title} book={book} />
+          ))}
         </ul>
         <Footer />
       </div>
