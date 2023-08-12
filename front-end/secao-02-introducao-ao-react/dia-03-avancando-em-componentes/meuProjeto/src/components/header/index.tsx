@@ -1,9 +1,9 @@
-import { NameHeader } from "./Name";
+import { NameHeader } from "../name";
 
 function Header() {
     return (
         <>
-        <NameHeader />
+            <NameHeader />
         </>
     );
 };

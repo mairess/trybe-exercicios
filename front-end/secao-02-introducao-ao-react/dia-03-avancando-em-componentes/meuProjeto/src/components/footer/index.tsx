@@ -1,6 +1,6 @@
-import { NameFooter } from "./Name";
+import { NameFooter } from "../name";
 
-function Footer(){
+function Footer() {
     return (
         <div className="footer-container">
             <NameFooter />

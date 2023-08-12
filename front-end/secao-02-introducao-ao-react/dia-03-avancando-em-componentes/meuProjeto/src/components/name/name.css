@@ -1,0 +1,40 @@
+.header{
+background-color: #022c16;
+box-shadow:  0 0 8px #333;
+box-sizing: border-box;
+margin: 0;
+padding: 16px 10%;
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+.header-user {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #3e4854;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: flex-end;
+    margin-top: 10%;
+    padding: 8px 10%;
+    width: 100%;
+  }
+
+  #verde {
+    color: yellow;
+  }
+  
+  #amarelo {
+    color: yellowgreen;
+  }
+
+  #trybe-link {
+    text-decoration: none;
+  }
