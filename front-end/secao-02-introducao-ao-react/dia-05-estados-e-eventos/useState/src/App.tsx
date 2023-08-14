@@ -1,9 +1,12 @@
 import './App.css';
+import { useState } from 'react';
 
 function App() {
-  let counter = 0;
+
+  const [counter, setCounter] = useState(0);
+
   function handleClick() {
-    counter += 1
+    setCounter(counter + 1)
     console.log(counter);
     
   }
