@@ -18,6 +18,10 @@ function App() {
     return console.log(event.target.value);
   }
 
+  function doubleNumber(numberList: Array<number>) {
+    return numberList.map(num => num * 2)
+  }
+
   return (
     <>
       <div>
