@@ -8,23 +8,23 @@ function App() {
   return (
     <>
       <div>
-        <Header />
-        <div>
-          <button onClick={() => alert('Botão onClick direto no App meu bom!')}>
-            Clica aqui
-          </button>
+          <Header />
+          <div>
+            <button onClick={() => alert('Botão onClick não é componente meu bom!')}>
+              Clica aqui mano
+            </button>
 
-          <br />
-          <br />
+            <br />
+            <br />
 
-          <Button />
+            <Button />
 
-          <br />
-          <br />
-
-          <Button2 />
-        </div>
-        <Footer />
+            <br />
+            <br />
+            
+            <Button2 />
+          </div>
+          <Footer />
       </div>
     </>
   )
