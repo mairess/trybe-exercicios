@@ -1,10 +1,10 @@
 {
-  "name": "praticando",
+  "name": "utilizandoEstados",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --opne",
+    "dev": "vite --open",
     "build": "tsc && vite build",
     "lint": "eslint -c .eslintrc.json . --ext .js,.jsx,.ts,.tsx",
     "preview": "vite preview"
