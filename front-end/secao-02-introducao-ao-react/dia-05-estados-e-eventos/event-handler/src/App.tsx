@@ -2,9 +2,12 @@ import './App.css'
 import Header from './conponents/Header'
 import Footer from './conponents/Footer'
 import { Button, Button2 } from './conponents/Button';
+import ButtonPropChildren from './conponents/button';
 
 function App() {
-
+    function handleClick () {
+        return alert('Clicado propchildren man!');
+    }
   return (
     <>
       <div>
@@ -23,6 +26,16 @@ function App() {
             <br />
             
             <Button2 />
+
+            <br />
+            <br />
+
+            <ButtonPropChildren 
+             onClick={handleClick}
+            >
+              Botão prop
+            </ButtonPropChildren>
+
           </div>
           <Footer />
       </div>
