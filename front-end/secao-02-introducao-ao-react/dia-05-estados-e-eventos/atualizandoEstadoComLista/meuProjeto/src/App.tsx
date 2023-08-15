@@ -35,7 +35,7 @@ function handleAddClick() {
     isFavorite: false,
   }
 
-  setBooks([newBook]);
+  setBooks([...books, newBook]);
 
   }
 
