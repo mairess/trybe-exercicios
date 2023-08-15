@@ -4,14 +4,15 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Book from './components/book';
 import Title from './components/title';
-import { booksList, bestMovie } from './data';
+// import { booksList, bestMovie } from './data';
+import { BookType } from './type';
 // import * as bookData from './data';
 
 function App() {
   const [bookTitle, setBookTitle] = useState('');
   const [bookPages, setBookPages] = useState(0);
   const [bookAuthor, setBookAuthor] = useState('');
-  const [books, setBooks] = useState(booksList);
+  const [books, setBooks] = useState<BookType[]>([]);
 
   function handleNameChange(event: React.ChangeEvent<HTMLInputElement>) {
     setBookTitle(event.target.value);
@@ -55,7 +56,7 @@ function App() {
               <Book key={book.title} book={book} />
             ))} */}
         </ul>
-        <Title>{bestMovie}</Title>
+        {/* <Title>{bestMovie}</Title> */}
         {/* <Title>{bookData.bestMovie}</Title> */}
 
         <div className="images-container">
