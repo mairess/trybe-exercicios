@@ -1,0 +1,16 @@
+.book-item {
+    border-left: 3px solid #53abe7;
+    cursor: default;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    padding: 8px;
+    transition: border 0.5s;
+  }
+  
+  .book-item:hover {
+    border-left-width: 24px;
+  }
+  
+  .favorite-book {
+    font-weight: bold;
+  }
