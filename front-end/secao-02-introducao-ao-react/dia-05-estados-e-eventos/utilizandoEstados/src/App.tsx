@@ -13,6 +13,7 @@ function App() {
 
   const [index, setIndex] = useState(0);
   const [toolList, setTooList] = useState(toolKit);
+  const [inputValue, setInputValue] = useState('');
 
   function handleClickNext() {
     // setIndex((prevIndex) => (prevIndex + 1) % toolKit.length);
@@ -31,8 +32,6 @@ function App() {
     }
     // setIndex((prevIndex) => (prevIndex - 1 + toolKit.length) % toolKit.length);
   }
-
-  const [inputValue, setInputValue] = useState('');
 
   function handleAddClick() {
     if (inputValue) {
