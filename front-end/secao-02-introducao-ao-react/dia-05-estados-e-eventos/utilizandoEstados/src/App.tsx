@@ -59,6 +59,17 @@ function App() {
         <button onClick={ handleAddClick }>Adicionar</button>
 
       </section>
+
+      <section>
+        <h3>Lista de itens do carrossel:</h3>
+        <ul>
+          {toolList.map((tool, i) => (
+            <li key={ i }>
+              { tool }
+            </li>
+          ))}
+        </ul>
+      </section>
     </>
   );
 }
