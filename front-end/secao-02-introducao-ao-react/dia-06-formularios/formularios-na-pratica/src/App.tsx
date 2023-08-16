@@ -1,11 +1,12 @@
 import './App.css';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Header from './components/header';
 import Footer from './components/footer';
 import Book from './components/book';
 import Title from './components/title';
 // import { booksList, bestMovie } from './data';
 import { BookType } from './type';
+import Button from './components/botao/Botao';
 // import * as bookData from './data';
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
     setBookPages(event.target.valueAsNumber);
   }
 
-  function handleAddClick() {
+  function updateState() {
     const newBook = {
       title: bookTitle,
       author: bookAuthor,
@@ -37,6 +38,18 @@ function App() {
 
     setBooks([...books, newBook]);
   }
+
+  function resetForm() {
+    setBookTitle('');
+    setBookAuthor('');
+    setBookPages(0);
+  }
+
+  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    updateState();
+    resetForm();
+  } 
 
   return (
     <div className="app">
@@ -59,7 +72,10 @@ function App() {
         {/* <Title>{bestMovie}</Title> */}
         {/* <Title>{bookData.bestMovie}</Title> */}
 
-        <div className="images-container">
+          <form action="" className="books-form"
+          onSubmit={ handleSubmit }
+          >
+
           <input
             onChange={ handleNameChange }
             id="title"
@@ -81,8 +97,10 @@ function App() {
             value={ bookPages }
             placeholder="Quantidade de páginas"
           />
-          <button onClick={ handleAddClick }>Adicionar</button>
-        </div>
+          <Button>
+            Adicionar
+          </Button>
+          </form>
 
       </div>
       <Footer />

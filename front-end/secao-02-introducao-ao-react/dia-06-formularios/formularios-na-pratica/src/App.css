@@ -17,7 +17,7 @@
     background-color: #fff;
 }
 
-.images-container {
+.books-form {
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
