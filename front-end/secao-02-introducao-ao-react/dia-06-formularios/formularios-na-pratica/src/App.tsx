@@ -14,7 +14,7 @@ function App() {
   const [bookPages, setBookPages] = useState(0);
   const [bookAuthor, setBookAuthor] = useState('');
   const [books, setBooks] = useState<BookType[]>([]);
-  const [showFormMessage, setShowFormMessage] = useState(false);
+  const [errorMessages, setErrorMessages] = useState<string[]>([]);
 
   function handleNameChange(event: React.ChangeEvent<HTMLInputElement>) {
     setBookTitle(event.target.value);
@@ -46,14 +46,32 @@ function App() {
     setBookPages(0);
   }
 
+  function isFormValid() {
+    const erros = [];
+
+    if (bookTitle === '') {
+      erros.push('O campo Título é orbigatório');
+    }
+
+    if (bookAuthor === '') {
+      erros.push('O campo Autor não pode ser vazio');
+    }
+
+    if (bookPages <= 0) {
+      erros.push('O campo Páginas precisa ser mairo que zero');
+    }
+
+    setErrorMessages(erros);
+
+    return erros.length === 0;
+  }
+
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    if (bookTitle !== '' && bookAuthor !== '' && bookPages > 0) {
+    if (isFormValid()) {
       updateState();
       resetForm();
-      setShowFormMessage(false);
-    } else {
-      setShowFormMessage(true);
+      setErrorMessages([]);
     }
   }
 
@@ -105,9 +123,11 @@ function App() {
             value={ bookPages }
             placeholder="Quantidade de páginas"
           />
-          {showFormMessage && (
-            <div>
-              <p className="alert">É preciso preencher os todos os campos</p>
+          {errorMessages.length > 0 && (
+            <div className="alert">
+              {errorMessages.map((message, index) => (
+                <p key={ index }>{ message }</p>
+              ))}
             </div>
           )}
           <Button>
