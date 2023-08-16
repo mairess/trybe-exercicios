@@ -10,29 +10,40 @@ import Button from './components/botao/Botao';
 // import * as bookData from './data';
 
 function App() {
-  const [bookTitle, setBookTitle] = useState('');
-  const [bookPages, setBookPages] = useState(0);
-  const [bookAuthor, setBookAuthor] = useState('');
+  const [formData, setFormData] = useState({ title: '', author: '', pages: 0 });
+
+  // const [bookTitle, setBookTitle] = useState('');
+  // const [bookPages, setBookPages] = useState(0);
+  // const [bookAuthor, setBookAuthor] = useState('');
   const [books, setBooks] = useState<BookType[]>([]);
   const [errorMessages, setErrorMessages] = useState<string[]>([]);
 
-  function handleNameChange(event: React.ChangeEvent<HTMLInputElement>) {
-    setBookTitle(event.target.value);
+  function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
+    setFormData((prevData) => (
+      {
+        ...prevData,
+        [event.target.name]: event.target.value,
+      }
+    ));
   }
 
-  function handleAuthorChange(event: React.ChangeEvent<HTMLInputElement>) {
-    setBookAuthor(event.target.value);
-  }
+  // function handleNameChange(event: React.ChangeEvent<HTMLInputElement>) {
+  //   setBookTitle(event.target.value);
+  // }
 
-  function handlePagesChange(event: React.ChangeEvent<HTMLInputElement>) {
-    setBookPages(event.target.valueAsNumber);
-  }
+  // function handleAuthorChange(event: React.ChangeEvent<HTMLInputElement>) {
+  //   setBookAuthor(event.target.value);
+  // }
+
+  // function handlePagesChange(event: React.ChangeEvent<HTMLInputElement>) {
+  //   setBookPages(event.target.valueAsNumber);
+  // }
 
   function updateState() {
     const newBook = {
-      title: bookTitle,
-      author: bookAuthor,
-      pages: bookPages,
+      title: formData.title,
+      author: formData.author,
+      pages: formData.pages,
       isRead: false,
       isFavorite: false,
     };
@@ -41,23 +52,24 @@ function App() {
   }
 
   function resetForm() {
-    setBookTitle('');
-    setBookAuthor('');
-    setBookPages(0);
+    setFormData({ title: '', author: '', pages: 0 });
+    // setBookTitle('');
+    // setBookAuthor('');
+    // setBookPages(0);
   }
 
   function isFormValid() {
     const erros = [];
 
-    if (bookTitle === '') {
+    if (formData.title === '') {
       erros.push('O campo Título é orbigatório');
     }
 
-    if (bookAuthor === '') {
+    if (formData.author === '') {
       erros.push('O campo Autor não pode ser vazio');
     }
 
-    if (bookPages <= 0) {
+    if (formData.pages <= 0) {
       erros.push('O campo Páginas precisa ser mairo que zero');
     }
 
@@ -103,24 +115,27 @@ function App() {
         >
 
           <input
-            onChange={ handleNameChange }
+            onChange={ handleChange }
             id="title"
+            name="title"
             type="text"
-            value={ bookTitle }
+            value={ formData.title }
             placeholder="Título"
           />
           <input
-            onChange={ handleAuthorChange }
+            onChange={ handleChange }
             id="author"
+            name="author"
             type="text"
-            value={ bookAuthor }
+            value={ formData.author }
             placeholder="Autor"
           />
           <input
-            onChange={ handlePagesChange }
+            onChange={ handleChange }
             id="paginas"
+            name="pages"
             type="number"
-            value={ bookPages }
+            value={ formData.pages }
             placeholder="Quantidade de páginas"
           />
           {errorMessages.length > 0 && (
