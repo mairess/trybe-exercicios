@@ -1,13 +1,31 @@
 import { useState } from "react";
 
 function App() {
+  function resetForm() {
+    setName('');
+    setEmail('');
+    setSchooling('Médio');
+    setResume('');
+  }
+
+  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    alert(
+      `Nome: ${name}
+      \nemail: ${email}
+      \nEscolaridade: ${schooling}
+      \nExperiências: ${resume}`,
+    );
+    resetForm();
+  }
+
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [schooling, setSchooling] = useState('Médio');
   const [resume, setResume] = useState('');
 
   return (
-    <form>
+    <form onSubmit={ (event) => handleSubmit(event) }>
       <label>
         Nome
         <input value={ name } onChange={ ({ target }) => setName(target.value) } />
