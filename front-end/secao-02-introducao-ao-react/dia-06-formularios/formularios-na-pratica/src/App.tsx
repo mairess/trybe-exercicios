@@ -14,6 +14,7 @@ function App() {
   const [bookPages, setBookPages] = useState(0);
   const [bookAuthor, setBookAuthor] = useState('');
   const [books, setBooks] = useState<BookType[]>([]);
+  const [showFormMessage, setShowFormMessage] = useState(false);
 
   function handleNameChange(event: React.ChangeEvent<HTMLInputElement>) {
     setBookTitle(event.target.value);
@@ -47,9 +48,14 @@ function App() {
 
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    updateState();
-    resetForm();
-  } 
+    if (bookTitle !== '' && bookAuthor !== '' && bookPages > 0) {
+      updateState();
+      resetForm();
+      setShowFormMessage(false);
+    } else {
+      setShowFormMessage(true);
+    }
+  }
 
   return (
     <div className="app">
@@ -72,9 +78,11 @@ function App() {
         {/* <Title>{bestMovie}</Title> */}
         {/* <Title>{bookData.bestMovie}</Title> */}
 
-          <form action="" className="books-form"
+        <form
+          action=""
+          className="books-form"
           onSubmit={ handleSubmit }
-          >
+        >
 
           <input
             onChange={ handleNameChange }
@@ -97,10 +105,15 @@ function App() {
             value={ bookPages }
             placeholder="Quantidade de páginas"
           />
+          {showFormMessage && (
+            <div>
+              <p className="alert">É preciso preencher os todos os campos</p>
+            </div>
+          )}
           <Button>
             Adicionar
           </Button>
-          </form>
+        </form>
 
       </div>
       <Footer />
