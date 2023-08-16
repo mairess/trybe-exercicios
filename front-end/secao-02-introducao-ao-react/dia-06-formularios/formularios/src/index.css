@@ -1,0 +1,33 @@
+/* App.css */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #121212; /* Cor de fundo escura */
+  color: #ffffff; /* Cor do texto clara */
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #444; /* Cor da borda do input */
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #1f1f1f; /* Cor de fundo do input */
+  color: #ffffff; /* Cor do texto do input */
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 20px;
+}
