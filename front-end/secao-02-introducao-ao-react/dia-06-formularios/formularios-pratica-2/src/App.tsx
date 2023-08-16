@@ -6,6 +6,8 @@ function App() {
     setEmail('');
     setSchooling('Médio');
     setResume('');
+    setTerms(false);
+    setError(false);
   }
 
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
@@ -61,7 +63,7 @@ function App() {
           <input
             type="checkbox"
             checked={ terms }
-            onChange={ () => setTerms((prevTerms) => !prevTerms) }
+            onChange={ () => setTerms(!terms) }
           />
         </label>
         <button>Enviar</button>
