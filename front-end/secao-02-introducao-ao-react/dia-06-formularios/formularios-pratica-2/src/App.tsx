@@ -33,48 +33,46 @@ function App() {
   const [error, setError] = useState(false);
 
   return (
-    <>
-      <form onSubmit={ (event) => handleSubmit(event) }>
-        <label>
-          Nome
-          <input value={ name } onChange={ ({ target }) => setName(target.value) } />
-        </label>
-        <label>
-          E-mail
-          <input value={ email } onChange={ ({ target }) => setEmail(target.value) } />
-        </label>
-        <label>
-          Escolaridade
-          <select
-            value={ schooling }
-            onChange={ ({ target }) => setSchooling(target.value) }
-          >
-            <option value="Médio">Médio</option>
-            <option value="Superior">Superior</option>
-            <option value="Pós-graduação">Pós-graduação</option>
-          </select>
-        </label>
-        <label>
-          Resumo das experiências
-          <textarea value={ resume } onChange={ ({ target }) => setResume(target.value) } />
-        </label>
-        <label>
-          Aceito os termos e condições
-          <input
-            type="checkbox"
-            checked={ terms }
-            onChange={ () => setTerms(!terms) }
-          />
-        </label>
-        <button>Enviar</button>
-      </form>
+    <form onSubmit={ (event) => handleSubmit(event) }>
+      <label>
+        Nome
+        <input value={ name } onChange={ ({ target }) => setName(target.value) } />
+      </label>
+      <label>
+        E-mail
+        <input value={ email } onChange={ ({ target }) => setEmail(target.value) } />
+      </label>
+      <label>
+        Escolaridade
+        <select
+          value={ schooling }
+          onChange={ ({ target }) => setSchooling(target.value) }
+        >
+          <option value="Médio">Médio</option>
+          <option value="Superior">Superior</option>
+          <option value="Pós-graduação">Pós-graduação</option>
+        </select>
+      </label>
+      <label>
+        Resumo das experiências
+        <textarea value={ resume } onChange={ ({ target }) => setResume(target.value) } />
+      </label>
+      <label>
+        Aceito os termos e condições
+        <input
+          type="checkbox"
+          checked={ terms }
+          onChange={ () => setTerms(!terms) }
+        />
+      </label>
       {error && (
         <h4>
           Você precisa aceitar os termos e condições para poder enviar o
           currículo
         </h4>
       )}
-    </>
+      <button>Enviar</button>
+    </form>
   );
 }
 
