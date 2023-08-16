@@ -3,9 +3,9 @@ import { useState } from 'react';
 function App() {
   const [name, setName] = useState('');
 
-  function handleClear() {
-    setName('');
-  }
+  // function handleClear() {
+  //   setName('');
+  // }
 
   return (
     <>
@@ -20,7 +20,8 @@ function App() {
         {name}
         !
       </h1>
-      <button onClick={ handleClear }>Limpar nome</button>
+      {/* <button onClick={ handleClear }>Limpar nome</button> */}
+      <button onClick={ () => setName('') }>Limpar nome</button>
     </>
   );
 }
