@@ -16,7 +16,7 @@ function App() {
       resetForm();
       setTerms(false);
       setError(false);
-      alert(
+      global.alert(
         `Nome: ${formInfo.name}
         \nemail: ${formInfo.email}
         \nEscolaridade: ${formInfo.schooling}
