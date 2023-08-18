@@ -27,7 +27,7 @@ function App() {
   //   setBookPages(event.target.valueAsNumber);
   // }
 
-  function updateState(title: string, author: string, pages: number) {
+  const updateState = (title: string, author: string, pages: number) => {
     const newBook = {
       title,
       author,
@@ -37,7 +37,7 @@ function App() {
     };
 
     setBooks([...books, newBook]);
-  }
+  };
 
   return (
     <div className="app">
