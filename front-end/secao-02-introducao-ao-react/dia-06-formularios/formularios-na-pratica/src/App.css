@@ -1,0 +1,68 @@
+.app{
+    background-color: #dff6db;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    box-sizing: border-box;
+    flex: 1;
+    margin-top: 60px;
+    padding: 0 10%;
+    width: 100%;
+}
+
+.books-list{
+    background-color: #fff;
+}
+
+.books-form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-top: 40px;
+}
+
+button {
+    background-color: #53abe7;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #438cb5;
+}
+
+#title, #paginas, #author {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title {
+    font-size: 16px;
+}
+
+#paginas {
+    font-size: 14px; 
+}
+
+.alert {
+    background-color: #ffe6e6;
+    border: 1px solid #ff8080;
+    border-radius: 5px; 
+    padding: 10px; 
+    color: #ff0000; 
+    font-weight: bold; 
+    margin-bottom: 10px;
+  }

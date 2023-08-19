@@ -82,14 +82,13 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção Introdução ao React
 
-- [ ] Dia 01: _Introdução ao React e ao Typescript_
-- [ ] Dia 02: _Componentes React e Props_
-- [ ] Dia 03: _Avançando em componentes_
-- [ ] Dia 04: _Revisão - Solar System_
-- [ ] Dia 05: _Estados e eventos_
-- [ ] Dia 06: _Formulários_
-- [ ] Dia 07: _Revisão - Store Back Office_
-- [ ] Dia 08: _Projeto - Password Manager_
+- [x] Dia 01: _Introdução ao React e ao Typescript_
+- [x] Dia 02: _Componentes React e Props_
+- [x] Dia 03: _Avançando em componentes_
+- [x] Dia 04: _Revisão - Solar System_
+- [x] Dia 05: _Estados e eventos_
+- [x] Dia 06: _Formulários_
+- [x] Dia 07: _Projeto - Password Manager_
 
 #### Seção Aprofundando no React
 
