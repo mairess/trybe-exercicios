@@ -80,7 +80,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 04: _Async, await e testes assíncronos_
 - [x] Dia 05: _Projeto - iChoveu_
 
-#### Seção Introdução ao React
+#### Seção [Introdução ao React](https://github.com/mairess/trybe-exercicios/tree/main/front-end/secao-02-introducao-ao-react)
 
 - [x] Dia 01: _Introdução ao React e ao Typescript_
 - [x] Dia 02: _Componentes React e Props_
