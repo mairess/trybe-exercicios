@@ -92,8 +92,8 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção Aprofundando no React
 
-- [ ] Dia 01: _React Router_
-- [ ] Dia 02: _useEffect_
+- [x] Dia 01: _React Router_
+- [x] Dia 02: _useEffect_
 - [ ] Dia 03: _Revisão - Clonando o Twitter_
 - [ ] Dia 04: _Projeto - Trybetunes_
 
