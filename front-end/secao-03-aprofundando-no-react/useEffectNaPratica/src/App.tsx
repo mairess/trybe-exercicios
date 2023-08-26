@@ -18,9 +18,15 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
+    try {
       const data = await fetchCoordinates();
       setCoordinates({ latitude: data.latitude, longitude: data.longitude });
       // setLoading(false);
+    } catch (error) {
+      // setLoading(false);
+      console.log('Error fetching data:', error );
+      
+    }
     }
     fetchData();
   }, []);
