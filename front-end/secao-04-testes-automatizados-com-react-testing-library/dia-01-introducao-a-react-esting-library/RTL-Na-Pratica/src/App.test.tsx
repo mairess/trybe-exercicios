@@ -1,16 +1,17 @@
 import { render, screen } from "@testing-library/react"
+import userEvent from "@testing-library/user-event"
 import App from "./App"
 
 test('Verifica se o input de emial está na tela', () => {
     // acessar os elementos na tela
     render(<App />);
-    const emialInput = screen.getByLabelText('Email:');
+    const emailInput = screen.getByLabelText('Email:');
 
     // agir interagindo com os elementos da tela (se necessário)
 
     // aferir
-    expect(emialInput).toBeInTheDocument();
-    expect(emialInput).toHaveProperty('type', 'email');
+    expect(emailInput).toBeInTheDocument();
+    expect(emailInput).toHaveProperty('type', 'email');
 })
 
 test('Verifica se existem dois botões na tela', () => { 
@@ -45,3 +46,21 @@ test('Verifica se existem dois botões na tela', () => {
     // aferir
     expect(btnBack).toBeInTheDocument();
  })
+
+ test('Verifica se o campo "email" e o botão "enviar" funcionam corretamente', async () => { 
+   // acessar os elementos na tela
+   render(<App />);
+   const inputMail = screen.getByLabelText('Email:');
+   const btnSend = screen.getByTestId('id-send');
+   const title = screen.getByRole('heading', { name: 'Valor:' });
+
+   const EMAIL_USER = 'email@email.com';
+
+   // agir interagindo com os elementos da tela (se necessário)
+   await userEvent.type(inputMail, EMAIL_USER);
+   await userEvent.click(btnSend);
+
+   // aferir
+   expect(inputMail).toHaveValue('');
+   expect(title).toHaveTextContent(`Valor: ${EMAIL_USER}`);
+})
