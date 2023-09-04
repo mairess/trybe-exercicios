@@ -5,6 +5,7 @@ type SendProps = {
 function Send({ onClick }: SendProps) {
     return (
         <button
+        data-testid="id-send"
         onClick={ onClick }
         >
             Enviar
