@@ -90,7 +90,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 06: _Formulários_
 - [x] Dia 07: _Projeto - Password Manager_
 
-#### Seção Aprofundando no React
+#### Seção [Aprofundando no React](https://github.com/mairess/trybe-exercicios/tree/main/front-end/secao-03-aprofundando-no-react)
 
 - [x] Dia 01: _React Router_
 - [x] Dia 02: _useEffect_
