@@ -3,7 +3,8 @@ import './App.css'
 import Back from './components/BackBtn'
 import Input from './components/Input'
 import Send from './components/SendBtn'
-import Value from './components/Value'
+// import Value from './components/Value'
+import ValidEmail from './components/ValidEmail'
 
 function App() {
   const [inputMail, setInputMail] = useState<string>('');
@@ -21,9 +22,10 @@ function App() {
       <Back
         onClick={() => setMailValue('')}
       />
-      <Value
+      {/* <Value
         valueToSend={mailValue}
-      />
+      /> */}
+      <ValidEmail email={ mailValue } />
     </div>
   )
 }
