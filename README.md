@@ -94,8 +94,8 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [x] Dia 01: _React Router_
 - [x] Dia 02: _useEffect_
-- [ ] Dia 03: _Revisão - Clonando o Twitter_
-- [ ] Dia 04: _Projeto - Trybetunes_
+- [x] Dia 03: _Revisão - Clonando o Twitter_
+- [x] Dia 04: _Projeto - Trybetunes_
 
 ### 2° Período
 
