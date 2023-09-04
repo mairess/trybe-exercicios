@@ -25,17 +25,17 @@ function App() {
   return (
     <div>
       <Input
-        value={ inputMail }
-        onChange={ handleChange }
+        value={inputMail}
+        onChange={handleChange}
       />
       <Send
-        onClick={ handleSetValue }
+        onClick={handleSetValue}
       />
       <Back
-        onClick={ handleClear }
+        onClick={handleClear}
       />
       <Value
-        valueToSend={ mailValue }
+        valueToSend={mailValue}
       />
     </div>
   )
