@@ -9,30 +9,17 @@ function App() {
   const [inputMail, setInputMail] = useState<string>('');
   const [mailValue, setMailValue] = useState<string>('');
 
-  const handleChange = ({ target: { value } }: React.ChangeEvent<HTMLInputElement>) => {
-    setInputMail(value);
-  }
-
-  const handleSetValue = () => {
-    setMailValue(inputMail);
-    setInputMail('');
-  }
-
-  const handleClear = () => {
-    setMailValue('');
-  }
-
   return (
     <div>
       <Input
         value={inputMail}
-        onChange={handleChange}
+        onChange={({ target: { value } }: React.ChangeEvent<HTMLInputElement>) => setInputMail(value)}
       />
       <Send
-        onClick={handleSetValue}
+        onClick={() => {setMailValue(inputMail); setInputMail('')}}
       />
       <Back
-        onClick={handleClear}
+        onClick={() => setMailValue('')}
       />
       <Value
         valueToSend={mailValue}
