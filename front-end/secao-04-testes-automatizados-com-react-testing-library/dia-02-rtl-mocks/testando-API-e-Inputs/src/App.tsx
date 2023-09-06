@@ -4,6 +4,7 @@ import './App.css';
 
 function App() {
   const [joke, setJoke] = useState('');
+  const [newJock, setNewJoke] = useState(false);
 
   useEffect(() => {
     async function fetchJoke() {
@@ -14,11 +15,12 @@ function App() {
       setJoke(data.joke);
     }
     fetchJoke();
-  }, []);
+  }, [newJock]);
 
   return (
     <div className="App">
       <p>{joke}</p>
+      <button onClick={ () => setNewJoke((prev) => !prev) }>New Joke</button>
     </div>
   );
 }
