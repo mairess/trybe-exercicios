@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   const [joke, setJoke] = useState('');
-  const [newJock, setNewJoke] = useState(false);
+  const [newJoke, setNewJoke] = useState(false);
 
   useEffect(() => {
     async function fetchJoke() {
@@ -15,7 +15,7 @@ function App() {
       setJoke(data.joke);
     }
     fetchJoke();
-  }, [newJock]);
+  }, [newJoke]);
 
   return (
     <div className="App">
