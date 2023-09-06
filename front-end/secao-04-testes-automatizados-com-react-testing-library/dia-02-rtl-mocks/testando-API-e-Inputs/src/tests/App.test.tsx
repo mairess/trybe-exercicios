@@ -2,7 +2,7 @@
 
 import { render, screen } from '@testing-library/react';
 import { vi } from 'vitest';
-import App from '../../App';
+import App from '../App';
 
 // describe('Testando fetch', () => {
 //   afterEach(() => vi.clearAllMocks());
