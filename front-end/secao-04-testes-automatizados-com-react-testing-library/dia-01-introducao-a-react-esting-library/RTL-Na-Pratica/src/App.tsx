@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
-import './App.css'
-import Back from './components/BackBtn'
-import Input from './components/Input'
-import Send from './components/SendBtn'
+import React, { useState } from 'react';
+import './App.css';
+import Back from './components/BackBtn';
+import Input from './components/Input';
+import Send from './components/SendBtn';
 // import Value from './components/Value'
-import ValidEmail from './components/ValidEmail'
+import ValidEmail from './components/ValidEmail';
 
 function App() {
   const [inputMail, setInputMail] = useState<string>('');
@@ -13,21 +13,21 @@ function App() {
   return (
     <div>
       <Input
-        value={inputMail}
-        onChange={({ target: { value } }: React.ChangeEvent<HTMLInputElement>) => setInputMail(value)}
+        value={ inputMail }
+        onChange={ ({ target: { value } }: React.ChangeEvent<HTMLInputElement>) => setInputMail(value) }
       />
       <Send
-        onClick={() => {setMailValue(inputMail); setInputMail('')}}
+        onClick={ () => { setMailValue(inputMail); setInputMail(''); } }
       />
       <Back
-        onClick={() => setMailValue('')}
+        onClick={ () => setMailValue('') }
       />
       {/* <Value
         valueToSend={mailValue}
       /> */}
       <ValidEmail email={ mailValue } />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
