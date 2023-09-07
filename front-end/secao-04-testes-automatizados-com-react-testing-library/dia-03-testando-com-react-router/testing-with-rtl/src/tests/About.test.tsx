@@ -1,19 +1,17 @@
-import { render, screen } from '@testing-library/react';
-import { BrowserRouter } from 'react-router-dom';
-import userEvent from '@testing-library/user-event';
-import About from '../pages/About';
+import { screen } from '@testing-library/react';
+import renderWithRouter from '../utils/renderWithRouter';
+
+import App from '../App';
 
 it('Renderiza o componente About', () => {
-  render(<About />, { wrapper: BrowserRouter });
+  renderWithRouter(<App />, { route: '/about' });
   expect(screen.getByText(/Você está na página Sobre/i)).toBeInTheDocument();
 });
 
 it('Navega para página Inicio', async () => {
-  render(<About />, { wrapper: BrowserRouter });
+  const { user } = renderWithRouter(<App />, { route: '/about' });
 
-  expect(screen.getByText(/Você está na página Sobre/i)).toBeInTheDocument();
   const homeLink = screen.getByRole('link', { name: /Início/i });
-  await userEvent.click(homeLink);
-
+  await user.click(homeLink);
   expect(screen.getByText(/Você está na página Início/i)).toBeInTheDocument();
 });

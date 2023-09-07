@@ -4,7 +4,6 @@ import userEvent from '@testing-library/user-event';
 import renderWithRouter from '../utils/renderWithRouter';
 
 import App from '../App';
-import About from '../pages/About';
 
 describe('testing with React Router', () => {
   it('Renderiza texto da página inicial utilizando BrowserRouter', () => {
@@ -47,12 +46,12 @@ test('renderiza a página inicial', () => {
 
 describe('Testando o componente About dentro do test app', () => {
   it('Renderiza o componente About', () => {
-    renderWithRouter(<About />, { route: '/about' });
+    renderWithRouter(<App />, { route: '/about' });
     expect(screen.getByText(/Você está na página Sobre/i)).toBeInTheDocument();
   });
 
   it('Navega para página Inicio', async () => {
-    const { user } = renderWithRouter(<About />, { route: '/about' });
+    const { user } = renderWithRouter(<App />, { route: '/about' });
 
     const homeLink = screen.getByRole('link', { name: /Início/i });
 
