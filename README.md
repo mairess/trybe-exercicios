@@ -101,8 +101,8 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção Testes automatizados com React Testing Library
 
-- [ ] Dia 01: _Introdução a React Testing Library_
-- [ ] Dia 02: _RTL: Mocks_
+- [x] Dia 01: _Introdução a React Testing Library_
+- [x] Dia 02: _RTL: Mocks_
 - [ ] Dia 03: _RTL: Testando com React Router_
 - [ ] Dia 05: _Projeto - Testes em React_
 
