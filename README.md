@@ -99,12 +99,12 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ### 2° Período
 
-#### Seção Testes automatizados com React Testing Library
+#### Seção [Testes automatizados com React Testing Library](https://github.com/mairess/trybe-exercicios/tree/main/front-end/secao-04-testes-automatizados-com-react-testing-library)
 
 - [x] Dia 01: _Introdução a React Testing Library_
 - [x] Dia 02: _RTL: Mocks_
-- [ ] Dia 03: _RTL: Testando com React Router_
-- [ ] Dia 05: _Projeto - Testes em React_
+- [x] Dia 03: _RTL: Testando com React Router_
+- [x] Dia 04: _Projeto - Testes em React_
 
 #### Seção Estilização e Metodologia Ágil
 
