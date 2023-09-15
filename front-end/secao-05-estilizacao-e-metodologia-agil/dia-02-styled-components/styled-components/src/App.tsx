@@ -2,6 +2,8 @@
 import {Header, Container, Button} from "./styles.tsx";
 import { createGlobalStyle } from 'styled-components';
 
+import styled from 'styled-components';
+
 function App() {
 const GlobalStyle = createGlobalStyle`
 * {
@@ -17,6 +19,16 @@ body {
 h1 {
   color: white;
 }
+`;
+
+const Button = styled.button`
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  
+  &:hover {
+    background-color: darkblue;
+  }
 `;
 
 const bgColor = '1FB621';
