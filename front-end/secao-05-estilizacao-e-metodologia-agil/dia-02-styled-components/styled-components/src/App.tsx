@@ -1,5 +1,5 @@
 // import './App.css'
-import {Header, Container} from "./styles.tsx";
+import {Header, Container, Button} from "./styles.tsx";
 import { createGlobalStyle } from 'styled-components';
 
 function App() {
@@ -19,6 +19,8 @@ h1 {
 }
 `;
 
+const bgColor = '1FB621';
+
   return (
    <>
    <GlobalStyle />
@@ -28,6 +30,10 @@ h1 {
    <Container>
     <p>Conteúdo</p>
    </Container>
+   <Button
+   color={ bgColor }>
+    Change Theme
+   </Button>
    </>
   )
 }

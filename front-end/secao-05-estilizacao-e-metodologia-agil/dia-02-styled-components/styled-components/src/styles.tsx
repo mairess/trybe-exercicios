@@ -14,3 +14,14 @@ export const Container = styled.div`
     margin: 0 auto;
     background-color: #022c16;
   `
+
+type ButtonProps = {
+  color: string;
+}
+export const Button = styled.button<ButtonProps>`
+  width: 8rem;
+  color: green;
+  border: 1px solid gray;
+  cursor: pointer;
+  color: ${props => props.color};
+`;
