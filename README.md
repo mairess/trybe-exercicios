@@ -109,9 +109,9 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 #### Seção Estilização e Metodologia Ágil
 
 - [x] Dia 01: _CSS Modules_
-- [ ] Dia 02: _Styled Components_
-- [ ] Dia 03: _Metodologias Ágeis_
-- [ ] Dia 04: _Projeto - Front-end Online Store_
+- [x] Dia 02: _Styled Components_
+- [x] Dia 03: _Metodologias Ágeis_
+- [x] Dia 04: _Projeto - Front-end Online Store_
 
 #### Seção Gerenciamento de estado com Redux
 
