@@ -106,7 +106,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 03: _RTL: Testando com React Router_
 - [x] Dia 04: _Projeto - Testes em React_
 
-#### Seção Estilização e Metodologia Ágil
+#### Seção [Estilização e Metodologia Ágil](https://github.com/mairess/trybe-exercicios/tree/main/front-end/secao-05-estilizacao-e-metodologia-agil)
 
 - [x] Dia 01: _CSS Modules_
 - [x] Dia 02: _Styled Components_
