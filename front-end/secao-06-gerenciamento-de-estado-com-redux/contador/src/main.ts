@@ -10,7 +10,7 @@ type ActionType = {
 };
 
 const reducer = (state = INITIAL_STATE, action: ActionType) => {
-  if(action.type === 'INCREMENT_COUNTER') {
+  if (action.type === 'INCREMENT_COUNTER') {
     return { count: state.count + 1 }
   }
 
@@ -24,4 +24,10 @@ const action = { type: 'INCREMENT_COUNTER' };
 const buttonEl = document.querySelector('button') as HTMLButtonElement;
 buttonEl.addEventListener('click', () => {
   store.dispatch(action);
+});
+
+store.subscribe(() => {
+  const globalState = store.getState();
+  const countElement = document.querySelector('h2') as HTMLHeadingElement
+  countElement.innerHTML = String(globalState.count);
 });
