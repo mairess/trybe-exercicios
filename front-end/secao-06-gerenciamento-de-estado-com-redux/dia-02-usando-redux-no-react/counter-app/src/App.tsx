@@ -2,7 +2,11 @@ import './App.css'
 
 function App() {
   return (
-    <h1>olá</h1>
+    <div>
+      <h1>Contador</h1>
+      <h2>0</h2>
+      <button>Incrementar</button>
+    </div>
   )
 }
 
