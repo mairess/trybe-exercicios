@@ -1,6 +1,6 @@
 import './App.css'
 import { useSelector, useDispatch } from 'react-redux';
-import { action } from "./redux/actions";
+import { action, action2 } from "./redux/actions";
 
 type RootState = {
   count: number;
@@ -17,7 +17,7 @@ function App() {
       <h2>{rootState.count}</h2>
       {/* <h2>{count}</h2> */}
       <button onClick={ () => dispatch(action) }>Incrementa 1</button>
-      <button onClick={ () => dispatch(action) }>Incrementa 5</button>
+      <button onClick={ () => dispatch(action2) }>Incrementa 5</button>
     </div>
   )
 }

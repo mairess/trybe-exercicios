@@ -15,6 +15,12 @@ const reducer = (state = INITIAL_STATE, action: ActionType) => {
                 count: state.count + 1,
             };
         }
+
+        case 'INCREMENT_COUNTER_IN_5': {
+            return {
+                count: state.count + 5,
+            };
+        }
         default: return state;
     }
 };
