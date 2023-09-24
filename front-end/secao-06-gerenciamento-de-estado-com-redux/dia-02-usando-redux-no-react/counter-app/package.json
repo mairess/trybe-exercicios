@@ -1,0 +1,26 @@
+{
+  "name": "counter-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "tsc && vite build",
+    "lint": "eslint -c .eslintrc.json . --ext .js,.jsx,.ts,.tsx",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@redux-devtools/extension": "^3.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2",
+    "redux": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
