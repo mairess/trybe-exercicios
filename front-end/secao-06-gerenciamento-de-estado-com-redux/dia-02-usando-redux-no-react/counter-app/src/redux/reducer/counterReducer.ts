@@ -3,13 +3,18 @@ type ActionType = {
     payload: number;
 }
 
-const INITIAL_STATE = { count: 0 };
+const INITIAL_STATE = { count: 0, clicks: 0 };
 
 const counterReducer = (state = INITIAL_STATE, action: ActionType) => {
     switch (action.type) {
         case 'INCREMENT_COUNTER': {
             return {
-                count: state.count + action.payload,
+                ...state, count: state.count + action.payload,
+            };
+        }
+        case 'INCREMENT_CLICK': {
+            return {
+                ...state, clicks: state.clicks + 1,
             };
         }
         default: return state;
