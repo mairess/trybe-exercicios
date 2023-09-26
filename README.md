@@ -113,10 +113,10 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 03: _Metodologias Ágeis_
 - [x] Dia 04: _Projeto - Front-end Online Store_
 
-#### Seção Gerenciamento de estado com Redux
+#### Seção [Gerenciamento de estado com Redux](https://github.com/mairess/trybe-exercicios/tree/main/front-end/secao-06-gerenciamento-de-estado-com-redux)
 
-- [ ] Dia 01: _Introdução ao Redux - O estado global da aplicação_
-- [ ] Dia 02: _Usando o Redux no React_
+- [x] Dia 01: _Introdução ao Redux - O estado global da aplicação_
+- [x] Dia 02: _Usando o Redux no React_
 - [ ] Dia 03: _Revisão - Usando o Redux no React_
 - [ ] Dia 04: _Usando o Redux no React - Actions Assíncronas_
 - [ ] Dia 05: _Testes em React-Redux_
