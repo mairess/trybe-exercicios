@@ -1,4 +1,5 @@
 import { useDispatch } from 'react-redux';
+import styled from 'styled-components';
 import { Dispatch } from '../types';
 import { fetchAPI } from '../redux/actions';
 
@@ -8,10 +9,13 @@ type ButtonProps = {
 
 function Button({ inpuValue }: ButtonProps) {
   const dispatch: Dispatch = useDispatch();
+  const ButtonStyled = styled.button`
+  margin: 1rem;
+  `;
   return (
-    <button type="button" onClick={ () => dispatch(fetchAPI(inpuValue)) }>
+    <ButtonStyled type="button" onClick={ () => dispatch(fetchAPI(inpuValue)) }>
       Show me
-    </button>
+    </ButtonStyled>
   );
 }
 
