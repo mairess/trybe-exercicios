@@ -1,22 +1,20 @@
-import { Dispatch } from '../../types';
+import { CharacterType, Dispatch } from '../../types';
 
 export const REQUEST_API = 'REQUEST_API';
-export const GET_PICTURE = 'GET_PICTURE';
+export const GET_INFOS = 'GET_INFOS';
 
 export const requestAPI = () => ({ type: REQUEST_API });
 
-export const getInfos = (image: string) => ({
-  type: GET_PICTURE,
-  payload: image,
+export const getInfos = (character: CharacterType) => ({
+  type: GET_INFOS,
+  payload: character,
 });
 
-const BASE_API = 'https://anapioficeandfire.com/api/characters?name=Tyrion%20Lannister';
-
-export function fetchAPI() {
+export function fetchAPI(NOME_DO_PERSONAGEM: string) {
   return async (dispatch: Dispatch) => {
     try {
       dispatch(requestAPI());
-      const response = await fetch(BASE_API);
+      const response = await fetch(`https://anapioficeandfire.com/api/characters?name=${NOME_DO_PERSONAGEM}`);
       const data = await response.json();
       const [character] = data;
       dispatch(getInfos(character));

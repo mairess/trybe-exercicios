@@ -1,14 +1,19 @@
-import { REQUEST_API, GET_PICTURE } from '../actions';
+import { CharacterType } from '../../types';
+import { REQUEST_API, GET_INFOS } from '../actions';
 
 const INITIAL_STATE = {
+  name: '',
+  gender: '',
+  culture: '',
+  born: '',
+  died: '',
+  titles: [],
   isLoading: false,
-  imgURL: '',
-  useDefaulting: true,
 };
 
 type ActionType = {
   type: string,
-  payload: string,
+  payload: CharacterType,
 };
 
 function gallery(state = INITIAL_STATE, action: ActionType) {
@@ -17,14 +22,17 @@ function gallery(state = INITIAL_STATE, action: ActionType) {
       return {
         ...state,
         isLoading: true,
-        useDefaulting: true,
       };
-    case GET_PICTURE:
+    case GET_INFOS:
       return {
         ...state,
+        name: action.payload.name,
+        gender: action.payload.gender,
+        culture: action.payload.culture,
+        born: action.payload.born,
+        died: action.payload.died,
+        titles: action.payload.titles,
         isLoading: false,
-        imgURL: action.payload,
-        useDefaulting: false,
       };
     default:
       return state;
