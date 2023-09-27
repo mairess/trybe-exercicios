@@ -36,6 +36,7 @@ function reducerCharInfos(state = INITIAL_STATE, action: ActionType) {
         titles: action.payload.titles,
         aliases: action.payload.aliases,
         isLoading: false,
+        error: null,
       };
     case SEARCH_ERROR:
       return {
