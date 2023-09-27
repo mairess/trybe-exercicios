@@ -1,7 +1,7 @@
 import { ChangeEvent, useState } from 'react';
 import './App.css';
 import Button from './components/Button';
-import Gallery from './components/Gallery';
+import Gallery from './components/InfosCharBoard';
 import Input from './components/Input';
 
 function App() {
