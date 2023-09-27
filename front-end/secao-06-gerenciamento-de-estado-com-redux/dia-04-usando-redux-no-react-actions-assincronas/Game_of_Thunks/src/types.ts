@@ -10,6 +10,7 @@ export type CharacterType = {
   titles: string[],
   aliases: string[],
   isLoading: false,
+  error: null | string,
 };
 
 export type ReduxState = {
@@ -21,6 +22,7 @@ export type ReduxState = {
   titles: string[],
   aliases: string[],
   isLoading: false,
+  error: null | string,
 };
 
 export type Dispatch = ThunkDispatch<ReduxState, null, AnyAction>;

@@ -3,10 +3,11 @@ import { ReduxState } from '../types';
 
 function Gallery() {
   const rootState = useSelector((state: ReduxState) => state);
+  if (rootState.isLoading) { return <h3>Loading...</h3>; }
+  if (rootState.error) { return <div>{rootState.error}</div>; }
 
   return (
     <div>
-      {rootState.isLoading && <div>Loading...</div>}
       {!rootState.isLoading && (
         <div>
           <h2>

@@ -1,5 +1,5 @@
 import { CharacterType } from '../../types';
-import { REQUEST_API, GET_INFOS } from '../actions';
+import { REQUEST_API, GET_INFOS, SEARCH_ERROR } from '../actions';
 
 const INITIAL_STATE = {
   name: '',
@@ -10,6 +10,7 @@ const INITIAL_STATE = {
   titles: [] as string[],
   aliases: [] as string[],
   isLoading: false,
+  error: null as null | string,
 };
 
 type ActionType = {
@@ -35,6 +36,12 @@ function reducerCharInfos(state = INITIAL_STATE, action: ActionType) {
         titles: action.payload.titles,
         aliases: action.payload.aliases,
         isLoading: false,
+      };
+    case SEARCH_ERROR:
+      return {
+        ...state,
+        isLoading: false,
+        error: action.payload.error || 'erro desconhecido',
       };
     default:
       return state;

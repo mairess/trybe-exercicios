@@ -9,6 +9,7 @@ function App() {
   const handleClick = (event: ChangeEvent<HTMLInputElement>) => {
     setInputValue(event.target.value);
   };
+  console.log(inputValue);
   return (
     <>
       <h1>Show me a Char!!</h1>
