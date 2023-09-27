@@ -8,6 +8,7 @@ export type CharacterType = {
   born: string,
   died: string,
   titles: string[],
+  aliases: string[],
   isLoading: false,
 };
 
@@ -18,6 +19,7 @@ export type ReduxState = {
   born: string,
   died: string,
   titles: string[],
+  aliases: string[],
   isLoading: false,
 };
 

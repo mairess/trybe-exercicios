@@ -28,6 +28,12 @@ function Gallery() {
               <li key={ index }>{title}</li>
             ))}
           </ul>
+          <h3>Aka:</h3>
+          <ul>
+            {rootState.aliases.map((alias, index) => (
+              <li key={ index }>{alias}</li>
+            ))}
+          </ul>
         </div>
       )}
     </div>
