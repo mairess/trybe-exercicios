@@ -1,4 +1,5 @@
 import { ChangeEvent } from 'react';
+import styled from 'styled-components';
 
 type InputProps = {
   value: string,
@@ -6,16 +7,22 @@ type InputProps = {
 };
 
 function Input({ value, onChange }: InputProps) {
+  const Label = styled.label`
+  input {
+    margin: 0 1rem;
+  }
+  `;
   return (
-    <label htmlFor="searchInput">
-      digite um nome aqui
+    <Label htmlFor="searchInput">
+      Digite um nome aqui
       <input
+        placeholder="nome completo"
         id="searchInput"
         type="text"
         value={ value }
         onChange={ onChange }
       />
-    </label>
+    </Label>
   );
 }
 
