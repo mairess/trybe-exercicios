@@ -118,7 +118,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 01: _Introdução ao Redux - O estado global da aplicação_
 - [x] Dia 02: _Usando o Redux no React_
 - [x] Dia 03: _Revisão - Usando o Redux no React_
-- [ ] Dia 04: _Usando o Redux no React - Actions Assíncronas_
+- [x] Dia 04: _Usando o Redux no React - Actions Assíncronas_
 - [ ] Dia 05: _Testes em React-Redux_
 - [ ] Dia 06: _Projeto - Trybe Wallet_
 
