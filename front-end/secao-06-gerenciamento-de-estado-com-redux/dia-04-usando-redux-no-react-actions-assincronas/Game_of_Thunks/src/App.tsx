@@ -5,17 +5,18 @@ import Button from './components/Button';
 import Gallery from './components/InfosCharBoard';
 import Input from './components/Input';
 
+const InputContainer = styled.div`
+display: flex;
+justify-content: center;
+margin: 1rem 0;
+padding: 0.25;
+`;
+
 function App() {
   const [inputValue, setInputValue] = useState('');
   const handleClick = (event: ChangeEvent<HTMLInputElement>) => {
     setInputValue(event.target.value);
   };
-  const InputContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  margin: 1rem 0;
-  padding: 0.25;
-  `;
 
   return (
     <>

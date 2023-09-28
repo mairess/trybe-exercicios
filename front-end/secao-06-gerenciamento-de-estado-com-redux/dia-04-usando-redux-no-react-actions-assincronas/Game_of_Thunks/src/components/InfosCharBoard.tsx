@@ -2,20 +2,20 @@ import { useSelector } from 'react-redux';
 import styled from 'styled-components';
 import { ReduxState } from '../types';
 
+const Container = styled.div`
+background-color: rgba(255, 255, 255, 0.2);
+border-radius: 1rem;
+padding: 1rem;
+
+li {
+  list-style: none;
+}
+`;
+
 function Gallery() {
   const rootState = useSelector((state: ReduxState) => state);
   if (rootState.isLoading) { return <h3>Loading...</h3>; }
   if (rootState.error) { return <div>{rootState.error}</div>; }
-
-  const Container = styled.div`
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 1rem;
-  padding: 1rem;
-  
-  li {
-    list-style: none;
-  }
-  `;
 
   return (
     <Container>
