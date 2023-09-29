@@ -7,11 +7,12 @@ type ButtonProps = {
   inpuValue: string,
 };
 
+const ButtonStyled = styled.button`
+margin: 1rem;
+`;
+
 function Button({ inpuValue }: ButtonProps) {
   const dispatch: Dispatch = useDispatch();
-  const ButtonStyled = styled.button`
-  margin: 1rem;
-  `;
   return (
     <ButtonStyled type="button" onClick={ () => dispatch(fetchAPI(inpuValue)) }>
       Show me

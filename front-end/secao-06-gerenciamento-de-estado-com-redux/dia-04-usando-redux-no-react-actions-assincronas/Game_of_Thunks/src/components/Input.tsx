@@ -6,12 +6,13 @@ type InputProps = {
   onChange: (event: ChangeEvent<HTMLInputElement>) => void
 };
 
+const Label = styled.label`
+input {
+  margin: 0 1rem;
+}
+`;
+
 function Input({ value, onChange }: InputProps) {
-  const Label = styled.label`
-  input {
-    margin: 0 1rem;
-  }
-  `;
   return (
     <Label htmlFor="searchInput">
       Digite um nome aqui
