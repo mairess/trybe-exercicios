@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css'
+import RandomNumber from './componets/random-number';
 
 class App extends React.Component {
 render() {
     return (
-        <h1>Hello world</h1>
+        <RandomNumber 
+        max={ 5 }
+        />
     )
 }
 }
