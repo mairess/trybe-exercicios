@@ -10,6 +10,7 @@ class App extends React.Component<object, AppState> {
         showRandomNumber: false,
     }
 
+
     handleClick = () => {
         this.setState((prevState) => (
             { showRandomNumber: !prevState.showRandomNumber }
