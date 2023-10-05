@@ -1,9 +1,9 @@
-import { createContext } from "react";
+import { createContext } from 'react';
 
-type ThemeContext = {
-    theme: 'dark' | 'light'
+type ThemeContextType = {
+  theme: 'dark' | 'light'
 };
 
-const ThemeContext = createContext({} as ThemeContext);
+const ThemeContext = createContext({} as ThemeContextType);
 
 export default ThemeContext;
