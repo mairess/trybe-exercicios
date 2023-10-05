@@ -5,12 +5,12 @@ import ThemeContext from '../context/ThemeContext';
 export default function Header() {
   const { theme, toggleTheme } = useContext(ThemeContext);
   return (
-    <header className={ theme }>
+    <header>
       <h1>Trybe</h1>
       <button
         onClick={ toggleTheme }
       >
-        🌒
+        {theme === 'dark' ? '🌞' : '🌒'}
       </button>
     </header>
   );

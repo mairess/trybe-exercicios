@@ -14,7 +14,7 @@ export default function App() {
 
   return (
     <ThemeContext.Provider value={ { theme: pageThem, toggleTheme } }>
-      <div className="app">
+      <div className={ pageThem }>
         <Header />
         <Image />
         <Footer />
