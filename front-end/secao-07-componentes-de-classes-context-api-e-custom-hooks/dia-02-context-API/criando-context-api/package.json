@@ -1,0 +1,38 @@
+{
+  "name": "criando-context-api",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "tsc && vite build",
+    "lint": "eslint -c .eslintrc.json . --ext .js,.jsx,.ts,.tsx",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@sheerun/mutationobserver-shim": "0.3.3",
+    "@testing-library/user-event": "^14.4.3",
+    "@trybe/eslint-config-frontend": "^1.11.4",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react-swc": "^3.1.0",
+    "@vitest/coverage-c8": "^0.30.1",
+    "cross-env": "^7.0.3",
+    "cypress": "10.11.0",
+    "cypress-multi-reporters": "1.6.2",
+    "jest-localstorage-mock": "2.4.26",
+    "jsdom": "^21.1.0",
+    "mocha": "10.2.0",
+    "mochawesome": "7.1.3",
+    "mochawesome-merge": "4.2.2",
+    "mochawesome-report-generator": "6.2.0",
+    "stylelint": "14.16.1",
+    "stylelint-config-standard": "26.0.0",
+    "typescript": "^5.0.4",
+    "vite": "^4.1.1",
+    "vitest": "^0.30.1"
+  }
+}
