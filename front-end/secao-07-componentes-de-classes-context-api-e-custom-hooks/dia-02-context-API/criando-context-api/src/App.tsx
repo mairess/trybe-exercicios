@@ -1,24 +1,17 @@
-import { useState } from 'react';
-import ThemeContext from './context/ThemeContext';
+import ThemeProvider from './context/ThemeProvider';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Image from './components/Image';
-import './App.css';
+import './style.css';
 
-export default function App() {
-  const [pageThem, setPageTheme] = useState<'dark' | 'light'>('dark');
-
-  function toggleTheme() {
-    setPageTheme((prevPageThem) => (prevPageThem === 'dark' ? 'light' : 'dark'));
-  }
-
+function App() {
   return (
-    <ThemeContext.Provider value={ { theme: pageThem, toggleTheme } }>
-      <div className={ pageThem }>
-        <Header />
-        <Image />
-        <Footer />
-      </div>
-    </ThemeContext.Provider>
+    <ThemeProvider>
+      <Header />
+      <Image />
+      <Footer />
+    </ThemeProvider>
   );
 }
+
+export default App;

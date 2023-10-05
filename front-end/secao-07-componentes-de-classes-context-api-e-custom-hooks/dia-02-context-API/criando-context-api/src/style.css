@@ -49,9 +49,15 @@ button:focus-visible {
     align-items: center;
 }
 .dark {
-    background-color: rgba(0, 0, 0, 0.458);
+    min-height: 100vh;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.679);
 }
 
+
 .light {
+    min-height: 100vh;
+    
+    color: black;
     background-color: aliceblue;
 }

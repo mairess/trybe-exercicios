@@ -3,25 +3,3 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
-.app {
-    min-height: 100vh;
-    
-    color: azure;
-    background-color: rgba(0, 0, 0, 0.679);
-}
-
-.dark {
-    min-height: 100vh;
-    color: azure;
-    background-color: rgba(0, 0, 0, 0.679);
-}
-
-
-.light {
-    min-height: 100vh;
-    
-    color: black;
-    background-color: aliceblue;
-}
