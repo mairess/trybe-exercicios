@@ -21,5 +21,10 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "references": [{ "path": "./tsconfig.node.json" }],
+
+  "parserOptions": {
+    "tsconfigRootDir": "/home/admin/TypescriptPro",
+    "project": ["tsconfig.json"],
+  },
 }
