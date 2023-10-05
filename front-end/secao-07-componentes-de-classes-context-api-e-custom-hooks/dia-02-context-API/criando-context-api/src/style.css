@@ -9,7 +9,8 @@ footer {
     bottom: 0;
     min-width: 100vw;
     text-align: center;
-
+    height: 2rem;
+    padding: 0.5rem;
     color: whitesmoke;
     font-weight: 600;
     background-color: rgba(0, 0, 0, 0.703);
