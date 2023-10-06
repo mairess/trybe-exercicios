@@ -24,7 +24,11 @@ const addSmall = () => {
 };
 
 const removeSmall = () => {
-  setSmallQty((prevSmallQty) => prevSmallQty - 1);
+  if(smallQty <= 0 ) {
+    setSmallQty(0)
+  } else {
+    setSmallQty((prevSmallQty) => prevSmallQty - 1);
+  }
 };
 
 const addMedium = () => {
@@ -36,7 +40,11 @@ const addMedium = () => {
 };
 
 const removeMedium = () => {
-  setMediumQty((prevMediumQty) => prevMediumQty - 1);
+  if(mediumQty <= 0) {
+    setMediumQty(0)
+  } else {
+    setMediumQty((prevMediumQty) => prevMediumQty - 1);
+  }
 };
 
 const addLarge = () => {
@@ -48,7 +56,11 @@ const addLarge = () => {
 };
 
 const removeLarge = () => {
-  setLargeQty((prevLargeQty) => prevLargeQty - 1);
+  if(largeQty <= 0) {
+    setLargeQty(0)
+  } else {
+    setLargeQty((prevLargeQty) => prevLargeQty - 1);
+  }
 };
   return (
     <>
