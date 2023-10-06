@@ -124,7 +124,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ### 3° Período
 
-#### Seção Componentes de Classes, Context API e Custom Hucks
+#### Seção [Componentes de Classes, Context API e Custom Hucks](https://github.com/mairess/trybe-exercicios/tree/main/front-end/secao-07-componentes-de-classes-context-api-e-custom-hooks)
 
 - [ ] Dia 01: _Componentes e Classes_
 - [ ] Dia 02: _Constext API_
