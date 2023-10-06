@@ -1,8 +1,8 @@
 import './App.css'
 import Header from './components/header/Header'
 import ProductCounter from './components/product-counter';
-import { useState } from 'react';
 import { Container, Title, Footer } from './styles';
+import useProduct from './hooks/useProduct';
 
 const LIMITS = {
   samll: 10,
@@ -11,57 +11,10 @@ const LIMITS = {
 };
 
 function App() {
-const [smallQty, setSmallQty] = useState(0);
-const [mediumQty, setMediumQty] = useState(0);
-const [largeQty, setLargeQty] = useState(0);
+const small = useProduct(LIMITS.samll);
+const medium = useProduct(LIMITS.medium);
+const large = useProduct(LIMITS.large);
 
-const addSmall = () => {
-  if(smallQty >= LIMITS.samll) {
-    setSmallQty(LIMITS.samll)
-  } else {
-    setSmallQty((prevSmallQty) => prevSmallQty + 1);
-  }
-};
-
-const removeSmall = () => {
-  if(smallQty <= 0 ) {
-    setSmallQty(0)
-  } else {
-    setSmallQty((prevSmallQty) => prevSmallQty - 1);
-  }
-};
-
-const addMedium = () => {
-  if(mediumQty >= LIMITS.medium) {
-    setMediumQty(LIMITS.medium);
-  } else {
-    setMediumQty((prevMediumQty) => prevMediumQty + 1);
-  }
-};
-
-const removeMedium = () => {
-  if(mediumQty <= 0) {
-    setMediumQty(0)
-  } else {
-    setMediumQty((prevMediumQty) => prevMediumQty - 1);
-  }
-};
-
-const addLarge = () => {
-  if(largeQty >= LIMITS.large) {
-    setLargeQty(LIMITS.large);
-  } else {
-    setLargeQty((prevLargeQty) => prevLargeQty + 1);
-  }
-};
-
-const removeLarge = () => {
-  if(largeQty <= 0) {
-    setLargeQty(0)
-  } else {
-    setLargeQty((prevLargeQty) => prevLargeQty - 1);
-  }
-};
   return (
     <>
       <Header />
@@ -71,28 +24,28 @@ const removeLarge = () => {
 
         <ProductCounter
           productName="Camiseta pequena"
-          quantity={smallQty}
-          addProduct={addSmall}
-          removeProduct={removeSmall}
+          quantity={small.productQty}
+          addProduct={small.addProduct}
+          removeProduct={small.removeProduct}
         />
 
         <ProductCounter
           productName="Camiseta media"
-          quantity={mediumQty}
-          addProduct={addMedium}
-          removeProduct={removeMedium}
+          quantity={medium.productQty}
+          addProduct={medium.addProduct}
+          removeProduct={medium.removeProduct}
         />
 
         <ProductCounter
           productName="Camiseta grande"
-          quantity={largeQty}
-          addProduct={addLarge}
-          removeProduct={removeLarge}
+          quantity={large.productQty}
+          addProduct={large.addProduct}
+          removeProduct={large.removeProduct}
         />
       </Container>
 
       <Footer>
-        {`Total: ${smallQty + mediumQty + largeQty} camisetas`}
+        {`Total: ${small.productQty + medium.productQty + large.productQty} camisetas`}
       </Footer>
     </>
   )
