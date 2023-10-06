@@ -1,39 +1,27 @@
 import Swal from 'sweetalert2';
-import { useState } from 'react';
 import './form.css';
+import useFormInput from '../../hooks/useFormInput';
 
 function Form() {
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [email, setEmail] = useState('');
-
-  function handleFirstNameChange(e: React.ChangeEvent<HTMLInputElement>) {
-    setFirstName(e.target.value);
-  }
-
-  function handleLastNameChange(e: React.ChangeEvent<HTMLInputElement>) {
-    setLastName(e.target.value);
-  }
-
-  function handleEmailChange(e: React.ChangeEvent<HTMLInputElement>) {
-    setEmail(e.target.value);
-  }
+  const firstName = useFormInput('');
+  const lastName = useFormInput('');
+  const email = useFormInput('');
 
   function resetForm() {
-    setEmail('');
-    setFirstName('');
-    setLastName('');
+    firstName.onChange('');
+    lastName.onChange('');
+    email.onChange('');
   }
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    if (firstName && lastName && email) {
+    if (firstName.value && lastName.value && email.value) {
       Swal.fire(
         'Formulário enviado',
         JSON.stringify({
-          firstName,
-          lastName,
-          email,
+          firstName: firstName.value,
+          lastName: lastName.value,
+          email: email.value,
         }),
         'success',
       );
@@ -52,15 +40,24 @@ function Form() {
       <form onSubmit={ handleSubmit }>
         <label>
           First name:
-          <input value={ firstName } onChange={ handleFirstNameChange } />
+          <input
+            value={ firstName.value }
+            onChange={ ({ target }) => firstName.onChange(target.value) }
+          />
         </label>
         <label>
           Last name:
-          <input value={ lastName } onChange={ handleLastNameChange } />
+          <input
+            value={ lastName.value }
+            onChange={ ({ target }) => lastName.onChange(target.value) }
+          />
         </label>
         <label>
           E-mail:
-          <input value={ email } onChange={ handleEmailChange } />
+          <input
+            value={ email.value }
+            onChange={ ({ target }) => email.onChange(target.value) }
+          />
         </label>
         <button>Submeter formulário</button>
       </form>
