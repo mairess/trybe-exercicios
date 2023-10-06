@@ -16,7 +16,11 @@ const [mediumQty, setMediumQty] = useState(0);
 const [largeQty, setLargeQty] = useState(0);
 
 const addSmall = () => {
-  setSmallQty((prevSmallQty) => prevSmallQty + 1);
+  if(smallQty >= LIMITS.samll) {
+    setSmallQty(LIMITS.samll)
+  } else {
+    setSmallQty((prevSmallQty) => prevSmallQty + 1);
+  }
 };
 
 const removeSmall = () => {
@@ -24,7 +28,11 @@ const removeSmall = () => {
 };
 
 const addMedium = () => {
-  setMediumQty((prevMediumQty) => prevMediumQty + 1);
+  if(mediumQty >= LIMITS.medium) {
+    setMediumQty(LIMITS.medium);
+  } else {
+    setMediumQty((prevMediumQty) => prevMediumQty + 1);
+  }
 };
 
 const removeMedium = () => {
@@ -32,7 +40,11 @@ const removeMedium = () => {
 };
 
 const addLarge = () => {
-  setLargeQty((prevLargeQty) => prevLargeQty + 1);
+  if(largeQty >= LIMITS.large) {
+    setLargeQty(LIMITS.large);
+  } else {
+    setLargeQty((prevLargeQty) => prevLargeQty + 1);
+  }
 };
 
 const removeLarge = () => {
