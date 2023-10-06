@@ -1,3 +1,5 @@
+import { Row, ButtonRemove, ButtonAdd } from './styles';
+
 type ProductCounterProps = {
     productName: string; 
     quantity: number;
@@ -12,18 +14,18 @@ function ProductCounter({
     removeProduct,
 } : ProductCounterProps) {
     return (
-        <div>
+        <Row>
             <p>{productName}</p>
             <div>
-                <button onClick={ removeProduct } title={ `Remover ${productName}` }>
+                <ButtonRemove onClick={ removeProduct } title={ `Remover ${productName}` }>
                     -
-                </button>
+                </ButtonRemove>
                     <span>{quantity}</span>
-                <button onClick={ addProduct} title={ `Adicionar ${productName}` }>
+                <ButtonAdd onClick={ addProduct} title={ `Adicionar ${productName}` }>
                     +
-                </button>
+                </ButtonAdd>
             </div>
-        </div>
+        </Row>
     )
 }
 
