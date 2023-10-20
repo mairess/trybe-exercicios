@@ -124,11 +124,11 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ### 3° Período
 
-#### Seção [Componentes de Classes, Context API e Custom Hucks](https://github.com/mairess/trybe-exercicios/tree/main/front-end/secao-07-componentes-de-classes-context-api-e-custom-hooks)
+#### Seção [Componentes de Classes, Context API e Custom Hooks](https://github.com/mairess/trybe-exercicios/tree/main/front-end/secao-07-componentes-de-classes-context-api-e-custom-hooks)
 
 - [x] Dia 01: _Componentes e Classes_
 - [x] Dia 02: _Constext API_
-- [x] Dia 03: _Hucks Customizados_
+- [x] Dia 03: _Hooks Customizados_
 - [x] Dia 04: _Projeto - StarWars_
 
 #### Seção App de Receitas
