@@ -129,7 +129,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 01: _Componentes e Classes_
 - [x] Dia 02: _Constext API_
 - [x] Dia 03: _Hooks Customizados_
-- [x] Dia 04: _Projeto - StarWars_
+- [] Dia 04: _Projeto - StarWars_
 
 #### Seção App de Receitas
 
