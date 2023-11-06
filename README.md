@@ -68,7 +68,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 05: _JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
 - [x] Dia 06: _Projeto - Zoo functions_
 
-## <p align="center"> Front-end ⏳ </p>
+## <p align="center"> Front-end ✅ </p>
 
 ### 1° Período
 
@@ -133,7 +133,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção App de Receitas
 
-- [ ] Dia 01: _Projeto - App de Receitas_
+- [x] Dia 01: _Projeto - App de Receitas_
 
 ## <p align="center"> Back-end ⏳ </p>
 
