@@ -142,7 +142,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 #### Seção Docker: Utilizando Containers
 
 - [x] Dia 01: _Utilizando Containers - Docker_
-- [ ] Dia 02: _Manipulando Imagens no Docker_
+- [x] Dia 02: _Manipulando Imagens no Docker_
 - [ ] Dia 03: _Orquestrando Containers com Docker Compose_
 - [ ] Dia 04: _Projeto - Docker Todo-List_
 
