@@ -1,0 +1,27 @@
+version: '3'
+services:
+  ghostblog:
+    image: ghost:1-alpine
+    ports:
+      - 2368:2368
+    environment:
+      database__client: mysql
+      database__connection__host: database
+      database__connection__user: root
+      database__connection__password: passwordMySql
+      database__connection__database: ghost
+    depends_on:
+      - database
+    networks:
+      - my-network
+  database:
+    image: mysql:5.7.40
+    environment:
+        MYSQL_ROOT_PASSWORD: passwordMySql
+    volumes:
+      - /home/maires/Documentos/trybe-exercicios/back-end/secao-01-docker-utilizando-containers/dia-03-orquestrando-containers-com-docker/exercise:/var/lib/mysql
+    networks:
+      - my-network
+networks:
+    my-network:
+    
