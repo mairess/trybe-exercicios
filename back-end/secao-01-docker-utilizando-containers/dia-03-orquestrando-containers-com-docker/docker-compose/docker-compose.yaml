@@ -8,6 +8,8 @@ services:
   backend:
     build: backend/
     restart: on-failure
+    enviroment:
+    - DB_HOST=database
     ports:
     - 3001:3001
   database:
