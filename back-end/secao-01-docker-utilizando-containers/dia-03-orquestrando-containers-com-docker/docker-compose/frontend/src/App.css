@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.App-messages {
+  background-color: #036b52;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 20px 0 20px 0;
+  padding: 20px
+}
+
+.Contrast-text {
+  font-size: calc(5px + 2vmin);
+  color: #036b52 !important;
+}
