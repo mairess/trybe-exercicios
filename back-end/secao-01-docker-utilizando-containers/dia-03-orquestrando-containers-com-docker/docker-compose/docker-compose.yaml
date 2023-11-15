@@ -1,0 +1,15 @@
+version: '3'
+services:
+  fronted:
+    build: fronted/
+    restart: on-failure
+    ports:
+    - 3000:3000
+  backend:
+    build: backend/
+    restart: on-failure
+    ports:
+    - 3001:3001
+  database:
+    image: betrybe/docker-compose-example-database:v1
+    restart: on-failure
