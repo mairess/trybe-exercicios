@@ -139,16 +139,16 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ### 1° Período
 
-#### Seção Docker: Utilizando Containers
+#### Seção [Docker: Utilizando Containers](https://github.com/mairess/trybe-exercicios/tree/main/back-end/secao-01-docker-utilizando-containers)
 
 - [x] Dia 01: _Utilizando Containers - Docker_
 - [x] Dia 02: _Manipulando Imagens no Docker_
 - [x] Dia 03: _Orquestrando Containers com Docker Compose_
-- [ ] Dia 04: _Projeto - Docker Todo-List_
+- [x] Dia 04: _Projeto - Docker Todo-List_
 
 #### Seção Introdução à SQL
 
-- [ ] Dia 01: _Banco de dados SQL_
+- [x] Dia 01: _Banco de dados SQL_
 - [ ] Dia 02: _Encontrando dados em um banco de dados_
 - [ ] Dia 03: _Filtrando dados de forma específica_
 - [ ] Dia 04: _Manipulando tabelas_
