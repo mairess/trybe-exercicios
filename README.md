@@ -149,8 +149,8 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 #### Seção Introdução à SQL
 
 - [x] Dia 01: _Banco de dados SQL_
-- [ ] Dia 02: _Encontrando dados em um banco de dados_
-- [ ] Dia 03: _Filtrando dados de forma específica_
+- [x] Dia 02: _Encontrando dados em um banco de dados_
+- [x] Dia 03: _Filtrando dados de forma específica_
 - [ ] Dia 04: _Manipulando tabelas_
 - [ ] Dia 05: _Projeto - All For One_
 
