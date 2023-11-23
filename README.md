@@ -148,11 +148,11 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção Introdução à SQL
 
-- [x] Dia 01: _Banco de dados SQL_
-- [x] Dia 02: _Encontrando dados em um banco de dados_
-- [x] Dia 03: _Filtrando dados de forma específica_
-- [ ] Dia 04: _Manipulando tabelas_
-- [ ] Dia 05: _Projeto - All For One_
+- [x] Dia 01: _Introdução a Banco de dados_
+- [x] Dia 02: _Como atualizar e remover dados de um banco de dados_
+- [x] Dia 03: _Relacionamentos - Parte 1_
+- [ ] Dia 04: _Relacionamentos - Parte 2_
+- [ ] Dia 05: _Projeto - Trybefy_
 
 #### Seção Funções SQL, JOINs e Normalização
 
