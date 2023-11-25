@@ -146,14 +146,14 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 03: _Orquestrando Containers com Docker Compose_
 - [x] Dia 04: _Projeto - Docker Todo-List_
 
-#### Seção Introdução à SQL
+#### Seção [Introdução à SQL](https://github.com/mairess/trybe-exercicios/tree/main/back-end/secao-02-introducao-a-sql)
 
 - [x] Dia 01: _Introdução a Banco de dados_
 - [x] Dia 02: _Como atualizar e remover dados de um banco de dados_
 - [x] Dia 03: _Relacionamentos - Parte 1_
 - [x] Dia 04: _Relacionamentos - Parte 2_
 - [x] Dia 05: _Relacionamentos - Parte 3 e Relatórios Vvançados_
-- [ ] Dia 06: _Projeto - Trybefy_
+- [x] Dia 06: _Projeto - Trybefy_
 
 #### Seção Funções SQL, JOINs e Normalização
 
