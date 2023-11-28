@@ -78,7 +78,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 02: _JavaScript Assíncrono - Promises e Fetch_
 - [x] Dia 03: _Prática - Casa de câmbio_
 - [x] Dia 04: _Async, await e testes assíncronos_
-- [x] Dia 05: _Projeto - iChoveu_
+- [x] Dia 05: [_Projeto - iChoveu_](https://github.com/mairess/project-iChoveu)
 
 #### Seção [Introdução ao React](https://github.com/mairess/trybe-exercicios/tree/main/front-end/secao-02-introducao-ao-react)
 
@@ -88,14 +88,14 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 04: _Revisão - Solar System_
 - [x] Dia 05: _Estados e eventos_
 - [x] Dia 06: _Formulários_
-- [x] Dia 07: _Projeto - Password Manager_
+- [x] Dia 07: [_Projeto - Password Manager_](https://github.com/mairess/project-password-manager)
 
 #### Seção [Aprofundando no React](https://github.com/mairess/trybe-exercicios/tree/main/front-end/secao-03-aprofundando-no-react)
 
 - [x] Dia 01: _React Router_
 - [x] Dia 02: _useEffect_
 - [x] Dia 03: _Revisão - Clonando o Twitter_
-- [x] Dia 04: _Projeto - Trybetunes_
+- [x] Dia 04: [_Projeto - Trybetunes_](https://github.com/mairess/project-trybetunes-vite-ts)
 
 ### 2° Período
 
@@ -104,14 +104,14 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 01: _Introdução a React Testing Library_
 - [x] Dia 02: _RTL: Mocks_
 - [x] Dia 03: _RTL: Testando com React Router_
-- [x] Dia 04: _Projeto - Testes em React_
+- [x] Dia 04: [_Projeto - Testes em React_](https://github.com/mairess/project-react-testing-library)
 
 #### Seção [Estilização e Metodologia Ágil](https://github.com/mairess/trybe-exercicios/tree/main/front-end/secao-05-estilizacao-e-metodologia-agil)
 
 - [x] Dia 01: _CSS Modules_
 - [x] Dia 02: _Styled Components_
 - [x] Dia 03: _Metodologias Ágeis_
-- [x] Dia 04: _Projeto - Front-end Online Store_
+- [x] Dia 04: [_Projeto - Front-end Online Store_]()
 
 #### Seção [Gerenciamento de estado com Redux](https://github.com/mairess/trybe-exercicios/tree/main/front-end/secao-06-gerenciamento-de-estado-com-redux)
 
@@ -120,7 +120,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 03: _Revisão - Usando o Redux no React_
 - [x] Dia 04: _Usando o Redux no React - Actions Assíncronas_
 - [x] Dia 05: _Testes em React-Redux_
-- [x] Dia 06: _Projeto - Trybe Wallet_
+- [x] Dia 06: [_Projeto - Trybe Wallet_](https://github.com/mairess/project-trybewallet)
 
 ### 3° Período
 
@@ -129,11 +129,11 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 01: _Componentes e Classes_
 - [x] Dia 02: _Constext API_
 - [x] Dia 03: _Hooks Customizados_
-- [x] Dia 04: _Projeto - StarWars_
+- [x] Dia 04: [_Projeto - StarWars_](https://github.com/mairess/project-starwars-planets-search)
 
 #### Seção App de Receitas
 
-- [x] Dia 01: _Projeto - App de Receitas_
+- [x] Dia 01: [_Projeto - App de Receitas_](https://github.com/mairess/project-recipes-app-ts)
 
 ## <p align="center"> Back-end ⏳ </p>
 
@@ -144,7 +144,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 01: _Utilizando Containers - Docker_
 - [x] Dia 02: _Manipulando Imagens no Docker_
 - [x] Dia 03: _Orquestrando Containers com Docker Compose_
-- [x] Dia 04: _Projeto - Docker Todo-List_
+- [x] Dia 04: [_Projeto - Docker Todo-List_](https://github.com/mairess/project-docker-todo-list)
 
 #### Seção [Introdução à SQL](https://github.com/mairess/trybe-exercicios/tree/main/back-end/secao-02-introducao-a-sql)
 
@@ -153,7 +153,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 03: _Relacionamentos - Parte 1_
 - [x] Dia 04: _Relacionamentos - Parte 2_
 - [x] Dia 05: _Relacionamentos - Parte 3 e Relatórios Vvançados_
-- [x] Dia 06: _Projeto - Trybefy_
+- [x] Dia 06: [_Projeto - Trybefy_](https://github.com/mairess/project-trybefy)
 
 #### Seção Introdução ao desenvolvimento Web com Node.js
 
