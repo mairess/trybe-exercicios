@@ -111,7 +111,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 01: _CSS Modules_
 - [x] Dia 02: _Styled Components_
 - [x] Dia 03: _Metodologias Ágeis_
-- [x] Dia 04: [_Projeto - Front-end Online Store_]()
+- [x] Dia 04: [_Projeto - Front-end Online Store_](https://github.com/mairess/project-frontend-online-store-ts)
 
 #### Seção [Gerenciamento de estado com Redux](https://github.com/mairess/trybe-exercicios/tree/main/front-end/secao-06-gerenciamento-de-estado-com-redux)
 
