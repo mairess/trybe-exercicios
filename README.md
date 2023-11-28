@@ -22,7 +22,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 02: _HTML & CSS - Primeiros passos em CSS_
 - [x] Dia 03: _HTML & CSS - Seletores e posicionamento_
 - [x] Dia 04: _HTML Semântico_
-- [x] Dia 05: _Projeto - Lessons Learned_
+- [x] Dia 05: [_Projeto - Lessons Learned_](https://github.com/mairess/project-lessons-learned)
 
 #### Seção [Introdução à JavaScript](https://github.com/mairess/trybe-exercicios/tree/main/fundamentos/secao-03-introducao-a-javascript)
 
@@ -31,7 +31,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 03: _JavaScript - Funções_
 - [x] Dia 04: _JavaScript - Objetos_
 - [x] Dia 05: _JavaScript - JSON e prática_
-- [x] Dia 06: _Projeto - Supermercado Pirilampo_
+- [x] Dia 06: [_Projeto - Supermercado Pirilampo_](https://github.com/mairess/project-supermercado-pirilampo)
 
 #### Seção [JavaScript: DOM, Eventos e Web Storage](https://github.com/mairess/trybe-exercicios/tree/main/fundamentos/secao-04-javascript-dom-eventos-e-web-storage)
 
@@ -39,7 +39,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 02: _JavaScript - Trabalhando com elementos_
 - [x] Dia 03: _JavaScript - Eventos_
 - [x] Dia 04: _JavaScript - Web Storage_
-- [x] Dia 05: _Projeto - Arte com Pixels_
+- [x] Dia 05: [_Projeto - Arte com Pixels_](https://github.com/mairess/project-pixels-art)
 
 ### 2° Período
 
@@ -50,14 +50,14 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 03: _CSS Flexbox - Parte 1_
 - [x] Dia 04: _CSS Flexbox - Parte 2_
 - [x] Dia 05: _Responsividade_
-- [x] Dia 06: _Projeto - Trybewarts_
+- [x] Dia 06: [_Projeto - Trybewarts_](https://github.com/mairess/project-trybewarts)
 
 #### Seção [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/mairess/trybe-exercicios/tree/main/fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios)
 
 - [x] Dia 01: _Fluxo de exceções e manipulação de objetos_
 - [x] Dia 02: _Primeiros passos em Jest_
 - [x] Dia 03: _Matchers e cobertura de código_
-- [x] Dia 04: _Projeto - JavaScript Testes Unitários_
+- [x] Dia 04: [_Projeto - JavaScript Testes Unitários_](https://github.com/mairess/project-js-unit-tests)
 
 #### Seção [Higher Order Functions do JavaScript ES6](https://github.com/mairess/trybe-exercicios/tree/main/fundamentos/secao-07-higher-order-functions-do-javascript-es6)
 
@@ -66,7 +66,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 03: _Higher Order Functions - filter e reduce_
 - [x] Dia 04: _JavaScript ES6 - spread operator, rest parameters e object destructuring_
 - [x] Dia 05: _JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
-- [x] Dia 06: _Projeto - Zoo functions_
+- [x] Dia 06: [_Projeto - Zoo functions_](https://github.com/mairess/sd-034-project-zoo-functions)
 
 ## <p align="center"> Front-end ✅ </p>
 
@@ -154,13 +154,6 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 04: _Relacionamentos - Parte 2_
 - [x] Dia 05: _Relacionamentos - Parte 3 e Relatórios Vvançados_
 - [x] Dia 06: _Projeto - Trybefy_
-
-#### Seção Funções SQL, JOINs e Normalização
-
-- [ ] Dia 01: _Funções mais usadas no SQL_
-- [ ] Dia 02: _Descomplicando JOINS_
-- [ ] Dia 03: _Transformando ideias em um modelo de banco de dados_
-- [ ] Dia 04: _Aula ao vivo + Projeto - One For All_
 
 #### Seção Introdução ao desenvolvimento Web com Node.js
 
