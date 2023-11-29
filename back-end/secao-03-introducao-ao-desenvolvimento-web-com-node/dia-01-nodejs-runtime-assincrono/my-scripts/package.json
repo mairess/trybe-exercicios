@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "fibonacci": "node fibonacci.js",
     "bmi": "node bmi.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
