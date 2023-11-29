@@ -1,6 +1,6 @@
 const fs = require('fs').promises;
 
-async function main() {
+async function showCharIndos() {
     try {
         const data = await fs.readFile('./simpsons.json', 'utf-8');
         const characters = JSON.parse(data);
@@ -12,4 +12,4 @@ async function main() {
     }
 };
 
-main()
+showCharIndos()

@@ -16,6 +16,7 @@ async function characters() {
 
     if (!toGetOut || !toGetIn) {
         throw new Error('Personagens não encontrados!');
+        process.exit()
     }
 
     const updated = charactersSimpsonsFamily.filter((char) => char.name !== toGetOut.name)
