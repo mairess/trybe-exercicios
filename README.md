@@ -157,7 +157,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção Introdução ao desenvolvimento Web com Node.js
 
-- [ ] Dia 01: _Node.js: Runtime Assincrono_
+- [x] Dia 01: _Node.js: Runtime Assincrono_
 - [ ] Dia 02: _Node.js: API REST com Express_
 - [ ] Dia 03: _Node.js: Testes de Integração_
 - [ ] Dia 04: _Node.js: Express e Middlewares_

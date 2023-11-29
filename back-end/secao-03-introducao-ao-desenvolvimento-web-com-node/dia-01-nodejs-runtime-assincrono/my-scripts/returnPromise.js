@@ -17,4 +17,4 @@ function returnPromise(param1, param2, param3) {
 
 returnPromise(1, 1, 1)
     .then((result) => result)
-    .catch((error) => console.log(`Erro: %s`, error.message));;
+    .catch((error) => console.log(`Erro: %s`, error.message));
