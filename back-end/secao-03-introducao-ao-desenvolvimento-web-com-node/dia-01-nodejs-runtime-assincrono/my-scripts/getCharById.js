@@ -14,6 +14,6 @@ async function getCharById() {
     return promise
 };
 
-getCharById('9')
+getCharById()
     .then((result) => console.log(`Encontrado: ${JSON.stringify(result)}`))
     .catch((error) => console.log(`Erro: ${error.message}`));
