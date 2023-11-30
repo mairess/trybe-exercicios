@@ -23,6 +23,8 @@ app.get('/movies/:id', async (req, res) => {
 app.post('/movies', async (req, res) => {
     const newMovie = {...req.body};
     const movies = await readFileAsync();
+    const maxId = Math.max(...movies.map((movie) => movie.id));
+    newMovie.id = maxId + 1;
     movies.push(newMovie);
     await writeFileASync(movies)
     res.status(201).json({newMovie});
