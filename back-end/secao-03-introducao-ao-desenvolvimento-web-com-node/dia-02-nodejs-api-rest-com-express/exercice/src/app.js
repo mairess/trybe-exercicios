@@ -1,6 +1,7 @@
 const express = require('express');
 const readFileAsync = require('./readFileAsync');
 const writeFileASync = require('./writeFileASync');
+// const updateFileAsync = require('./updateFileAsync');
 
 const app = express();
 
@@ -29,5 +30,20 @@ app.post('/movies', async (req, res) => {
     await writeFileASync(movies)
     res.status(201).json({newMovie});
 })
+
+app.put('/movies/:id', async (req, res) => {
+    const { id } = req.params;
+    const { movie, price } = req.body;
+    const movies = await readFileAsync();
+
+    const movieIndex = movies.findIndex((movie) => movie.id === Number(id));
+
+    movies[movieIndex] = { id: Number(id), movie, price };
+    // const updatedMovies = JSON.stringify(movies, null, 2);
+    await writeFileASync(movies);
+
+    res.status(200).json({ movie: movies[movieIndex] });
+});
+
 
 module.exports = app;
