@@ -1,9 +1,22 @@
 const express = require('express');
-const teams = require('./teams');
+// const teams = require('./teams');
 
 const app = express();
 
 app.use(express.json());
+
+const teams = [
+    {
+      id: 1,
+      name: 'São Paulo Futebol Clube',
+      initials: 'SPF',
+    },
+    {
+      id: 2,
+      name: 'Clube Atlético Mineiro',
+      initials: 'CAM',
+    },
+  ];
 
 app.get('/', (req, res) => res.status(200).json({ message: 'olá mundo!' }));
 
@@ -43,6 +56,18 @@ app.get('/teams/:id', (req, res) => {
     }
 
     res.status(200).json(theTeam);
+});
+
+app.delete('/teams/:id', (req, res) => {
+    const { id } = req.params;
+    const theTeamPosition = teams.findIndex((team) => team.id === Number(id));
+    teams.splice(theTeamPosition, 1);
+
+    if (!theTeamPosition) {
+        return res.status(404).json({ message: 'Team not found!' });
+    }
+
+    res.status(200).end();
 });
 
 module.exports = app;
