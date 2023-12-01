@@ -3,7 +3,7 @@ const chaiHttp = require('chai-http');
 const readChocolates = require('../../src/getAllChocalates');
 const app = require('../../src/app')
 const sinon = require('sinon');
-const fs = require('fs');
+const fs = require('fs').promises;
 
 const { expect } = chai;
 
@@ -50,7 +50,7 @@ const mockFile = JSON.stringify({
 
 describe('Testa a API cacau Trybe com mais rotas.', function() {
     it('Usando o método GET em /chocolates/total para buscar o total de chocolates.', async function() {
-       sinon.stub(fs.promises, 'readFile').resolves(mockFile)
+       sinon.stub(fs, 'readFile').resolves(mockFile)
         // const output = [
         //     { "id": 1, "name": "Mint Intense", "brandId": 1 },
         //     { "id": 2, "name": "White Coconut", "brandId": 1 },
