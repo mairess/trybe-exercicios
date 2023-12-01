@@ -19,6 +19,6 @@ describe('Testa a API cacau Trybe com mais rotas.', function() {
         const response = await chai.request(app).get('/chocolates/total');
 
         expect(response.status).to.be.equal(200);
-        expect(response.body).to.deep.equal(output);
+        expect(response.body).to.deep.equal({totalChocolates: 4});
     });
 });

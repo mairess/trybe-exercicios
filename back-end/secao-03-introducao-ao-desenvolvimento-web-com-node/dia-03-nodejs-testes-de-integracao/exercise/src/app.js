@@ -9,7 +9,7 @@ app.get('/chocolates/total', async (req, res) => {
     const data = await readChocolates();
     const { chocolates } = data;
 
-    res.status(200).json(chocolates);
+    res.status(200).json({totalChocolates: chocolates.length});
 })
 
 module.exports = app;
