@@ -3,7 +3,7 @@ const readChocolates = require('./getAllChocalates')
 
 const app = express();
 
-// app.use(express.json());
+app.use(express.json());
 
 app.get('/chocolates/total', async (req, res) => {
     const data = await readChocolates();
