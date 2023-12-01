@@ -13,6 +13,4 @@ const readChocolates = async () => {
     }
 };
 
-readChocolates().then(data => console.log(data));
-
 module.exports = readChocolates;
