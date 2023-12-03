@@ -49,7 +49,8 @@ const mockFile = JSON.stringify({
 });
 
 beforeEach(() => {
-    sinon.stub(fs, 'readFile').resolves(mockFile)
+    sinon.stub(fs, 'readFile').resolves(mockFile);
+    sinon.stub(fs, 'writeFile').resolves();
 });
 
 afterEach(() => {
@@ -89,6 +90,32 @@ describe('Testa a API cacau Trybe com mais rotas.', function() {
 
         expect(emptyResponse.status).to.be.equal(404);
         expect(emptyResponse.body).to.deep.equal([]);
+
+    });
+
+    it('Usando o método PUT em /chocolates/:id atualiza um chocolate que existe na base de dados.', async function() {
+
+        const response = await chai.request(app).put('/chocolates/1').send({
+            "name": "Mint Pretty Good",
+            "brandId": 2
+          });;
+
+        expect(response.status).to.be.equal(200);
+        expect(response.body).to.deep.equal({
+            "chocolate": { 
+              "id": 1,
+              "name": "Mint Pretty Good",
+              "brandId": 2
+            }
+          });
+
+          const noFoundIdResponse = await chai.request(app).put('/chocolates/555').send({
+            "name": "Mint Pretty Good",
+            "brandId": 2
+          });;
+
+          expect(noFoundIdResponse.status).to.be.equal(404);
+          expect(noFoundIdResponse.body).to.deep.equal({ "message": "chocolate not found" });
 
     });
 });
