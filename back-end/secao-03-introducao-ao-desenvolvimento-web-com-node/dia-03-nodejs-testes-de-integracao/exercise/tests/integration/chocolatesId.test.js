@@ -48,19 +48,47 @@ const mockFile = JSON.stringify({
     ]
 });
 
+beforeEach(() => {
+    sinon.stub(fs, 'readFile').resolves(mockFile)
+});
+
+afterEach(() => {
+    sinon.restore();
+})
+
 describe('Testa a API cacau Trybe com mais rotas.', function() {
     it('Usando o método GET em /chocolates/total para buscar o total de chocolates.', async function() {
-       sinon.stub(fs, 'readFile').resolves(mockFile)
-        // const output = [
-        //     { "id": 1, "name": "Mint Intense", "brandId": 1 },
-        //     { "id": 2, "name": "White Coconut", "brandId": 1 },
-        //     { "id": 3, "name": "Mon Chéri", "brandId": 2 },
-        //     { "id": 4, "name": "Mounds", "brandId": 3 }
-        // ];
-        
+
         const response = await chai.request(app).get('/chocolates/total');
 
         expect(response.status).to.be.equal(200);
         expect(response.body).to.deep.equal({totalChocolates: 4});
+    });
+
+
+    it('Usando o método GET em /chocolates/search para buscar os chocolates que contém o termo pesquisado.', async function() {
+
+        const response = await chai.request(app).get('/chocolates/search?name=Mo');
+
+        expect(response.status).to.be.equal(200);
+        expect(response.body).to.deep.equal([
+            {
+              "id": 3,
+              "name": "Mon Chéri",
+              "brandId": 2
+            },
+            {
+              "id": 4,
+              "name": "Mounds",
+              "brandId": 3
+            }
+          ]);
+
+        const emptyResponse = await chai.request(app).get('/chocolates/search?name=ZZZ');
+
+
+        expect(emptyResponse.status).to.be.equal(404);
+        expect(emptyResponse.body).to.deep.equal([]);
+
     });
 });
