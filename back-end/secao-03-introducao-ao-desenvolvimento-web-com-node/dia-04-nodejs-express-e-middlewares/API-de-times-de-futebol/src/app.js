@@ -20,13 +20,18 @@ app.get('/teams/:id', existingId, (req, res) => {
         res.json(team);
 });
   
-  // Arranja os middlewares para chamar validateTeam primeiro
-app.post('/teams', validateTeam, (req, res) => {
+  app.post('/teams', validateTeam, (req, res) => {
+    if (
+      !req.teams.teams.includes(req.body.sigla)
+      && teams.every((t) => t.sigla !== req.body.sigla)
+    ) {
+      return res.status(422).json({ message: 'Já existe um time com essa sigla' });
+    }
     const team = { id: nextId, ...req.body };
     teams.push(team);
     nextId += 1;
     res.status(201).json(team);
-});
+  });
   
 app.put('/teams/:id', validateTeam, existingId, (req, res) => {
     const id = Number(req.params.id);
