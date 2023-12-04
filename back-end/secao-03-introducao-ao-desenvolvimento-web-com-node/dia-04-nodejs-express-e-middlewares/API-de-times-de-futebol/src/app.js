@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 require('express-async-errors'); 
 const morgan = require('morgan');
 const validateTeam = require('./middlewares/validateTeam');
@@ -12,6 +13,7 @@ app.use(morgan('dev'));
 app.use(express.static('./images'));
 app.use(express.json());
 app.use(apiCredentials);
+app.use(cors());
 
 app.use((req, _res, next) => {
     console.log('req.method:', req.method);
