@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "cors": "2.8.5",
+    "express-rate-limit": "6.7.0",
+    "helmet": "6.0.1",
     "morgan": "1.10.0"
   }
 }

@@ -1,4 +1,6 @@
 const express = require('express');
+const helmet = require('helmet');
+const rateLimit = require('express-rate-limit');
 const cors = require('cors');
 require('express-async-errors'); 
 const morgan = require('morgan');
@@ -9,11 +11,19 @@ const apiCredentials = require('./middlewares/apiCredentials');
 
 const app = express();
 
+const limiter = rateLimit({
+    max: 100, 
+    windowMs: 15 * 60 * 1000,
+    message: 'Muitas requisições originadas desta IP',
+ });
+
 app.use(morgan('dev'));
 app.use(express.static('./images'));
 app.use(express.json());
 app.use(apiCredentials);
 app.use(cors());
+app.use(helmet());
+app.use(limiter);
 
 app.use((req, _res, next) => {
     console.log('req.method:', req.method);
@@ -64,5 +74,7 @@ app.delete('/teams/:id', (req, res) => {
     teams.splice(index, 1);
     res.sendStatus(204);
 });
+
+app.use((req, res) => res.sendStatus(404));
 
 module.exports = app;
