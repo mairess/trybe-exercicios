@@ -10,7 +10,7 @@ const existingId = (req, res, next) => {
     if (teams.some((team) => team.id === idAsNumber)) {
         next();
     } else {
-        res.status(400).send({ message: 'ID não encontrado!' });
+        res.status(404).send({ message: 'ID não encontrado!' });
     }
 };
 
