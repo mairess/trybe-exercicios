@@ -1,5 +1,6 @@
 const express = require('express');
 require('express-async-errors'); 
+const morgan = require('morgan');
 const validateTeam = require('./middlewares/validateTeam');
 const existingId = require('./middlewares/existingId');
 const teams = require('./utils/teams');
@@ -7,10 +8,24 @@ const apiCredentials = require('./middlewares/apiCredentials');
 
 const app = express();
 
+app.use(morgan('dev'));
+app.use(express.static('./images'));
 app.use(express.json());
 app.use(apiCredentials);
 
+app.use((req, _res, next) => {
+    console.log('req.method:', req.method);
+    console.log('req.path:', req.path);
+    console.log('req.params:', req.params);
+    console.log('req.query:', req.query);
+    console.log('req.headers:', req.headers);
+    console.log('req.body:', req.body);
+    next();
+  });
+
 let nextId = 3;
+
+app.get('/brasao/COR.png', (req, res) => res.json(teams));
 
 app.get('/teams', (req, res) => res.json(teams));
 
