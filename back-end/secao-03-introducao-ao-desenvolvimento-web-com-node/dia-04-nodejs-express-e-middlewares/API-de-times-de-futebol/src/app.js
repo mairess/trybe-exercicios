@@ -10,18 +10,6 @@ const teams = [
     { id: 2, nome: 'Sociedade Esportiva Palmeiras', sigla: 'PAL' },
 ];
 
-app.get('/teams', (req, res) => res.json(teams));
-
-app.get('/teams/:id', (req, res) => {
-    const id = Number(req.params.id);
-    const team = teams.find((t) => t.id === id);
-    if (team) {
-        res.json(team);
-    } else {
-        res.sendStatus(404);
-    }
-});
-
 const validateTeam = (req, res, next) => {
     const requiredProperties = ['nome', 'sigla'];
     if (requiredProperties.every((property) => property in req.body)) {
@@ -30,16 +18,38 @@ const validateTeam = (req, res, next) => {
       res.sendStatus(400); // Ou já responde avisando que deu errado
     }
   };
+
+const existingId = (req, res, next) => {
+    const { id } = req.params;
+    const idAsNumber = Number(id);
+    if (Number.isNaN(idAsNumber)) {
+        res.status(400).send({ message: 'ID inválido! Precisa ser um número' });
+    } else {
+        next();
+    }
+};
+
+app.get('/teams', (req, res) => res.json(teams));
+
+app.get('/teams/:id', existingId, (req, res) => {
+    const id = Number(req.params.id);
+    const team = teams.find((t) => t.id === id);
+    if (team) {
+        res.json(team);
+    } else {
+        res.sendStatus(404);
+    }
+});
   
   // Arranja os middlewares para chamar validateTeam primeiro
-  app.post('/teams', validateTeam, (req, res) => {
+app.post('/teams', validateTeam, (req, res) => {
     const team = { id: nextId, ...req.body };
     teams.push(team);
     nextId += 1;
     res.status(201).json(team);
-  });
+});
   
-  app.put('/teams/:id', validateTeam, (req, res) => {
+app.put('/teams/:id', validateTeam, existingId, (req, res) => {
     const id = Number(req.params.id);
     const team = teams.find((t) => t.id === id);
     if (team) {
@@ -50,7 +60,7 @@ const validateTeam = (req, res, next) => {
     } else {
       res.sendStatus(400);
     }
-  });
+});
 
 app.delete('/teams/:id', (req, res) => {
     const id = Number(req.params.id);
