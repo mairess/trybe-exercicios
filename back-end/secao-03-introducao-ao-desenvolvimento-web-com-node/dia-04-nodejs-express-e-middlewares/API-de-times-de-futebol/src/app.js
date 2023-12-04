@@ -27,8 +27,6 @@ app.use((req, _res, next) => {
 
 let nextId = 3;
 
-app.get('/brasao/COR.png', (req, res) => res.json(teams));
-
 app.get('/teams', (req, res) => res.json(teams));
 
 app.get('/teams/:id', existingId, (req, res) => {
