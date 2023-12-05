@@ -23,10 +23,10 @@ services:
     environment:
       # Aqui setamos nossas variáveis de ambiente - não se preocupe, mais para frente, ainda nesse dia, temos
       # uma seção inteira destinada a explicá-las!
-      MYSQL_USER: root
-      MYSQL_PASSWORD: root
-      MYSQL_HOST: database
-      MYSQL_PORT: 3306
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD:  ${MYSQL_PASSWORD}
+      MYSQL_HOST: ${MYSQL_HOST}
+      MYSQL_PORT: ${MYSQL_PORT}
     
     env_file:
        - .env
@@ -39,9 +39,9 @@ services:
     image: mysql:8.0.29
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: trybecashdb
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
     ports:
-      - "33060:3306"
+      - ${MYSQL_PORT}:3306
     volumes:
       - ./trybecash_script.sql:/docker-entrypoint-initdb.d/trybecash_script.sql
