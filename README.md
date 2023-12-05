@@ -159,9 +159,9 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [x] Dia 01: _Node.js: Runtime Assincrono_
 - [x] Dia 02: _Node.js: API REST com Express_
-- [ ] Dia 03: _Node.js: Testes de Integração_
-- [ ] Dia 04: _Node.js: Express e Middlewares_
-- [ ] Dia 05: _Node.js: Express e MySQL_
+- [x] Dia 03: _Node.js: Testes de Integração_
+- [x] Dia 04: _Node.js: Express e Middlewares_
+- [x] Dia 05: _Node.js: Express e MySQL_
 - [ ] Dia 06: _Projeto - Talker Manager_
 
 ### 2° Período
