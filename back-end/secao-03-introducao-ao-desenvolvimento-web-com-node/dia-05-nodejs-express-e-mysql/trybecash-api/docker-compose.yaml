@@ -27,6 +27,9 @@ services:
       MYSQL_PASSWORD: root
       MYSQL_HOST: database
       MYSQL_PORT: 3306
+    
+    env_file:
+       - .env
     # Informa ao docker, para que o container node seja iniciado após o container database
     depends_on:
       database:
