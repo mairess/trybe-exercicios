@@ -155,7 +155,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 05: _Relacionamentos - Parte 3 e Relatórios Vvançados_
 - [x] Dia 06: [_Projeto - Trybefy_](https://github.com/mairess/project-trybefy)
 
-#### Seção Introdução ao desenvolvimento Web com Node.js
+#### Seção [Introdução ao desenvolvimento Web com Node.js](https://github.com/mairess/trybe-exercicios/tree/main/back-end/secao-03-introducao-ao-desenvolvimento-web-com-node)
 
 - [x] Dia 01: _Node.js: Runtime Assincrono_
 - [x] Dia 02: _Node.js: API REST com Express_
