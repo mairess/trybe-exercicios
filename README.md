@@ -162,7 +162,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 03: _Node.js: Testes de Integração_
 - [x] Dia 04: _Node.js: Express e Middlewares_
 - [x] Dia 05: _Node.js: Express e MySQL_
-- [ ] Dia 06: _Projeto - Talker Manager_
+- [x] Dia 06: [_Projeto - Talker Manager_](https://github.com/mairess/project-talker-manager)
 
 ### 2° Período
 
