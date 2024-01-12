@@ -1,17 +1,29 @@
 const fs = require('fs').promises;
 
-const theArray = ['Finalmente', 'estou', 'usando', 'Promise.all', '!!!'];
+async function arrayToFile() {
+  const strings = ['Finalmente', 'estou', 'usando', 'Promise.all', '!!!'];
 
-async function createFiles() {
-    try {
-        await Promise.all(theArray.map( async (file, index) => {
-            const fileName = `file${index + 1}.txt`
-            fs.writeFile(fileName, file)
-            console.log(`Criando arquivo: ${fileName}`);
-        }))
-    } catch (error) {
-        console.error(`Erro ao ler o arquivo: ${error.message}`);
-    };
-};
+  const createFilesPromises = strings
+  .map((string, index) => fs.writeFile(`./file${index + 1}.txt`, string));
 
-createFiles()
+  await Promise.all(createFilesPromises);
+
+  const fileNames = [
+    'file1.txt',
+    'file2.txt',
+    'file3.txt',
+    'file4.txt',
+    'file5.txt',
+  ];
+
+  const readFilesPromises = fileNames
+  .map((fileName) => fs.readFile(fileName, 'utf-8'));
+
+  const fileContents = await Promise.all(readFilesPromises);
+
+  const newFileContent = fileContents.join(' ');
+
+  await fs.writeFile('./fileAll.txt', newFileContent);
+}
+
+arrayToFile()
