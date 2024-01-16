@@ -219,12 +219,14 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [ ] Dia 01: _Aprendendo Python_
 - [ ] Dia 02: _Entrada e Saída de Dados com Testes_
+
 #### Seção Algoritmos
 
 - [ ] Dia 01: _Complexidade de Algoritmos_
 - [ ] Dia 02: _Recursividade e Estratégias para Solução de Problemas_
 - [ ] Dia 03: _Algoritmos de ordenação e busca_
 - [ ] Dia 04: _Projeto - Algoritmos_
+
 #### Seção Estrutura de Dados I: Listas Lineares
 
 - [ ] Dia 01: _P.O.O em Python_
@@ -232,6 +234,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [ ] Dia 03: _Nó e Listas Encadeadas_
 - [ ] Dia 04: _Pilhas e Filas_
 - [ ] Dia 05: _Projeto TING - Trybe Is Not Google_
+
 #### Seção Estruturas de Dados II: Hashmaps e Sets
 
 - [ ] Dia 01: _Hashmap e Dict_
