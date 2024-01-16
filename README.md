@@ -172,7 +172,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 02: _Arquitetura de Software: Refatorando a Camada Model_
 - [x] Dia 03: _Arquitetura de Software: Camada Service_
 - [x] Dia 04: _Arquitetura de Software: Refarotando a Camada Service_
-- [ ] Dia 05: _Arquitetura de Software: Refarotando a Camada Controller_
+- [x] Dia 05: _Arquitetura de Software: Refarotando a Camada Controller_
 - [ ] Dia 06: _Projeto - Store Manager_
 
 #### Seção Node.js: ORM e Autenticação
