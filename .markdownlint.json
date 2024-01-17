@@ -1,0 +1,11 @@
+{
+    "no-duplicate-heading": {
+        "allow_different_nesting": true
+    },
+
+    "MD033": {
+        "allowed_elements": ["p"]
+    },
+
+    "MD013": false
+}
