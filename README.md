@@ -166,14 +166,14 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ### 2° Período
 
-#### Seção Arquitetura de Software: Model, Service e Controller
+#### Seção [Arquitetura de Software: Model, Service e Controller](https://github.com/mairess/trybe-exercicios/tree/main/back-end/secao-04-arquitetura-de-software-model-service-controller)
 
 - [x] Dia 01: _Arquitetura de Software: Camada Model_
 - [x] Dia 02: _Arquitetura de Software: Refatorando a Camada Model_
 - [x] Dia 03: _Arquitetura de Software: Camada Service_
 - [x] Dia 04: _Arquitetura de Software: Refarotando a Camada Service_
 - [x] Dia 05: _Arquitetura de Software: Refarotando a Camada Controller_
-- [x] Dia 06: _Projeto - Store Manager_
+- [x] Dia 06: [_Projeto - Store Manager_](https://github.com/mairess/project-store-manager)
 
 #### Seção Node.js: ORM e Autenticação
 
