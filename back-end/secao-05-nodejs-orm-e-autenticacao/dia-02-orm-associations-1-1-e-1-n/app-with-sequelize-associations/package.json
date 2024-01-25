@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "4.17.1",
     "mysql2": "3.0.0",
+    "nodemon": "2.0.15",
     "sequelize": "6.3.4"
   },
   "devDependencies": {
