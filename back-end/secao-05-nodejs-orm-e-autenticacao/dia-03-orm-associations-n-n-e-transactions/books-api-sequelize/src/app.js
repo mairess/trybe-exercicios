@@ -1,11 +1,11 @@
 const express = require('express');
+const userBookController = require('./controllers/userBook.controller');
 
 const app = express();
 
 app.use(express.json());
-app.get('/', (_req, res) => {
-    res.status(200).json({ message: 'server up!' })
-})
+
+app.get('/userbooks/:id', userBookController.getUsersBooksById);
 
 module.exports = app;
 
