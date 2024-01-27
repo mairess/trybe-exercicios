@@ -179,7 +179,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [x] Dia 01: _ORM - Interface da aplicação com o banco de dado_
 - [x] Dia 02: _ORM - Associations 1:1 e 1:N_
-- [ ] Dia 03: _ORM - Associations N:N e Transactions_
+- [x] Dia 03: _ORM - Associations N:N e Transactions_
 - [ ] Dia 04: _JWT - (JSON Web Token)_
 - [ ] Dia 05: _Projeto - API de Blogs_
 
