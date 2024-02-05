@@ -175,13 +175,13 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 05: _Arquitetura de Software: Refarotando a Camada Controller_
 - [x] Dia 06: [_Projeto - Store Manager_](https://github.com/mairess/project-store-manager)
 
-#### Seção Node.js: ORM e Autenticação
+#### Seção [Node.js: ORM e Autenticação](https://github.com/mairess/trybe-exercicios/tree/main/back-end/secao-05-nodejs-orm-e-autenticacao)
 
 - [x] Dia 01: _ORM - Interface da aplicação com o banco de dado_
 - [x] Dia 02: _ORM - Associations 1:1 e 1:N_
 - [x] Dia 03: _ORM - Associations N:N e Transactions_
 - [x] Dia 04: _JWT - (JSON Web Token)_
-- [x] Dia 05: _Projeto - API de Blogs_
+- [x] Dia 05: [_Projeto - API de Blogs_](https://github.com/mairess/project-blogs-api)
 
 #### Seção Masterclass: Implantação de Aplicações na Nuvem
 
