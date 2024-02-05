@@ -181,7 +181,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 02: _ORM - Associations 1:1 e 1:N_
 - [x] Dia 03: _ORM - Associations N:N e Transactions_
 - [x] Dia 04: _JWT - (JSON Web Token)_
-- [ ] Dia 05: _Projeto - API de Blogs_
+- [x] Dia 05: _Projeto - API de Blogs_
 
 #### Seção Masterclass: Implantação de Aplicações na Nuvem
 
