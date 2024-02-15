@@ -185,13 +185,13 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção Masterclass: Implantação de Aplicações na Nuvem
 
-- [ ] Dia 01: _Infraestrutura: Deploy com Railway_
+- [x] Dia 01: _Infraestrutura: Deploy com Railway_
 
 ### 3° Período
 
 #### Seção Introdução a TypeScript
 
-- [ ] Dia 01: _Aprendendo TypeScript_
+- [x] Dia 01: _Aprendendo TypeScript_
 - [ ] Dia 02: _Introdução a Generics_
 - [ ] Dia 03: _API REST com Express, JWT, Sequelize e TypeScript_
 - [ ] Dia 04: _Testando Aplicações com TypeScript_
