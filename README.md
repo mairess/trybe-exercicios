@@ -194,7 +194,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 01: _Aprendendo TypeScript_
 - [x] Dia 02: _Introdução a Generics_
 - [x] Dia 03: _API REST com Express, JWT, Sequelize e TypeScript_
-- [ ] Dia 04: _Testando Aplicações com TypeScript_
+- [x] Dia 04: _Testando Aplicações com TypeScript_
 - [ ] Dia 05: _Projeto - Trybesmith_
 
 #### Seção Programação Orientada a Objetos (POO) e SOLID
