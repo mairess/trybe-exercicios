@@ -189,17 +189,17 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ### 3° Período
 
-#### Seção Introdução a TypeScript
+#### Seção [Introdução a TypeScript](https://github.com/mairess/trybe-exercicios/tree/main/back-end/secao-07-introducao-a-typescript)
 
 - [x] Dia 01: _Aprendendo TypeScript_
 - [x] Dia 02: _Introdução a Generics_
 - [x] Dia 03: _API REST com Express, JWT, Sequelize e TypeScript_
 - [x] Dia 04: _Testando Aplicações com TypeScript_
-- [ ] Dia 05: _Projeto - Trybesmith_
+- [x] Dia 05: [_Projeto - Trybesmith_](https://github.com/mairess/project-trybesmith)
 
 #### Seção Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] Dia 01: _Introdução à Orientação a Objeto_
+- [x] Dia 01: _Introdução à Orientação a Objeto_
 - [ ] Dia 02: _Herança e Composição_
 - [ ] Dia 03: _Polimorfismo_
 - [ ] Dia 04: _SOLID - Introdução e Princípios S, O e D_
