@@ -34,8 +34,6 @@ class Profile {
     }
   }
   
-  Function
-  
   const socialMediaAccount = new SocialMediaAccount();
   socialMediaAccount.editProfile('Manuella', 'manu@trybe.com');
   socialMediaAccount.printProfile();
