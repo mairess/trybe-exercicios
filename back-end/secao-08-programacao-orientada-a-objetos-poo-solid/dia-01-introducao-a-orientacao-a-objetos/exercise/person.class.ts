@@ -4,7 +4,7 @@ const schemaName = Joi.object({
     name: Joi.string().min(3)
 })
 
-class Person {
+export class Person {
     private _name: string;
     private _birthDate: Date;
 
