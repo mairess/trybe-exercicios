@@ -1,36 +1,38 @@
-export class Student {
-    registration: string;
-    name: string;
-    testGrades: number[];
-    groupWorkGrades: number[];
+import { v4 } from 'uuid';
+import { Person } from "./person.class";
+
+export class Student extends Person {
+    enrollment: string;
+    examsGrades: number[] = [];
+    assignmentsGrades: number[] = [];
 
     constructor(
-        registration: string,
         name: string,
-        testGrade: number[],
-        groupWorkGrade: number[],
+        birthDate: Date,
     ) {
-        this.registration = registration;
-        this.name = name;
-        this.testGrades = testGrade;
-        this.groupWorkGrades = groupWorkGrade;
+        super(name, birthDate)
+        this.enrollment = v4();
     }
 
     sumGrades() {
-        const sumArray = (grades: number[]) => {
+        const sumGrades = (grades: number[]) => {
             return grades.reduce((acc, current) => acc + current, 0)
         }
 
-        const testGradeSum = sumArray(this.testGrades);
-        const groupWorkGrades = sumArray(this.groupWorkGrades);
+        const testGradeSum = sumGrades(this.examsGrades);
+        const groupWorkGrades = sumGrades(this.assignmentsGrades);
         return testGradeSum+groupWorkGrades;
     }
 
-    average() {
-        const gradeDivider = this.groupWorkGrades.length + this.testGrades.length;
+    sumAverageGrade() {
+        const gradeDivider = this.assignmentsGrades.length + this.examsGrades.length;
         return this.sumGrades() / gradeDivider;
+    }
+
+    generateEnrollment() {
+        return this.enrollment
     }
 }
 
-const newStudent = new Student('as465asd65a4s', 'Wagner', [10, 8, 8, 9], [7, 9]);
-// console.log(newStudent.average());
+const newStudent = new Student('João', new Date('Dec 05, 2000'));
+console.log(newStudent);

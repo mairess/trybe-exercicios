@@ -10,11 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "joi": "^17.12.2",
     "ts-node": "^10.9.2",
-    "uuid": "^9.0.1"
-  },
-  "devDependencies": {
-    "@types/uuid": "^9.0.8"
+    "typescritp": "^1.0.0"
   }
 }
