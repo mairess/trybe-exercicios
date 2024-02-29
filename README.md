@@ -203,7 +203,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 02: _Herança e Composição_
 - [x] Dia 03: _Polimorfismo_
 - [x] Dia 04: _SOLID - Introdução e Princípios S, O e D_
-- [ ] Dia 05: _SOLID - Princípios L e l_
+- [x] Dia 05: _SOLID - Princípios L e l_
 - [ ] Dia 06: _Projeto - Trybers and Dragons_
 
 #### Seção Projeto - TFC - Trybe Futebol Clube
