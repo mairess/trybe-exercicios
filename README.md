@@ -208,7 +208,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção Projeto - TFC - Trybe Futebol Clube
 
-- [ ] Dia 01: _Express com Classes_
+- [x] Dia 01: _Express com Classes_
 - [ ] Dia 02: _Projeto - TFC - Trybe Futebol Clube_
 
 ## <p align="center"> Ciências da Computação ⏳ </p>
