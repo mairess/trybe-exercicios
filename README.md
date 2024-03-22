@@ -135,7 +135,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [x] Dia 01: [_Projeto - App de Receitas_](https://github.com/mairess/project-recipes-app-ts)
 
-## <p align="center"> Back-end ⏳ </p>
+## <p align="center"> Back-end ✅ </p>
 
 ### 1° Período
 
