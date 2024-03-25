@@ -217,8 +217,10 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção Introdução à Python
 
-- [ ] Dia 01: _Aprendendo Python_
+- [x] Dia 01: _Aprendendo Python_
 - [ ] Dia 02: _Entrada e Saída de Dados com Testes_
+- [ ] Dia 03: _P.O.O em Python_
+- [ ] Dia 04: _Projeto - Jobs Insights_
 
 #### Seção Algoritmos
 
@@ -229,7 +231,6 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção Estrutura de Dados I: Listas Lineares
 
-- [ ] Dia 01: _P.O.O em Python_
 - [ ] Dia 02: _Arrays_
 - [ ] Dia 03: _Nó e Listas Encadeadas_
 - [ ] Dia 04: _Pilhas e Filas_
