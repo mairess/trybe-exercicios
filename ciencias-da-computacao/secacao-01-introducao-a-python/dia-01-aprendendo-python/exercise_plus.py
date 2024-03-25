@@ -5,11 +5,19 @@ numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27]
 print(min(numbers))
 
 
+def minimum(numbers):
+    smaller = numbers[0]
+    for number in numbers:
+        if number < smaller:
+            smaller = number
+    return smaller
+
+
 # Exercício 2: Faça um programa que, dado um valor n qualquer, tal que n > 1, imprima na tela um triângulo retângulo com n asteriscos de base. Por exemplo, para n = 5 o triângulo terá 5 asteriscos na base:
 
 
-def asterisk_triangle(number):
-    for number in range(number):
+def asterisk_triangle(n):
+    for number in range(n):
         print((number + 1) * "*")
 
 
