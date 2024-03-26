@@ -23,6 +23,6 @@ for pokemon in pokemons:
 #     file.write(json_to_write)
 
 with open("grass_type_pokemons.json", "w") as file:
-    json.dump(grass_type_pokemons, file)
+    json.dump(grass_type_pokemons, file, indent=2)
 
 print(pokemons[0])
