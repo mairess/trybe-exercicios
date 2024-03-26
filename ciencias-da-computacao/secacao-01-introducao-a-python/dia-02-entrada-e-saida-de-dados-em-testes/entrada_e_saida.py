@@ -1,4 +1,5 @@
 # Para fixar
+import sys
 
 # Exercício 1:
 # Faça um programa que solicite o nome de uma pessoa usuária e imprima-o na vertical. Exemplo:
@@ -11,12 +12,9 @@
 # O
 
 
-# def print_name(name: str) -> None:
-#     for char in name:
-#         print(char)
-
-
-# print_name("João Cabral de Melo Neto")
+name = input("Put your name here: ")
+for char in name:
+    print(char)
 
 
 # Exercício 2:
@@ -26,16 +24,16 @@
 # 🦜 Receba os valores em um mesmo input, solicitando à pessoa usuária que separe-os com um espaço. Receba os valores no formato str e utilize o método split para pegar cada valor separado. O método isdigit, embutido no tipo str, pode ser utilizado para verificar se a string corresponde a um número natural.
 
 
-import sys
-
-numbers = input("Type your numbers separated by blank space: ")
-count = 0
-error = False
-for number in numbers.split(" "):
-    if number.isdigit():
-        count += int(number)
-    else:
-        error = True
-        print(f"Error when summing the values, '{number}' is not valid!", file=sys.stderr)
-if not error:
-    print(count)
+# numbers = input("Type your numbers separated by blank space: ")
+# count = 0
+# error = False
+# for number in numbers.split(" "):
+#     if number.isdigit():
+#         count += int(number)
+#     else:
+#         error = True
+#         print(
+#             f"Error when summing the values, '{number}' is not valid!", file=sys.stderr
+#         )
+# if not error:
+#     print(count)
