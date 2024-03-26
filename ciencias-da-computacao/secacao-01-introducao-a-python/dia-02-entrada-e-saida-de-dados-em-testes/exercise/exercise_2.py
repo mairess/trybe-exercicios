@@ -15,8 +15,6 @@ for word in words:
     word = "".join(random.sample(word, len(word)))
     scrambled_words.append(word)
 
-random.choice(words)
-
 drawn = random.choice(words)
 scrambled = "".join(random.sample(drawn, len(drawn)))
 
