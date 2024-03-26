@@ -1,0 +1,5 @@
+cachorro
+gato
+bicicleta
+aventura
+sorvete

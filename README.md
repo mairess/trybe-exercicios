@@ -218,7 +218,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 #### Seção Introdução à Python
 
 - [x] Dia 01: _Aprendendo Python_
-- [ ] Dia 02: _Entrada e Saída de Dados com Testes_
+- [x] Dia 02: _Entrada e Saída de Dados com Testes_
 - [ ] Dia 03: _P.O.O em Python_
 - [ ] Dia 04: _Projeto - Jobs Insights_
 
