@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+from math import pi as PI
 
 
 class GeometricFigure(ABC):
@@ -36,10 +37,10 @@ class Circle(GeometricFigure):
         self.radius = radius
 
     def area(self) -> float:
-        return f"{3.14 * self.radius**2:.2f}"
+        return f"{PI * self.radius**2:.2f}"
 
     def perimeter(self) -> float:
-        return f"{3.14 * self.radius * 2:.2f}"
+        return f"{PI * self.radius * 2:.2f}"
 
 
 my_square = Square(10)
