@@ -1,6 +1,9 @@
 # Implemente a classe com base no diagrama
 
 
+from dataclasses import dataclass
+
+
 class TV:
     def __init__(self, size: int):
         self.volume = 50
@@ -34,6 +37,52 @@ class TV:
         - Channel: {self.channel}
         - Is on: {self.is_on}
         """
+
+
+good_tv = TV(40)
+good_tv.turn_on_turn_off()
+good_tv.volume_down()
+good_tv.volume_down()
+
+print(good_tv.size)
+print(good_tv.channel)
+print(good_tv)
+
+
+# -----------------------------------------------------------
+
+
+# Implemente a classe com base no diagrama
+
+
+@dataclass
+class TV:
+    def __init__(self, size):
+        self.size = f"{size} inches"
+
+    size: int
+    volume: int = 50
+    channel: int = 1
+    is_on = False
+
+    def volume_up(self) -> None:
+        if self.volume < 99:
+            self.volume += 1
+
+    def volume_down(self) -> None:
+        if self.volume > 0:
+            self.volume -= 1
+
+    def channel_up(self) -> None:
+        if self.channel < 99:
+            self.channel += 1
+
+    def channel_down(self) -> None:
+        if self.channel > 0:
+            self.channel -= 1
+
+    def turn_on_turn_off(self) -> None:
+        self.is_on = not self.is_on
 
 
 good_tv = TV(40)
