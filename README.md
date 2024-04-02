@@ -219,12 +219,12 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [x] Dia 01: _Aprendendo Python_
 - [x] Dia 02: _Entrada e Saída de Dados com Testes_
-- [ ] Dia 03: _P.O.O em Python_
-- [ ] Dia 04: _Projeto - Jobs Insights_
+- [x] Dia 03: _P.O.O em Python_
+- [x] Dia 04: _Projeto - Jobs Insights_
 
 #### Seção Algoritmos
 
-- [ ] Dia 01: _Complexidade de Algoritmos_
+- [x] Dia 01: _Complexidade de Algoritmos_
 - [ ] Dia 02: _Recursividade e Estratégias para Solução de Problemas_
 - [ ] Dia 03: _Algoritmos de ordenação e busca_
 - [ ] Dia 04: _Projeto - Algoritmos_
