@@ -226,7 +226,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [x] Dia 01: _Complexidade de Algoritmos_
 - [x] Dia 02: _Recursividade e Estratégias para Solução de Problemas_
-- [ ] Dia 03: _Algoritmos de ordenação e busca_
+- [x] Dia 03: _Algoritmos de ordenação e busca_
 - [ ] Dia 04: _Projeto - Algoritmos_
 
 #### Seção Estrutura de Dados I: Listas Lineares
