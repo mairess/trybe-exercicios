@@ -236,6 +236,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [ ] Dia 04: _Pilhas e Filas_
 - [ ] Dia 05: _Projeto TING - Trybe Is Not Google_
 
+
 #### Seção Estruturas de Dados II: Hashmaps e Sets
 
 - [ ] Dia 01: _Hashmap e Dict_
