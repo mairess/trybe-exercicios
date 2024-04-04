@@ -215,19 +215,19 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ### 1° Período
 
-#### Seção [Introdução à Python](https://github.com/mairess/trybe-exercicios/tree/main/ciencias-da-computacao/secacao-01-introducao-a-python)
+#### Seção Introdução à Python
 
 - [x] Dia 01: _Aprendendo Python_
 - [x] Dia 02: _Entrada e Saída de Dados com Testes_
 - [x] Dia 03: _P.O.O em Python_
 - [x] Dia 04: _Projeto - Jobs Insights_
 
-#### Seção [Algoritmos](https://github.com/mairess/trybe-exercicios/tree/main/ciencias-da-computacao/secacao-02-algoritimos)
+#### Seção Algoritmos
 
 - [x] Dia 01: _Complexidade de Algoritmos_
 - [x] Dia 02: _Recursividade e Estratégias para Solução de Problemas_
 - [x] Dia 03: _Algoritmos de ordenação e busca_
-- [x] Dia 04: [_Projeto - Algoritmos_](https://github.com/mairess/project-job-insights)
+- [x] Dia 04: _Projeto - Algoritmos_
 
 #### Seção Estrutura de Dados I: Listas Lineares
 
