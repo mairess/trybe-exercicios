@@ -220,7 +220,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 01: _Aprendendo Python_
 - [x] Dia 02: _Entrada e Saída de Dados com Testes_
 - [x] Dia 03: _P.O.O em Python_
-- [x] Dia 04: _Projeto - Jobs Insights_
+- [x] Dia 04: [_Projeto - Jobs Insights_](https://github.com/mairess/project-job-insights)
 
 #### Seção Algoritmos
 
@@ -235,6 +235,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [ ] Dia 03: _Nó e Listas Encadeadas_
 - [ ] Dia 04: _Pilhas e Filas_
 - [ ] Dia 05: _Projeto TING - Trybe Is Not Google_
+
 
 #### Seção Estruturas de Dados II: Hashmaps e Sets
 
