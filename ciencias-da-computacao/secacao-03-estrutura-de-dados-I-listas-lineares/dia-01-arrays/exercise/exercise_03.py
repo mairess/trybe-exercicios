@@ -35,7 +35,7 @@ def good_combination_pythonic(products: list[int]) -> int:
     return combinations
 
 
-#  complexity is O(n²)
+#  complexity is O(n)
 
 if __name__ == "__main__":
     print(good_combination(produtos_1))
