@@ -19,10 +19,12 @@ def max_sequence(array: list[int]) -> int:
 valores_coletados_01 = [0, 1, 1, 1, 0, 0, 1, 1]
 resultado = 3
 
-print(max_sequence(valores_coletados_01))
-
 
 valores_coletados_02 = [1, 1, 1, 1, 0, 0, 1, 1]
 resultado = 4
 
-print(max_sequence(valores_coletados_02))
+
+if __name__ == "__main__":
+    print(max_sequence(valores_coletados_01))
+
+    print(max_sequence(valores_coletados_02))
