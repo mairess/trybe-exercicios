@@ -27,6 +27,13 @@ def get_instant(arrivals: list[int], departures: list[int], target: int) -> int:
     return counter
 
 
+def students_in_instant(arrivals, departures, time_instant):
+    return sum(
+        arrival <= time_instant <= departure
+        for arrival, departure in zip(arrivals, departures)
+    )
+
+
 #  complexity is O(n)
 
 if __name__ == "__main__":
