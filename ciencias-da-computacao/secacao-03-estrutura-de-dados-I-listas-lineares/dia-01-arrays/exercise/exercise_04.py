@@ -19,10 +19,10 @@ entradas = [1, 2, 3]
 saidas = [3, 2, 7]
 
 
-def get_instant(input: list[int], output: list[int], target: int) -> int:
+def get_instant(arrivals: list[int], departures: list[int], target: int) -> int:
     counter = 0
-    for index in range(0, len(input)):
-        if input[index] <= target <= output[index]:
+    for index in range(0, len(arrivals)):
+        if arrivals[index] <= target <= departures[index]:
             counter += 1
     return counter
 
