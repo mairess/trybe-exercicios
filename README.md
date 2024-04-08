@@ -232,9 +232,9 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 #### Seção Estrutura de Dados I: Listas Lineares
 
 - [x] Dia 02: _Arrays_
-- [ ] Dia 03: _Nó e Listas Encadeadas_
-- [ ] Dia 04: _Pilhas e Filas_
-- [ ] Dia 05: _Projeto TING - Trybe Is Not Google_
+- [ ] Dia 02: _Nó e Listas Encadeadas_
+- [ ] Dia 03: _Pilhas e Filas_
+- [ ] Dia 04: _Projeto TING - Trybe Is Not Google_
 
 
 #### Seção Estruturas de Dados II: Hashmaps e Sets
