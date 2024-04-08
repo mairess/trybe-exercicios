@@ -14,6 +14,7 @@ def max_sequence(array: list[int]) -> int:
         else:
             counter = 0
     return result
+#  complexity is O(n)
 
 
 valores_coletados_01 = [0, 1, 1, 1, 0, 0, 1, 1]
