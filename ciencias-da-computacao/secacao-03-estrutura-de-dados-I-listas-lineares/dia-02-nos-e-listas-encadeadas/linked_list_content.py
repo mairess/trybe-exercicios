@@ -108,6 +108,18 @@ class LinkedList:
             position -= 1
         return current_node
 
+    def index_of(self, value):
+        #  complexity O(n)
+        position = 1
+        current_value = self.head_value
+
+        while current_value:
+            if current_value.nex == value:
+                return position
+            current_value = current_value.next
+            position += 1
+        return -1
+
 
 if __name__ == "__main__":
     linked_list = LinkedList()
