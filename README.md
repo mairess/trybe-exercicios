@@ -229,7 +229,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 03: _Algoritmos de ordenação e busca_
 - [x] Dia 04: [_Projeto - Algoritmos_](https://github.com/mairess/project-algorithms)
 
-#### Seção Estrutura de Dados I: Listas Lineares
+#### Seção [Estrutura de Dados I: Listas Lineares](https://github.com/mairess/trybe-exercicios/tree/main/ciencias-da-computacao/secacao-03-estrutura-de-dados-I-listas-lineares)
 
 - [x] Dia 01: _Arrays_
 - [x] Dia 02: _Nó e Listas Encadeadas_
