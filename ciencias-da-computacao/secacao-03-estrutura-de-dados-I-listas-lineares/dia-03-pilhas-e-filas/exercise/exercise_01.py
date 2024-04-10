@@ -2,9 +2,7 @@
 
 # Para este desafio, é necessário efetuar o import das classes LinkedList e Node e utilizar seus métodos de acesso para simular uma fila, respeitando o padrão FIFO.
 
-from dia_02_nos_e_listas_encadeadas.linked_list_content import LinkedList
-
-from dia_02_nos_e_listas_encadeadas.node import Node
+from ..dia_02_nos_e_listas_encadeadas.linked_list_content import LinkedList
 
 
 class Queue:
