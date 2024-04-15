@@ -6,18 +6,21 @@ class Employee:
 
 class HashMap:
     def __init__(self) -> None:
-        self._bucket = [None for i in range(10)]
+        self._bucket = [[] for i in range(10)]
 
     def get_address(self, id_num: int):
         return id_num % 10
 
     def insert(self, employee: Employee) -> None:
         address = self.get_address(employee.id_num)
-        self._bucket[address] = employee
+        self._bucket[address].append(employee)
 
-    def get_value(self, id_num: int):
+    def get_value(self, id_num: int) -> str | None:
         address = self.get_address(id_num)
-        return self._bucket[address].name
+        for item in self._bucket[address]:
+            if item.id_num == id_num:
+                return item.name
+            return None
 
     def has(self, id_num: int):
         address = self.get_address(id_num)
