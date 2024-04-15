@@ -63,6 +63,10 @@ word_two = "coxinha"
 print("word_two", count_char(word_two))
 
 
+my_dict_triple = {index: index * 2 if index % 2 == 0 else index * 3 for index in range(3, 21)}
+
+print("my_dict_triple", my_dict_triple)
+
 double = {i: i * 2 for i in range(3, 21)}
 
 for key in my_dict_double.keys():
