@@ -1,4 +1,4 @@
-def get_more_occurrent(numbers: list[int]):
+def get_most_frequent(numbers: list[int]):
     count = {}
     most_frequent = numbers[0]
 
