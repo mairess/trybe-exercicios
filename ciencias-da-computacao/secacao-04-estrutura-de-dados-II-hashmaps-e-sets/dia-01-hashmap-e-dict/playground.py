@@ -35,3 +35,34 @@ def separate_words(text: list[str]):
             screen[first_char].append(word)
 
     return screen
+
+
+# listA = [1, 2, 3, 4, 5, 6]
+# listB = [4, 5, 6, 7, 8, 9]
+
+# answer = [4, 5, 6]
+
+
+def get_intersection(numbers_one: list[int], numbers_two: list[int]) -> list[int]:
+    intersection = []
+
+    for number in numbers_one:
+        if number in numbers_two:
+            intersection.append(number)
+
+    return intersection
+
+
+def intersection(listA: list[int], listB: list[int]) -> list[int]:
+    seen_in_a = {}
+
+    for item in listA:
+        if item not in seen_in_a:
+            seen_in_a[item] = True
+
+    ans = []
+    for item in listB:
+        if item in seen_in_a:
+            ans.append(item)
+
+    return ans
