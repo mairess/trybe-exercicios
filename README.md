@@ -234,11 +234,10 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 01: _Arrays_
 - [x] Dia 02: _Nó e Listas Encadeadas_
 - [x] Dia 03: _Pilhas e Filas_
-- [ ] Dia 04: _Projeto TING - Trybe Is Not Google_
-
+- [x] Dia 04: [_Projeto TING - Trybe Is Not Google_](https://github.com/mairess/project-ting)
 
 #### Seção Estruturas de Dados II: Hashmaps e Sets
 
-- [ ] Dia 01: _Hashmap e Dict_
+- [x] Dia 01: _Hashmap e Dict_
 - [ ] Dia 02: _Set_
 - [ ] Dia 03: _Projeto Restaurant Orders_
