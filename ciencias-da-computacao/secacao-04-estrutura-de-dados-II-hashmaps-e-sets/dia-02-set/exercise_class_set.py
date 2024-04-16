@@ -38,14 +38,37 @@ class Conjunto:
                 new_set.add(index)
         return new_set
 
-    def intersection(self, conjunto_b):
-        new_conjunto = Conjunto()
+    def intersection(self, set_b):
+        new_set = Conjunto()
 
         for index in range(1001):
-            if self.set[index] and conjunto_b.set[index]:
-                new_conjunto.add(index)
+            if self.set[index] and set_b.set[index]:
+                new_set.add(index)
 
-        return new_conjunto
+        return new_set
+
+    def difference(self, set_b):
+        new_set = Conjunto()
+
+        for index in range(1001):
+            if self.set[index] and not set_b.set[index]:
+                new_set.add(index)
+
+        return new_set
+
+    def issubset(self, set_b):
+        for index in range(1001):
+            if self.set[index] and not set_b.set[index]:
+                return False
+
+        return True
+
+    def issuperset(self, set_b):
+        for index in range(1001):
+            if set_b.set[index] and not self.set[index]:
+                return False
+
+        return True
 
 
 if __name__ == "__main__":
@@ -93,8 +116,60 @@ if __name__ == "__main__":
         my_set_9.add(index)
 
     my_set_10 = Conjunto()
-    for i in [7, 2, 10]:
+    for index in [7, 2, 10]:
         my_set_10.add(index)
 
     my_set_11 = my_set_9.intersection(my_set_10)
     print(my_set_11)
+
+    my_set_12 = Conjunto()
+    for index in [1, 2, 3]:
+        my_set_12.add(index)
+
+    my_set_13 = Conjunto()
+    for index in [7, 2, 10]:
+        my_set_13.add(index)
+
+    my_set_14 = my_set_12.difference(my_set_13)
+    print(my_set_14)
+
+    my_set_15 = Conjunto()
+    for index in [1, 2, 3]:
+        my_set_15.add(index)
+
+    my_set_16 = Conjunto()
+    for index in [7, 2, 10]:
+        my_set_16.add(index)
+
+    my_set_17 = Conjunto()
+    my_set_18 = my_set_15.union(my_set_16)
+
+    print(my_set_15.issubset(my_set_18))
+    print(my_set_18.issuperset(my_set_15))
+    print(my_set_17.issubset(my_set_18))
+
+    conj_estudantes = Conjunto()
+    conj_lista1 = Conjunto()
+    conj_lista2 = Conjunto()
+
+    estudantes = [1, 2, 3, 4, 5, 6, 7]
+    lista1_entregues = [1, 4, 7, 3]
+    lista2_entregues = [3, 1, 6]
+
+    for elem in estudantes:
+        conj_estudantes.add(elem)
+
+    for elem in lista1_entregues:
+        conj_lista1.add(elem)
+
+    for elem in lista2_entregues:
+        conj_lista2.add(elem)
+
+    print("Não entregaram a lista 1:", conj_estudantes.difference(conj_lista1))
+    print("Já entregaram as 2 listas:", conj_lista1.intersection(conj_lista2))
+    print("Quem já entregou pelo menos uma lista:",
+          conj_lista1.union(conj_lista2))
+    print(
+        "Quem não entregou nenhuma:",
+        conj_estudantes.difference(conj_lista1.union(conj_lista2)),
+    )
