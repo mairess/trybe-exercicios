@@ -211,7 +211,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 01: _Express com Classes_
 - [x] Dia 02: [_Projeto - TFC - Trybe Futebol Clube_](https://github.com/mairess/project-trybe-futebol-clube)
 
-## <p align="center"> Ciências da Computação ⏳ </p>
+## <p align="center"> Ciências da Computação ✅ </p>
 
 ### 1° Período
 
