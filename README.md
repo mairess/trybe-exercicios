@@ -236,8 +236,8 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 03: _Pilhas e Filas_
 - [x] Dia 04: [_Projeto TING - Trybe Is Not Google_](https://github.com/mairess/project-ting)
 
-#### Seção Estruturas de Dados II: Hashmaps e Sets
+#### Seção [Estruturas de Dados II: Hashmaps e Sets](https://github.com/mairess/trybe-exercicios/tree/main/ciencias-da-computacao/secacao-04-estrutura-de-dados-II-hashmaps-e-sets)
 
 - [x] Dia 01: _Hashmap e Dict_
-- [ ] Dia 02: _Set_
-- [ ] Dia 03: _Projeto Restaurant Orders_
+- [x] Dia 02: _Set_
+- [x] Dia 03: [_Projeto Restaurant Orders_](https://github.com/mairess/project-restaurant-orders)
