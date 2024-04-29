@@ -246,7 +246,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ### 1° Período
 
-#### Seção Fundamentos de Java
+#### Seção [Fundamentos de Java](https://github.com/mairess/trybe-exercicios/tree/main/certificacao-eletiva/secacao-01-fundamentos-de-java)
 
 - [x] Dia 01: _Introdução ao Desenvolvimento em Java e Ferramentas Essenciais_
 - [x] Dia 02: _Classes e Tipos de Dados_
