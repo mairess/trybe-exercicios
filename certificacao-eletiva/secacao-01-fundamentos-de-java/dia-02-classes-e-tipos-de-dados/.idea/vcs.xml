@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../back-end/secao-04-arquitetura-de-software-model-service-controller/dia-01-arquitetura-de-software-camada-model/trybecar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../back-end/secao-04-arquitetura-de-software-model-service-controller/dia-02-arquitetura-de-software-refatorando-a-camada-model/trybecar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../back-end/secao-04-arquitetura-de-software-model-service-controller/dia-03-arquitetura-de-software-camada-service/trybecar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../back-end/secao-04-arquitetura-de-software-model-service-controller/dia-04-arquitetura-de-software-refatorando-camada-service/trybecar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../back-end/secao-04-arquitetura-de-software-model-service-controller/dia-05-arquitetura-de-software-refatorando-camada-controller/trybecar" vcs="Git" />
+  </component>
+</project>

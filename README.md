@@ -241,3 +241,61 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 01: _Hashmap e Dict_
 - [x] Dia 02: _Set_
 - [x] Dia 03: [_Projeto Restaurant Orders_](https://github.com/mairess/project-restaurant-orders)
+
+## <p align="center"> Certificação Eletiva Java ⏳ </p>
+
+### 1° Período
+
+#### Seção Fundamentos de Java
+
+- [x] Dia 01: _Introdução ao Desenvolvimento em Java e Ferramentas Essenciais_
+- [x] Dia 02: _Classes e Tipos de Dados_
+- [ ] Dia 03: _Controle de Fluxo de Enrada de Dados_
+- [ ] Dia 04: _Gerenciamento de Dependências + Aula ao vivo_
+- [ ] Dia 05: _Projeto - Minha Conta_
+
+#### Seção Orientação a Objetos
+
+- [ ] Dia 01: _Abstração e Emcapsulamento_
+- [ ] Dia 02: _Herança e Polimorfismo_
+- [ ] Dia 03: _Calsses Abstratas e Interfaces + Aula ao vivo_
+- [ ] Dia 04: _Projeto - Sistema de Votação_
+
+#### Seção Java Web
+
+- [ ] Dia 01: _Introdução a Java Web e Spring_
+- [ ] Dia 02: _Injeção de Dependências com Spring_
+- [ ] Dia 03: _API REST com Spring_
+- [ ] Dia 04: _Aula ao Vivo_
+- [ ] Dia 05: _Exceções_
+- [ ] Dia 06: _Testes com JUnit_
+- [ ] Dia 07: _Containers Java e Docker + Aula ao vivo_
+- [ ] Dia 08: _Projeto - Localizador de Museus_
+
+### 2° Período
+
+#### Seção Persitência I
+
+- [ ] Dia 01: _Coleções_
+- [ ] Dia 02: _Spring Data JPA_
+- [ ] Dia 03: _Spring Data Relacionamentos + Aula ao vivo_
+- [ ] Dia 04: _Projeto - Agrix - Fase A_
+
+#### Seção Persitência II
+
+- [ ] Dia 01: _Testes com Spring Data_
+- [ ] Dia 02: _Data e Hora + Aula ao Vivo_
+- [ ] Dia 03: _Buscas Customizadas_
+- [ ] Dia 04: _Auditoria + aula ao vivo_
+- [ ] Dia 05: _Projeto - Agrix - Fase B_
+
+#### Seção Spring Secutiry
+
+- [ ] Dia 01: _Autenticação_
+- [ ] Dia 02: _Autorização + Aula ao vivo_
+- [ ] Dia 03: _Projeto - Agrix - Fase C_
+
+#### Seção Deploy
+
+- [ ] Dia 01: _Protocolos de computação e programação em nuvem_
+- [ ] Dia 02: _CI/CD + Aula a0 vivo_
