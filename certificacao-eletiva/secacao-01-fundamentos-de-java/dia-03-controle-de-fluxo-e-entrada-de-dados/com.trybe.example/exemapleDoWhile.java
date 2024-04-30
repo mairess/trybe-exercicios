@@ -23,7 +23,7 @@ public class exemapleDoWhile {
     }
 
     static boolean tryDeliver() {
-
+        return true;
     }
 
     static void printLog(String log) {
