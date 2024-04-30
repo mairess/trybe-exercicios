@@ -250,7 +250,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [x] Dia 01: _Introdução ao Desenvolvimento em Java e Ferramentas Essenciais_
 - [x] Dia 02: _Classes e Tipos de Dados_
-- [ ] Dia 03: _Controle de Fluxo de Enrada de Dados_
+- [x] Dia 03: _Controle de Fluxo de Enrada de Dados_
 - [ ] Dia 04: _Gerenciamento de Dependências + Aula ao vivo_
 - [ ] Dia 05: _Projeto - Minha Conta_
 
