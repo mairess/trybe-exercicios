@@ -256,7 +256,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 #### Seção Orientação a Objetos
 
-- [ ] Dia 01: _Abstração e Encapsulamento_
+- [x] Dia 01: _Abstração e Encapsulamento_
 - [ ] Dia 02: _Herança e Polimorfismo_
 - [ ] Dia 03: _Classes Abstratas e Interfaces + Aula ao vivo_
 - [ ] Dia 04: _Projeto - Sistema de Votação_
