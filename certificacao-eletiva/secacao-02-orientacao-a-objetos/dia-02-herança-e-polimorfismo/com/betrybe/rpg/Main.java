@@ -2,12 +2,38 @@ package com.betrybe.rpg;
 
 public class Main {
 
-  public static void main(String[] args) {
-    Warrior warrior = new Warrior();
-    warrior.setName("Aragorn");
-    warrior.setRace("Human");
-    warrior.setWeapon("Sword");
+//  public static void main(String[] args) {
+//    PlayableCharacter warrior = new Warrior();
+//    warrior.setName("Aragorn");
+//    warrior.setRace("Human");
+//    warrior.setWeapon("Sword");
+//
+//    System.out.println(warrior.getName() + " race is " + warrior.getRace() + " and uses " + warrior.getWeapon());
+//    System.out.println(warrior.getName() + " race is " + warrior.getRace());
+//  }
 
-    System.out.println(warrior.getName() + " race is " + warrior.getRace() + " and uses " + warrior.getWeapon());
+//  public static void main(String[] args) {
+//    Warrior player01 = new Warrior();
+//    player01.setName("Aragorn");
+//    player01.setWeapon("Sword");
+//
+//    PlayableCharacter player02 = new Warrior();
+//    player02.setName("Aragorn");
+//    player02.setWeapon("Sword");
+//  }
+
+  public static void main(String[] args) {
+    Warrior player01 = new Warrior();
+    PlayableCharacter player02 = new Warrior();
+
+    addInformation(player01);
+    addInformation(player02);
+  }
+
+  public static void addInformation(PlayableCharacter player) {
+    player.setName("Aragorn");
+    player.setRace("Human");
+
+//    player.setWeapon("Sword");
   }
 }

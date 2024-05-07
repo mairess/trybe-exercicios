@@ -5,12 +5,12 @@ public class PlayableCharacter {
   private String race;
   protected boolean isAlive;
 
-  public String getName() {
-    return name;
-  }
-
   public PlayableCharacter() {
     this.isAlive = true;
+  }
+
+  public String getName() {
+    return name;
   }
 
   public void setName(String name) {
