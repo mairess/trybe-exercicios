@@ -22,18 +22,28 @@ public class Main {
 //    player02.setWeapon("Sword");
 //  }
 
-  public static void main(String[] args) {
-    Warrior player01 = new Warrior();
-    PlayableCharacter player02 = new Warrior();
+//  public static void main(String[] args) {
+//    Warrior player01 = new Warrior();
+//    PlayableCharacter player02 = new Warrior();
+//
+//    addInformation(player01);
+//    addInformation(player02);
+//  }
 
-    addInformation(player01);
-    addInformation(player02);
-  }
-
-  public static void addInformation(PlayableCharacter player) {
-    player.setName("Aragorn");
-    player.setRace("Human");
+//  public static void addInformation(PlayableCharacter player) {
+//    player.setName("Aragorn");
+//    player.setRace("Human");
 
 //    player.setWeapon("Sword");
+//  }
+
+  public static void main(String[] args) {
+    Warrior warrior = new Warrior();
+    warrior.move();
+    warrior.attack();
+
+    Mage mage = new Mage();
+    mage.move();
+    mage.attack();
   }
 }
