@@ -254,10 +254,10 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 04: _Gerenciamento de Dependências + Aula ao vivo_
 - [x] Dia 05: [_Projeto - Minha Conta_](https://github.com/mairess/project-minha-conta)
 
-#### Seção Orientação a Objetos
+#### Seção [Orientação a Objetos](https://github.com/mairess/trybe-exercicios/tree/main/certificacao-eletiva/secacao-02-orientacao-a-objetos)
 
 - [x] Dia 01: _Abstração e Encapsulamento_
-- [ ] Dia 02: _Herança e Polimorfismo_
+- [x] Dia 02: _Herança e Polimorfismo_
 - [ ] Dia 03: _Classes Abstratas e Interfaces + Aula ao vivo_
 - [ ] Dia 04: _Projeto - Sistema de Votação_
 
