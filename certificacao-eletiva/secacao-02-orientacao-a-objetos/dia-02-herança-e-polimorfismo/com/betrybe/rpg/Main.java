@@ -60,8 +60,15 @@ public class Main {
 //    player.attack();
 //  }
 
+//  public static void main(String[] args) {
+//    Barbarian barbarian = new Barbarian();
+//    barbarian.move();
+//  }
+
   public static void main(String[] args) {
-    Barbarian barbarian = new Barbarian();
-    barbarian.move();
+    Cleric cleric = new Cleric();
+    cleric.heal();
+    cleric.heal("life potion");
+    cleric.heal("light spell", 50);
   }
 }
