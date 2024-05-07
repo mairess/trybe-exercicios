@@ -1,4 +1,6 @@
-package com.betrybe.rpg;
+package main;
+
+import com.betrybe.rpg.Cleric;
 
 public class Main {
 
