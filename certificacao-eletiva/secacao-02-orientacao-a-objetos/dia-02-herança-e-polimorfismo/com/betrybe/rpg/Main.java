@@ -47,16 +47,21 @@ public class Main {
 //    mage.attack();
 //  }
 
+//  public static void main(String[] args) {
+//    Warrior warrior = new Warrior();
+//    Cleric cleric = new Cleric();
+//
+//    moveAndAttack(warrior);
+//    moveAndAttack(cleric);
+//  }
+//
+//  public static void moveAndAttack(PlayableCharacter player) {
+//    player.move();
+//    player.attack();
+//  }
+
   public static void main(String[] args) {
-    Warrior warrior = new Warrior();
-    Cleric cleric = new Cleric();
-
-    moveAndAttack(warrior);
-    moveAndAttack(cleric);
-  }
-
-  public static void moveAndAttack(PlayableCharacter player) {
-    player.move();
-    player.attack();
+    Barbarian barbarian = new Barbarian();
+    barbarian.move();
   }
 }
