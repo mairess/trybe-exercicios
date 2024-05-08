@@ -31,10 +31,18 @@ public class Application {
     System.out.println("Laptop battery level: " + laptop.getBatteryLevel());
     desktop.charge();
     System.out.println("Desktop battery level: " + desktop.getBatteryLevel());
+
+    plugDevice(laptop);
+    plugDevice(powerBank);
   }
 
   public static void checkDevice(ComputerDevice device) {
     System.out.println("Verifying device of brand " + device.getBrand());
     device.bootUp();
+  }
+
+  public static void plugDevice(Chargeable chargeable) {
+    System.out.println("The actual battery level is " + chargeable.getBatteryLevel());
+    chargeable.charge();
   }
 }
