@@ -42,6 +42,12 @@ public class Application {
     SmartPhone smartPhone = new SmartPhone("Samsung", 120);
 
     smartPhone.fastCharge();
+
+    ComputerDevice genericdevice = new Laptop("Apple", 256.0, 13.3);
+
+    if (genericdevice instanceof Laptop) {
+      Laptop specificLaptop = (Laptop) genericdevice;
+    }
   }
 
   public static void checkDevice(ComputerDevice device) {
