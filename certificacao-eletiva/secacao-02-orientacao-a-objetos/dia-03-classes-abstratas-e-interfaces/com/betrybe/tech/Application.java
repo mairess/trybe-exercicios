@@ -20,9 +20,17 @@ public class Application {
   public static void main(String[] args) {
     Laptop laptop = new Laptop("Samsung", 100, 14);
     Desktop desktop = new Desktop("Dell", 500);
+    PowerBank powerBank = new PowerBank();
 
     checkDevice(laptop);
     checkDevice(desktop);
+
+    powerBank.charge();
+    System.out.println("PowerBank battery level: " + powerBank.getBatteryLevel());
+    laptop.charge();
+    System.out.println("Laptop battery level: " + laptop.getBatteryLevel());
+    desktop.charge();
+    System.out.println("Desktop battery level: " + desktop.getBatteryLevel());
   }
 
   public static void checkDevice(ComputerDevice device) {
