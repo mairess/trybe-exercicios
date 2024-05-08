@@ -34,6 +34,10 @@ public class Application {
 
     plugDevice(laptop);
     plugDevice(powerBank);
+
+    Testing testing = new Testing("Testing", 50);
+    testing.bootUp();
+    testing.quantumComputation();
   }
 
   public static void checkDevice(ComputerDevice device) {
