@@ -31,7 +31,7 @@ public class Application {
     System.out.println("Laptop battery level: " + laptop.getBatteryLevel());
     desktop.charge();
     System.out.println("Desktop battery level: " + desktop.getBatteryLevel());
-
+    laptop.shutDown();
     plugDevice(laptop);
     plugDevice(powerBank);
 

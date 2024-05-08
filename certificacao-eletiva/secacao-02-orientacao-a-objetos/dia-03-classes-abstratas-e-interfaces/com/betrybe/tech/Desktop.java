@@ -3,7 +3,7 @@ package com.betrybe.tech;
 /**
  * The type Desktop.
  */
-public class Desktop extends ComputerDevice implements Chargeable {
+public final class Desktop extends ComputerDevice implements Chargeable {
 
   /**
    * Instantiates a new Desktop.
