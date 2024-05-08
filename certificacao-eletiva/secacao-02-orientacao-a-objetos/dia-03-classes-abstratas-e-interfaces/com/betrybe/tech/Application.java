@@ -38,6 +38,10 @@ public class Application {
     Testing testing = new Testing("Testing", 50);
     testing.bootUp();
     testing.quantumComputation();
+
+    SmartPhone smartPhone = new SmartPhone("Samsung", 120);
+
+    smartPhone.fastCharge();
   }
 
   public static void checkDevice(ComputerDevice device) {
