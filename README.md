@@ -1,10 +1,15 @@
 # <p align="center"> Trybe </p>
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Maires Souza](https://www.linkedin.com/in/mairess/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) 🚀
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por
+_[Maires Souza](https://www.linkedin.com/in/mairess/)_ enquanto estudava
+na [Trybe](https://www.betrybe.com/) 🚀
 
->_"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
+> _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma
+carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
-> O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+> O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao
+> desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software,
+> metodologias ágeis e habilidades comportamentais.
 
 ## <p align="center"> Fundamentos do Desenvolvimento Web ✅ </p>
 
@@ -31,7 +36,8 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 03: _JavaScript - Funções_
 - [x] Dia 04: _JavaScript - Objetos_
 - [x] Dia 05: _JavaScript - JSON e prática_
-- [x] Dia 06: [_Projeto - Supermercado Pirilampo_](https://github.com/mairess/project-supermercado-pirilampo)
+- [x] Dia 06: [_Projeto - Supermercado
+  Pirilampo_](https://github.com/mairess/project-supermercado-pirilampo)
 
 #### Seção [JavaScript: DOM, Eventos e Web Storage](https://github.com/mairess/trybe-exercicios/tree/main/fundamentos/secao-04-javascript-dom-eventos-e-web-storage)
 
@@ -57,7 +63,8 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 01: _Fluxo de exceções e manipulação de objetos_
 - [x] Dia 02: _Primeiros passos em Jest_
 - [x] Dia 03: _Matchers e cobertura de código_
-- [x] Dia 04: [_Projeto - JavaScript Testes Unitários_](https://github.com/mairess/project-js-unit-tests)
+- [x] Dia 04: [_Projeto - JavaScript Testes
+  Unitários_](https://github.com/mairess/project-js-unit-tests)
 
 #### Seção [Higher Order Functions do JavaScript ES6](https://github.com/mairess/trybe-exercicios/tree/main/fundamentos/secao-07-higher-order-functions-do-javascript-es6)
 
@@ -65,7 +72,8 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 02: _Higher Order Functions - sort e map_
 - [x] Dia 03: _Higher Order Functions - filter e reduce_
 - [x] Dia 04: _JavaScript ES6 - spread operator, rest parameters e object destructuring_
-- [x] Dia 05: _JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters_
+- [x] Dia 05: _JavaScript ES6 - Array destructuring, Default destructuring, Object property
+  shorthand e default parameters_
 - [x] Dia 06: [_Projeto - Zoo functions_](https://github.com/mairess/project-zoo-functions)
 
 ## <p align="center"> Front-end ✅ </p>
@@ -104,14 +112,16 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 01: _Introdução a React Testing Library_
 - [x] Dia 02: _RTL: Mocks_
 - [x] Dia 03: _RTL: Testando com React Router_
-- [x] Dia 04: [_Projeto - Testes em React_](https://github.com/mairess/project-react-testing-library)
+- [x] Dia 04: [_Projeto - Testes em
+  React_](https://github.com/mairess/project-react-testing-library)
 
 #### Seção [Estilização e Metodologia Ágil](https://github.com/mairess/trybe-exercicios/tree/main/front-end/secao-05-estilizacao-e-metodologia-agil)
 
 - [x] Dia 01: _CSS Modules_
 - [x] Dia 02: _Styled Components_
 - [x] Dia 03: _Metodologias Ágeis_
-- [x] Dia 04: [_Projeto - Front-end Online Store_](https://github.com/mairess/project-frontend-online-store-ts)
+- [x] Dia 04: [_Projeto - Front-end Online
+  Store_](https://github.com/mairess/project-frontend-online-store-ts)
 
 #### Seção [Gerenciamento de estado com Redux](https://github.com/mairess/trybe-exercicios/tree/main/front-end/secao-06-gerenciamento-de-estado-com-redux)
 
@@ -204,12 +214,14 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 03: _Polimorfismo_
 - [x] Dia 04: _SOLID - Introdução e Princípios S, O e D_
 - [x] Dia 05: _SOLID - Princípios L e l_
-- [x] Dia 06: [_Projeto - Trybers and Dragons_](https://github.com/mairess/project-trybers-and-dragons)
+- [x] Dia 06: [_Projeto - Trybers and
+  Dragons_](https://github.com/mairess/project-trybers-and-dragons)
 
 #### Seção [Projeto - TFC - Trybe Futebol Clube](https://github.com/mairess/trybe-exercicios/tree/main/back-end/secao-09-projeto-tfc-trybe-futebol-clube)
 
 - [x] Dia 01: _Express com Classes_
-- [x] Dia 02: [_Projeto - TFC - Trybe Futebol Clube_](https://github.com/mairess/project-trybe-futebol-clube)
+- [x] Dia 02: [_Projeto - TFC - Trybe Futebol
+  Clube_](https://github.com/mairess/project-trybe-futebol-clube)
 
 ## <p align="center"> Ciências da Computação ✅ </p>
 
@@ -258,8 +270,8 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [x] Dia 01: _Abstração e Encapsulamento_
 - [x] Dia 02: _Herança e Polimorfismo_
-- [ ] Dia 03: _Classes Abstratas e Interfaces + Aula ao vivo_
-- [ ] Dia 04: _Projeto - Sistema de Votação_
+- [x] Dia 03: _Classes Abstratas e Interfaces + Aula ao vivo_
+- [x] Dia 04: _Projeto - Sistema de Votação_
 
 #### Seção Java Web
 
