@@ -1,10 +1,10 @@
-package com.betrybe.example.dependencyInjection;
+package com.betrybe.beans.ComponentsSpring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DependencyInjectionApplicationTests {
+class BeansAndComponentsSpringApplicationTests {
 
 	@Test
 	void contextLoads() {
