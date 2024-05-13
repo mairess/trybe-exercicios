@@ -1,9 +1,9 @@
 package com.betrybe.beans.ComponentsSpring;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class ProductService {
 
   private ProductRepository productRepository;
@@ -11,5 +11,9 @@ public class ProductService {
   @Autowired
   public ProductService(ProductRepository productRepository) {
     this.productRepository = productRepository;
+  }
+
+  public String getMessage() {
+    return productRepository.getMessage();
   }
 }
