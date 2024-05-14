@@ -1,6 +1,8 @@
 package com.betrybe.podcast.controller;
 
 import com.betrybe.podcast.model.Podcast;
+import com.betrybe.podcast.service.PodcastService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,6 +21,13 @@ public class PodcastController {
 //    return "Opa!!!!!!!!!1";
 //  }
 
+  private PodcastService service;
+
+  @Autowired
+  public PodcastController(PodcastService service) {
+    this.service = service;
+  }
+
   @GetMapping
   public String getRoot() {
     return "Opa!!!!!!!!!1";
@@ -33,10 +42,8 @@ public class PodcastController {
      return ResponseEntity.notFound().build();
     }
 
-    Podcast podcast = new Podcast();
-    podcast.setId(id);
-    podcast.setName("My podcast");
-    podcast.setUrl("https://www.mypodcast.com.br");
+    Podcast podcast = service.findPodcastById(id);
+
     return ResponseEntity.ok(podcast);
   }
 
