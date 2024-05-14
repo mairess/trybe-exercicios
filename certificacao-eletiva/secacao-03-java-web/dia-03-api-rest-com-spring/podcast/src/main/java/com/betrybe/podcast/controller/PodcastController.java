@@ -25,8 +25,8 @@ public class PodcastController {
   }
 
   @GetMapping("/{id}")
-//  public ResponseEntity<Podcast> getPodcast(@PathVariable Long id) {
-  public ResponseEntity<Object> getPodcast(@PathVariable Long id) {
+//  public ResponseEntity<Object> getPodcast(@PathVariable Long id) {
+  public ResponseEntity<Podcast> getPodcast(@PathVariable Long id) {
 
     if(id > 1000) {
 //     return ResponseEntity.status(HttpStatus.NOT_FOUND).body("User not found!");
