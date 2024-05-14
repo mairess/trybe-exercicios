@@ -271,7 +271,8 @@ carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bo
 - [x] Dia 01: _Abstração e Encapsulamento_
 - [x] Dia 02: _Herança e Polimorfismo_
 - [x] Dia 03: _Classes Abstratas e Interfaces + Aula ao vivo_
-- [x] Dia 04: _Projeto - Sistema de Votação_
+- [x] Dia 04: [_Projeto - Sistema de
+  Votação_](https://github.com/mairess/projeto-sistema-de-votacao)
 
 #### Seção Java Web
 
