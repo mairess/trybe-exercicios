@@ -1,6 +1,7 @@
 package com.betrybe.podcast.controller;
 
 import com.betrybe.podcast.model.Podcast;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -24,9 +25,11 @@ public class PodcastController {
   }
 
   @GetMapping("/{id}")
-  public ResponseEntity<Podcast> getPodcast(@PathVariable Long id) {
+//  public ResponseEntity<Podcast> getPodcast(@PathVariable Long id) {
+  public ResponseEntity<Object> getPodcast(@PathVariable Long id) {
 
     if(id > 1000) {
+//     return ResponseEntity.status(HttpStatus.NOT_FOUND).body("User not found!");
      return ResponseEntity.notFound().build();
     }
 
