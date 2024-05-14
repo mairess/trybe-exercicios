@@ -1,3 +1,8 @@
 package com.betrybe.podcast.dto;
 
-public record PodcastDTO(Long id, String name, String url) {}
+/**
+ * The type Podcast dto.
+ */
+public record PodcastDTO(Long id, String name, String url) {
+
+}
