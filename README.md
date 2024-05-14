@@ -277,7 +277,7 @@ carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bo
 
 - [x] Dia 01: _Introdução a Java Web e Spring_
 - [x] Dia 02: _Injeção de Dependências com Spring_
-- [ ] Dia 03: _API REST com Spring_
+- [x] Dia 03: _API REST com Spring_
 - [ ] Dia 04: _Aula ao Vivo_
 - [ ] Dia 05: _Exceções_
 - [ ] Dia 06: _Testes com JUnit_

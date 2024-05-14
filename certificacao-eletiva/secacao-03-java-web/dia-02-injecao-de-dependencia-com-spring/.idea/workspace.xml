@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="79d56960-73cc-48b3-a747-f91f4b36e562" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dia-02-injecao-de-dependencia-com-spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/betrybe/dependencyInjection/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/betrybe/dependencyInjection/CarRepairShop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/betrybe/dependencyInjection/Motor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/betrybe/dependencyInjection/injection/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/betrybe/dependencyInjection/injection/MyClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/betrybe/dependencyInjection/injection/MyDependency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencyInjection/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencyInjection/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencyInjection/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencyInjection/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencyInjection/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencyInjection/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencyInjection/src/main/java/com/betrybe/example/dependencyInjection/DependencyInjectionApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencyInjection/src/main/java/com/betrybe/example/dependencyInjection/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencyInjection/src/main/java/com/betrybe/example/dependencyInjection/MyClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencyInjection/src/main/java/com/betrybe/example/dependencyInjection/MyDependency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencyInjection/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencyInjection/src/test/java/com/betrybe/example/dependencyInjection/DependencyInjectionApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2gPCBEzKFsAfikpLMjpZYYWr68m" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;exercicios/certificacao-eletiva-java-3.2&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.betrybe.dependencyInjection.injection.Main" />
+      <module name="dia-02-injecao-de-dependencia-com-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.betrybe.dependencyInjection.injection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79d56960-73cc-48b3-a747-f91f4b36e562" name="Changes" comment="" />
+      <created>1715589688779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715589688779</updated>
+    </task>
+    <servers />
+  </component>
+</project>
