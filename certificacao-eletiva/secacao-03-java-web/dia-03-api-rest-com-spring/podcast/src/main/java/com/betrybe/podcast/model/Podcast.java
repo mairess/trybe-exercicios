@@ -6,6 +6,15 @@ package com.betrybe.podcast.model;
 public class Podcast {
 
   private Long id;
+  private String secretToken;
+
+  public String getSecretToken() {
+    return secretToken;
+  }
+
+  public void setSecretToken(String secretToken) {
+    this.secretToken = secretToken;
+  }
 
   /**
    * Gets id.
