@@ -25,7 +25,7 @@ public class MultiCatch {
       numbers[index] = 2 / 0;
       System.out.println(numbers);
 
-    } catch (ArrayIndexOutOfBoundsException error) {
+    } catch (java.lang.ArrayIndexOutOfBoundsException error) {
 
       System.out.println("Ops... This position does not exist!");
 
