@@ -281,7 +281,7 @@ carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bo
 - [x] Dia 03: _API REST com Spring_
 - [x] Dia 04: _Aula ao Vivo_
 - [x] Dia 05: _Exceções_
-- [ ] Dia 06: _Testes com JUnit_
+- [x] Dia 06: _Testes com JUnit_
 - [ ] Dia 07: _Containers Java e Docker + Aula ao vivo_
 - [ ] Dia 08: _Projeto - Localizador de Museus_
 
