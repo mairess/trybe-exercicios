@@ -282,7 +282,7 @@ carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bo
 - [x] Dia 04: _Aula ao Vivo_
 - [x] Dia 05: _Exceções_
 - [x] Dia 06: _Testes com JUnit_
-- [ ] Dia 07: _Containers Java e Docker + Aula ao vivo_
+- [x] Dia 07: _Containers Java e Docker + Aula ao vivo_
 - [ ] Dia 08: _Projeto - Localizador de Museus_
 
 ### 2° Período
