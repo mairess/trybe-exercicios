@@ -274,7 +274,7 @@ carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bo
 - [x] Dia 04: [_Projeto - Sistema de
   Votação_](https://github.com/mairess/projeto-sistema-de-votacao)
 
-#### Seção Java Web
+#### Seção [Java Web](https://github.com/mairess/trybe-exercicios/tree/main/certificacao-eletiva/secacao-03-java-web)
 
 - [x] Dia 01: _Introdução a Java Web e Spring_
 - [x] Dia 02: _Injeção de Dependências com Spring_
@@ -283,7 +283,8 @@ carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bo
 - [x] Dia 05: _Exceções_
 - [x] Dia 06: _Testes com JUnit_
 - [x] Dia 07: _Containers Java e Docker + Aula ao vivo_
-- [ ] Dia 08: _Projeto - Localizador de Museus_
+- [x] Dia 08: [_Projeto - Localizador de
+  Museus_](https://github.com/mairess/projeto-localizador-de-museus)
 
 ### 2° Período
 
