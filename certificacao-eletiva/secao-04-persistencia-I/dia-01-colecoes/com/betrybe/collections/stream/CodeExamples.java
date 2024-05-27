@@ -25,6 +25,20 @@ public class CodeExamples {
         .map(Student::getRegistration)
         .toList();
     System.out.println(registrations);
+
+    Collection<String> names = List.of("Fulano","Maria","Fulano","José","José","Joana");
+    long uniqueNames = names.stream()
+        .distinct()
+        .count();
+    System.out.println(uniqueNames);
+
+    Collection<Student> entry = getInput();
+    Student result = input.stream()
+        .filter(element -> "Maria".equals(element.getName()))
+        .findAny()
+        .orElse(null);
+
+    System.out.println(result);
   }
 
 }
