@@ -9,10 +9,12 @@ import com.betrybe.alexandria.repository.BookRepository;
 import com.betrybe.alexandria.service.excepetion.AuthorNotFoundException;
 import com.betrybe.alexandria.service.excepetion.BookDetailNotFoundException;
 import com.betrybe.alexandria.service.excepetion.BookNotFoundException;
-import com.betrybe.alexandria.service.excepetion.NotFoundException;
 import com.betrybe.alexandria.service.excepetion.PublisherNotFoundException;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -33,6 +35,13 @@ public class BookService {
     this.bookDetailRepository = bookDetailRepository;
     this.publisherService = publisherService;
     this.authorService = authorService;
+  }
+
+  public List<Book> findAll(int pageNumber, int pageSize) {
+    Pageable pageable = PageRequest.of(pageNumber, pageSize);
+    Page<Book> page = bookRepository.findAll(pageable);
+
+    return page.toList();
   }
 
   public Book findById(Long id) throws BookNotFoundException {
