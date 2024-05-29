@@ -4,7 +4,7 @@ import com.betrybe.alexandria.controller.dto.PublisherCreationDto;
 import com.betrybe.alexandria.controller.dto.PublisherDto;
 import com.betrybe.alexandria.entity.Publisher;
 import com.betrybe.alexandria.service.PublisherService;
-import com.betrybe.alexandria.service.excepetion.PublisherNotFoundException;
+import com.betrybe.alexandria.service.exception.PublisherNotFoundException;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

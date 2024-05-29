@@ -6,10 +6,10 @@ import com.betrybe.alexandria.entity.BookDetail;
 import com.betrybe.alexandria.entity.Publisher;
 import com.betrybe.alexandria.repository.BookDetailRepository;
 import com.betrybe.alexandria.repository.BookRepository;
-import com.betrybe.alexandria.service.excepetion.AuthorNotFoundException;
-import com.betrybe.alexandria.service.excepetion.BookDetailNotFoundException;
-import com.betrybe.alexandria.service.excepetion.BookNotFoundException;
-import com.betrybe.alexandria.service.excepetion.PublisherNotFoundException;
+import com.betrybe.alexandria.service.exception.AuthorNotFoundException;
+import com.betrybe.alexandria.service.exception.BookDetailNotFoundException;
+import com.betrybe.alexandria.service.exception.BookNotFoundException;
+import com.betrybe.alexandria.service.exception.PublisherNotFoundException;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -71,7 +71,8 @@ public class BookService {
     return book;
   }
 
-  public BookDetail createBookDetail(Long bookId, BookDetail bookDetail) throws BookNotFoundException {
+  public BookDetail createBookDetail(Long bookId, BookDetail bookDetail)
+      throws BookNotFoundException {
     Book book = findById(bookId);
 
     bookDetail.setBook(book);
@@ -85,7 +86,6 @@ public class BookService {
 
     Book book = findById(bookId);
 
-
     BookDetail bookDetail = book.getDetail();
 
     if (bookDetail == null) {
@@ -97,7 +97,7 @@ public class BookService {
   }
 
   public BookDetail updateBookDetail(Long bookId, BookDetail bookDetail)
-  throws BookNotFoundException, BookDetailNotFoundException {
+      throws BookNotFoundException, BookDetailNotFoundException {
 
     BookDetail bookDetailFromDb = getBookDetail(bookId);
 
@@ -141,7 +141,6 @@ public class BookService {
       throws BookNotFoundException {
     Book book = findById(bookId);
     book.setPublisher(null);
-
 
     return bookRepository.save(book);
   }

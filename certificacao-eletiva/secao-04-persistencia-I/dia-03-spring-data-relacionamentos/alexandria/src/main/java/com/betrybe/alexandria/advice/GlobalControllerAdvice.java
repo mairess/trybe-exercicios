@@ -1,6 +1,6 @@
 package com.betrybe.alexandria.advice;
 
-import com.betrybe.alexandria.service.excepetion.NotFoundException;
+import com.betrybe.alexandria.service.exception.NotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

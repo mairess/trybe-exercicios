@@ -6,10 +6,10 @@ import com.betrybe.alexandria.controller.dto.BookDetailDto;
 import com.betrybe.alexandria.controller.dto.BookDto;
 import com.betrybe.alexandria.entity.Book;
 import com.betrybe.alexandria.service.BookService;
-import com.betrybe.alexandria.service.excepetion.AuthorNotFoundException;
-import com.betrybe.alexandria.service.excepetion.BookDetailNotFoundException;
-import com.betrybe.alexandria.service.excepetion.BookNotFoundException;
-import com.betrybe.alexandria.service.excepetion.PublisherNotFoundException;
+import com.betrybe.alexandria.service.exception.AuthorNotFoundException;
+import com.betrybe.alexandria.service.exception.BookDetailNotFoundException;
+import com.betrybe.alexandria.service.exception.BookNotFoundException;
+import com.betrybe.alexandria.service.exception.PublisherNotFoundException;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -93,7 +93,7 @@ public class BookController {
       throws BookNotFoundException {
 
     return BookDetailDto.fromEntity(
-    bookService.createBookDetail(bookId, bookDetailCreationDto.toEntity())
+        bookService.createBookDetail(bookId, bookDetailCreationDto.toEntity())
     );
 
   }
@@ -109,8 +109,8 @@ public class BookController {
   @PutMapping("/{bookId}/detail")
   public BookDetailDto updateBookDetail(
       @PathVariable Long bookId,
-  @RequestBody BookDetailCreationDto bookDetailCreationDto)
-    throws BookDetailNotFoundException, BookNotFoundException {
+      @RequestBody BookDetailCreationDto bookDetailCreationDto)
+      throws BookDetailNotFoundException, BookNotFoundException {
 
     return BookDetailDto.fromEntity(
         bookService.updateBookDetail(bookId, bookDetailCreationDto.toEntity())
@@ -146,7 +146,7 @@ public class BookController {
 
   @PutMapping("/{bookId}/authors/{authorId}")
   public BookDto addBookAuthor(@PathVariable Long bookId, @PathVariable Long authorId)
-    throws BookNotFoundException, AuthorNotFoundException {
+      throws BookNotFoundException, AuthorNotFoundException {
     return BookDto.fromEntity(
         bookService.addBookAuthor(bookId, authorId)
     );

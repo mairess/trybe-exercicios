@@ -2,7 +2,7 @@ package com.betrybe.alexandria.service;
 
 import com.betrybe.alexandria.entity.Publisher;
 import com.betrybe.alexandria.repository.PublisherRepository;
-import com.betrybe.alexandria.service.excepetion.PublisherNotFoundException;
+import com.betrybe.alexandria.service.exception.PublisherNotFoundException;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

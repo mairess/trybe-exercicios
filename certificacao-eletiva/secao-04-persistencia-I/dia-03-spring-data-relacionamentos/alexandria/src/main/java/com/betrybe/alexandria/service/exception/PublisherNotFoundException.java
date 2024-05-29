@@ -1,4 +1,4 @@
-package com.betrybe.alexandria.service.excepetion;
+package com.betrybe.alexandria.service.exception;
 
 public class PublisherNotFoundException extends NotFoundException {
 

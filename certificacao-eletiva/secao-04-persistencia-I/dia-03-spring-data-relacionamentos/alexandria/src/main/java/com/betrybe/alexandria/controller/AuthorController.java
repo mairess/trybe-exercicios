@@ -4,7 +4,7 @@ import com.betrybe.alexandria.controller.dto.AuthorCreationDto;
 import com.betrybe.alexandria.controller.dto.AuthorDto;
 import com.betrybe.alexandria.entity.Author;
 import com.betrybe.alexandria.service.AuthorService;
-import com.betrybe.alexandria.service.excepetion.AuthorNotFoundException;
+import com.betrybe.alexandria.service.exception.AuthorNotFoundException;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

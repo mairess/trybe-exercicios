@@ -2,7 +2,7 @@ package com.betrybe.alexandria.service;
 
 import com.betrybe.alexandria.entity.Author;
 import com.betrybe.alexandria.repository.AuthorRepository;
-import com.betrybe.alexandria.service.excepetion.AuthorNotFoundException;
+import com.betrybe.alexandria.service.exception.AuthorNotFoundException;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
