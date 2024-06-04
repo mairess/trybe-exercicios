@@ -7,5 +7,6 @@
     <mapping directory="$PROJECT_DIR$/back-end/secao-04-arquitetura-de-software-model-service-controller/dia-03-arquitetura-de-software-camada-service/trybecar" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/back-end/secao-04-arquitetura-de-software-model-service-controller/dia-04-arquitetura-de-software-refatorando-camada-service/trybecar" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/back-end/secao-04-arquitetura-de-software-model-service-controller/dia-05-arquitetura-de-software-refatorando-camada-controller/trybecar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/certificacao-eletiva/secao-04-persistencia-I/dia-03-spring-data-relacionamentos/java-trybe-shopping" vcs="Git" />
   </component>
 </project>
