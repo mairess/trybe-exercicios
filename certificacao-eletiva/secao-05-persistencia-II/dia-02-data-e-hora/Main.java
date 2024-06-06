@@ -59,5 +59,8 @@ public class Main {
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
     String formattedDateTime = dateTime.format(formatter); // 11/07/2023 10:30:00
     System.out.println(formattedDateTime);
+
+    AlertaAniversario alerta = new AlertaAniversario();
+    alerta.checarAniversario();
   }
 }
