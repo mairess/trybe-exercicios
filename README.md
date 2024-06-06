@@ -293,7 +293,7 @@ carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bo
 - [x] Dia 01: _Coleções_
 - [x] Dia 02: _Spring Data JPA_
 - [x] Dia 03: _Spring Data Relacionamentos + Aula ao vivo_
-- [x] Dia 04: _Projeto - Agrix - Fase A_
+- [x] Dia 04: [_Projeto - Agrix - Fase A_](https://github.com/mairess/projeto-final-agrix-fase-a)
 
 #### Seção Persitência II
 
