@@ -293,13 +293,13 @@ carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bo
 - [x] Dia 01: _Coleções_
 - [x] Dia 02: _Spring Data JPA_
 - [x] Dia 03: _Spring Data Relacionamentos + Aula ao vivo_
-- [x] Dia 04: _Projeto - Agrix - Fase A_
+- [x] Dia 04: [_Projeto - Agrix - Fase A_](https://github.com/mairess/projeto-final-agrix-fase-a)
 
-#### Seção Persitência II
+#### Seção [Persitência II](https://github.com/mairess/trybe-exercicios/tree/main/certificacao-eletiva/secao-05-persistencia-II)
 
 - [x] Dia 01: _Testes com Spring Data_
 - [x] Dia 02: _Data e Hora + Aula ao Vivo_
-- [ ] Dia 03: _Buscas Customizadas_
+- [x] Dia 03: _Buscas Customizadas_
 - [ ] Dia 04: _Auditoria + aula ao vivo_
 - [ ] Dia 05: _Projeto - Agrix - Fase B_
 
