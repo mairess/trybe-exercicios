@@ -1,7 +1,7 @@
 # <p align="center"> Trybe </p>
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por
-_[Maires Souza](https://www.linkedin.com/in/mairess/)_ enquanto estudava
+_[Maires Souza](https://www.linkedin.com/in/mairess/)_ enquanto estudante
 na [Trybe](https://www.betrybe.com/) 🚀
 
 > _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma
@@ -288,14 +288,14 @@ carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bo
 
 ### 2° Período
 
-#### Seção [Persitência I](https://github.com/mairess/trybe-exercicios/tree/main/certificacao-eletiva/secao-04-persistencia-I)
+#### Seção [Persistência I](https://github.com/mairess/trybe-exercicios/tree/main/certificacao-eletiva/secao-04-persistencia-I)
 
 - [x] Dia 01: _Coleções_
 - [x] Dia 02: _Spring Data JPA_
 - [x] Dia 03: _Spring Data Relacionamentos + Aula ao vivo_
 - [x] Dia 04: [_Projeto - Agrix - Fase A_](https://github.com/mairess/projeto-final-agrix-fase-a)
 
-#### Seção [Persitência II](https://github.com/mairess/trybe-exercicios/tree/main/certificacao-eletiva/secao-05-persistencia-II)
+#### Seção [Persistência II](https://github.com/mairess/trybe-exercicios/tree/main/certificacao-eletiva/secao-05-persistencia-II)
 
 - [x] Dia 01: _Testes com Spring Data_
 - [x] Dia 02: _Data e Hora + Aula ao Vivo_
@@ -303,7 +303,7 @@ carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bo
 - [ ] Dia 04: _Auditoria + aula ao vivo_
 - [ ] Dia 05: _Projeto - Agrix - Fase B_
 
-#### Seção Spring Secutiry
+#### Seção Spring Security
 
 - [ ] Dia 01: _Autenticação_
 - [ ] Dia 02: _Autorização + Aula ao vivo_
