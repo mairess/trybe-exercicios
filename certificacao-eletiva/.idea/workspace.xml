@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c19010bc-e224-48bf-9a5f-e2db01cb9e47" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/secao-05-persistencia-II/dia-03-buscas-customizadas" beforeDir="false" afterPath="$PROJECT_DIR$/secao-05-persistencia-II/dia-03-buscas-customizadas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao-05-persistencia-II/dia-03-buscas-customizadas/src/main/java/com/betrybe/trybetrack/controllers/BusLineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/secao-05-persistencia-II/dia-03-buscas-customizadas/src/main/java/com/betrybe/trybetrack/controllers/BusLineController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao-05-persistencia-II/dia-03-buscas-customizadas/src/main/java/com/betrybe/trybetrack/models/entities/BusLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/secao-05-persistencia-II/dia-03-buscas-customizadas/src/main/java/com/betrybe/trybetrack/models/entities/BusLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao-05-persistencia-II/dia-03-buscas-customizadas/src/main/java/com/betrybe/trybetrack/models/repositories/BusLineRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/secao-05-persistencia-II/dia-03-buscas-customizadas/src/main/java/com/betrybe/trybetrack/models/repositories/BusLineRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secao-05-persistencia-II/dia-03-buscas-customizadas/src/main/java/com/betrybe/trybetrack/services/impl/BusLineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/secao-05-persistencia-II/dia-03-buscas-customizadas/src/main/java/com/betrybe/trybetrack/services/impl/BusLineService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2hnIkZ8tHxXhamzzK8SL18Y9hPW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c19010bc-e224-48bf-9a5f-e2db01cb9e47" name="Changes" comment="" />
+      <created>1718223558263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718223558263</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -300,8 +300,8 @@ carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bo
 - [x] Dia 01: _Testes com Spring Data_
 - [x] Dia 02: _Data e Hora + Aula ao Vivo_
 - [x] Dia 03: _Buscas Customizadas_
-- [ ] Dia 04: _Auditoria + aula ao vivo_
-- [ ] Dia 05: _Projeto - Agrix - Fase B_
+- [x] Dia 04: _Auditoria + aula ao vivo_
+- [x] Dia 05: _Projeto - Agrix - Fase B_
 
 #### Seção Spring Security
 
