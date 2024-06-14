@@ -306,7 +306,7 @@ carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bo
 #### Seção Spring Security
 
 - [x] Dia 01: _Autenticação_
-- [ ] Dia 02: _Autorização + Aula ao vivo_
+- [x] Dia 02: _Autorização + Aula ao vivo_
 - [ ] Dia 03: _Projeto - Agrix - Fase C_
 
 #### Seção Deploy
