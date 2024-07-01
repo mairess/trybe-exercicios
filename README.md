@@ -254,7 +254,7 @@ carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bo
 - [x] Dia 02: _Set_
 - [x] Dia 03: [_Projeto Restaurant Orders_](https://github.com/mairess/project-restaurant-orders)
 
-## <p align="center"> Certificação Eletiva Java ⏳ </p>
+## <p align="center"> Certificação Eletiva Java ✅ </p>
 
 ### 1° Período
 
@@ -301,15 +301,15 @@ carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bo
 - [x] Dia 02: _Data e Hora + Aula ao Vivo_
 - [x] Dia 03: _Buscas Customizadas_
 - [x] Dia 04: _Auditoria + aula ao vivo_
-- [x] Dia 05: _Projeto - Agrix - Fase B_
+- [x] Dia 05: [_Projeto - Agrix - Fase B_](https://github.com/mairess/projeto-final-agrix-fase-b)
 
-#### Seção Spring Security
+#### Seção [Spring Security](https://github.com/mairess/trybe-exercicios/tree/main/certificacao-eletiva/secao-06-spring-security)
 
 - [x] Dia 01: _Autenticação_
 - [x] Dia 02: _Autorização + Aula ao vivo_
-- [ ] Dia 03: _Projeto - Agrix - Fase C_
+- [x] Dia 03: [_Projeto - Agrix - Fase C_](https://github.com/mairess/projeto-final-agrix-fase-c)
 
 #### Seção Deploy
 
-- [ ] Dia 01: _Protocolos de computação e programação em nuvem_
-- [ ] Dia 02: _CI/CD + Aula a0 vivo_
+- [x] Dia 01: _Protocolos de computação e programação em nuvem_
+- [x] Dia 02: _CI/CD + Aula a0 vivo_
